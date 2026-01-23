@@ -1,0 +1,1 @@
+- Take note of all the electronic devices you interact with during your week. Not just personal devices, like laptops or phones, but also public ones, like card readers, motion sensors, ATM or point-of-sale keypads, and anything else you notice. Note also the ones that affect your environment indirectly. Write them down and we’ll discuss them next week.
