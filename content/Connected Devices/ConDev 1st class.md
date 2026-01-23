@@ -36,9 +36,4 @@ UNIX is:
 Shell
 A shell is a program that listens to your command lines, interprets them, and asks the operating system to do things. You talk to the **shell**, and the shell talks to the OS for you. The shell **coordinates** actions
 
-# Network Literacy
-Terminal - the interface
-Command Line - the way to speak and write
-
-
 
