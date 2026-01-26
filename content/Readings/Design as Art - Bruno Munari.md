@@ -1,4 +1,11 @@
-from [[Robot - 1st class - Assignments]]
+from
+- 1966
+- [[Robot - 1st class - Assignments]]
+
+---
+23.01.26
+My thoughts:
+
 I had the book at home and started reading it some time before class, revisiting the book now enlightened it with a new light - I highly enjoyed it and I love Munari's evolution from artist to designer.
 
 **Preface pg.11**

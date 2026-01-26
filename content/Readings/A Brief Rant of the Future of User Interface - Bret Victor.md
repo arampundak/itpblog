@@ -1,9 +1,11 @@
 #software 
 
-From 08.11.11
-by [[Bret Victor]]
+From 
+- 08.11.11
+- by [[Bret Victor]]
+- https://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
 
-https://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
+---
 
 Takeaways
 

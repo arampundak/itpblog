@@ -1,5 +1,9 @@
-24.02.2016
-https://jods.mitpress.mit.edu/pub/design-as-participation/release/1
+from
+- 24.02.2016
+- https://jods.mitpress.mit.edu/pub/design-as-participation/release/1
+- Designing for Well Being
+
+---
 
 user is the center of the world, participant is part of it.
 
