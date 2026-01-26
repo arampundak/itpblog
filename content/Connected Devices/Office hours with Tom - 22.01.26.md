@@ -29,7 +29,6 @@ This clarified a foundational misunderstanding about command line vs terminal vs
 - Tom emphasizes:
     
     - The course is about **learning skills, context, and fundamentals**
-        
     - Assignments are **exercises**, not expressive or portfolio-driven artifacts
         
 - Success = learning _how_ to think about connected systems, not building something flashy.
@@ -236,3 +235,6 @@ Examples:
     - Seeing both advantages _and_ costs
         
     - Resisting speed driven purely by capital
+
+References:
+[[Ambient works air quality monitor]]

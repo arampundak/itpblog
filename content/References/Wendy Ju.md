@@ -1,3 +1,7 @@
+#hri #people
+
+Roboticist, Leading in human robot interaction
+
 Lab - https://irl.tech.cornell.edu/team/
 explore the phd students and see who i can collaborate with
 

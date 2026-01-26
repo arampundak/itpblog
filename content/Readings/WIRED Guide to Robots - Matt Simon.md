@@ -1,7 +1,11 @@
-https://web.archive.org/web/20211127154129/https://www.wired.com/story/wired-guide-to-robots/
+from 
+- 16.04.2020
+- https://web.archive.org/web/20211127154129/https://www.wired.com/story/wired-guide-to-robots/
+- [[Robot - 1st class - Assignments]]
 
-Summarized by chatgpt:
-WIRED’s guide to robots traces humanity’s long-standing fascination and anxiety around intelligent machines, from early myths and sci-fi fears to today’s rapidly advancing, real-world robots. It argues that modern robots are defined not by humanoid form but by embodied intelligence—the ability to sense, act, and operate with some autonomy in the physical world. Advances in sensors, actuators, and AI have allowed robots to move beyond factories into homes, hospitals, streets, and workplaces, where they increasingly collaborate with humans rather than replace them. While robots are becoming more perceptive, mobile, and self-learning, they remain limited and dependent on human guidance, revealing a growing need to design not just smarter machines but healthier human–robot relationships. Ultimately, the article frames robotics as the emergence of a new “species” whose future impact depends less on technical capability than on how society chooses to integrate, regulate, and live alongside it.
+---
+24.01.26
+My thoughts:
 
 I totally agree with the capitalist view that we will eventually be replaced by robots. I totally disagree with the way our world works and am in big dilemma how I can contribute to the change I want to see. 
 "A robot is an intelligent, physically embodied machine. A robot can perform tasks autonomously to some degree. And a robot can sense and manipulate its environment."
@@ -13,3 +17,7 @@ The Darpa Grand Challenge - as a person coming from deeply a mileterized country
 
 Boston Dynamics - A very intrestcing event happened with this compony - as a leading force in robotics the world has changed around them in the past 6 years since this article was written. New players have come to the game, backed with big money - Figure AI, Apptronik, Unitree, Optimus - have all learned from BD's work success and mistakes, and also persuaded some of their engineers to change teams. Much like Formula 1 teams some rise and some fall due to the road taken. Adding to that - the new Atlas shown in CES26 has a great new approach to arm and leg design - I really like the chain link kind of form with a round actuator joint continuing the arm to the forearm or the thigh to the leg.![[boston dynamics atlas.png]]
 "This would free up human doctors and nurses to do what they do best: problem-solving and being empathetic with patients, skills that robots may never be able to replicate." - I disagree, robots will be able to replicate empathy and problem solving. 
+
+---
+Article summarized by chatgpt:
+WIRED’s guide to robots traces humanity’s long-standing fascination and anxiety around intelligent machines, from early myths and sci-fi fears to today’s rapidly advancing, real-world robots. It argues that modern robots are defined not by humanoid form but by embodied intelligence—the ability to sense, act, and operate with some autonomy in the physical world. Advances in sensors, actuators, and AI have allowed robots to move beyond factories into homes, hospitals, streets, and workplaces, where they increasingly collaborate with humans rather than replace them. While robots are becoming more perceptive, mobile, and self-learning, they remain limited and dependent on human guidance, revealing a growing need to design not just smarter machines but healthier human–robot relationships. Ultimately, the article frames robotics as the emergence of a new “species” whose future impact depends less on technical capability than on how society chooses to integrate, regulate, and live alongside it.

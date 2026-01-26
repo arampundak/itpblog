@@ -1,3 +1,4 @@
+#python #software 
 
 Terminal - the interface
 Command Line - the way to speak and write
@@ -25,5 +26,4 @@ The command line is the baby little brother of programming languages.
 | echo     | print some arguments              |
 | export   | export/set a new environment      |
 | exit     | exit the shell                    |
-
 
