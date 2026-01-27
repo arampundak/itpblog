@@ -16,3 +16,4 @@ Your Arduino doesn’t know about HTML.
 Your browser doesn’t know about sensors.
 
 The DOM is the **meeting point**.
+
