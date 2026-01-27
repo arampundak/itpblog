@@ -3,11 +3,16 @@ sandbox370 - a wifi network
 pass: tisch school of the art tandem school of engineering ! together ?
 We ran 'ScanNetwrok' example from WifiNina
 rule: Listen more then you speak
-`nc -klw 2 8080` 
-netcat 
--klw: keep listening to new connection from people, wait
+
+---
+
+We wrote in the terminal this `nc -klw 2 8080` 
+What it means:
+nc: netcat 
+-klw: keep, listening (to new connection from people), wait
 2: seconds - im listening for 2 seconds
 8080: listen on port
+
 1. We opened "simpleTCPClient" code from Tom's github.
 2. We created (setup) another file "arduino_secret.h" because it is written in line 29
 3. In the file we wrote
@@ -27,6 +32,7 @@ if we want to send to our own computer
 nc -klw 2 8080
 ```
 11. The ardunio sends 
+---
 
 **Some server knowledge:**
 http - 80
@@ -35,6 +41,8 @@ ftp - 21
 secured ftp - 22
 all of these are low numbers less then 1000
 if i want to open a server im doing that in the terminal and write just a number over 1000 - normally 8080 which is http (80) twice. The Ardunio knows to connect there because because I told him in line 36
+
+---
 
 **simpleTCPClient**
 2 program
@@ -47,6 +55,8 @@ server by standard protocol http.server working in the same directory
 
 A [[DOM]] by Tom: what we see in a browser, the html file is made of lots of objects, nested within each other. That page is static (plain old text) additional to that theres CSS that lets you style the objects in the DOM, and there JavaScript file - define the logic and send behavior to the DOM. Those 3 things are composing the DOM.
 
+---
+for next week:
 [JavaScript Fetch example reading a remote file](https://tigoe.github.io/html-for-conndev/fetch) 
 1. set up netcat and Arduino we got the stuff coming in
 2. in another window we ran http server
