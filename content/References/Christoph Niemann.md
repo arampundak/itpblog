@@ -1,0 +1,1 @@
+German/New York-er illustrator and graphic designer
