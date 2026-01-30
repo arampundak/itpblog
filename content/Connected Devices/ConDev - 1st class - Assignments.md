@@ -1,4 +1,3 @@
-
 I've read (press to expand): 
 - [[Geography of the Internet]] v
 - [[The Computer for the 21st Century - Mark Weiser]] v

@@ -29,4 +29,4 @@ Amazon Poly - Uses speech cons
 Eleven Labs - A model that lets you train your own voice. You give intonations and notes in brackets []. 
 `curl` - a way to access http (website) in the command line. When you make a request to an API these websites return a command.
 
-
+#idea i write shitty english for ai to transcribe and the other side writes back the same way, its like whispering in someones ear so he will talk for me. and change what im saying

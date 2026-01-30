@@ -1,3 +1,5 @@
+27.01.26
+
 We downloaded WifiNina from the Arduino library manager. 
 sandbox370 - a wifi network 
 pass: tisch school of the art tandem school of engineering ! together ?
@@ -47,7 +49,7 @@ if i want to open a server im doing that in the terminal and write just a number
 **simpleTCPClient**
 2 program
 1. netcat - server listening and writing to a file log.json 
-2. server listening to request - reading the file sending it to the client
+2. webserver: server listening to request - reading the file sending it to the client
 we have 2 client 1 Arduinoi. 2 browser
 Server is a program on the computer 
 
@@ -62,7 +64,7 @@ for next week:
 2. in another window we ran http server
 3. both are in the same folder - addressing the same file (log.json file)
 4. the browser can read this file and the Arduino can write to it
-5. write an html file which will display this in a pretty useful way with JS and CSS
+5. write an html file which will display this in a pretty, useful way with JS and CSS - visually beautiful and useful. 
 6. fetch JSON will get information from the Arduino and put into div (what is div)
 7. using python3 to host local server listening 
 
