@@ -1,5 +1,7 @@
 quarts - what is here
 https://quartz.jzhao.xyz/
+https://jzhao.xyz/
+
 markdown cheatsheat
 https://www.markdownguide.org/cheat-sheet/
 

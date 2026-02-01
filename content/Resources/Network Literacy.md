@@ -28,6 +28,9 @@ The command line is the baby little brother of programming languages.
 | echo     | print some arguments              |
 | export   | export/set a new environment      |
 | exit     | exit the shell                    |
+| curl     |                                   |
+
+---
 
 The first command `pwd` tells you where you are. The second command `cd ~` takes you home so you can try again.
 `mkdir` (make new folder) space name of new folder add '/' name of new folder
