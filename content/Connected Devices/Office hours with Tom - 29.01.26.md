@@ -113,11 +113,11 @@ You asked the right question:
 
 #### Examples:
 
-|Client|Requests|Server responds with|
-|---|---|---|
-|Arduino|“Here’s sensor data”|(Netcat just stores it)|
-|Browser|“Give me this file”|HTML / JSON / text|
-|Fetch JS|“Give me log.json”|The file contents|
+| Client   | Requests             | Server responds with    |
+| -------- | -------------------- | ----------------------- |
+| Arduino  | “Here’s sensor data” | (Netcat just stores it) |
+| Browser  | “Give me this file”  | HTML / JSON / text      |
+| Fetch JS | “Give me log.json”   | The file contents       |
 
 ### “Resource” is the key word
 

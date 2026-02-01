@@ -30,3 +30,13 @@ Eleven Labs - A model that lets you train your own voice. You give intonations a
 `curl` - a way to access http (website) in the command line. When you make a request to an API these websites return a command.
 
 #idea i write shitty english for ai to transcribe and the other side writes back the same way, its like whispering in someones ear so he will talk for me. and change what im saying
+
+---
+More thoughts:
+Use the design language Texas Instruments and create itp instruments.
+A robot that has a physical form but only makes sounds - a mouth robot. 
+Nepali Prayer Mantras radio. 
+Whispering / Intonations.
+Sound as a material.
+Sing and be a part of a quire. 
+
