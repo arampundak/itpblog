@@ -1,6 +1,13 @@
 >**Build a tiny data pipeline from a physical sensor to a human-readable display.**
 “Pretty and useful” =  **a form that helps someone understand change over time**
 
+Read:
+- [[That ‘Internet of Things’ Thing]]
+- [[Why ‘Smart’ Objects May Be a Dumb Idea]]
+-  
+
+---
+
 **Only the connection initiation matters**
 **Client = asks**
 **Server = answers**
