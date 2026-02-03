@@ -20,7 +20,7 @@ He continues to talk about "the desire to get back into society" and later on ab
 
 Ohh how I love and fear the "greater number of people".
 
-And I cant finish this without a reference to one of Munari's collaborators and intellectual allies Enzo Mari with [[Autoprogettazione]] 
+And I cant finish this without a reference to one of Munari's collaborators and intellectual allies Enzo Mari with [[Autoprogettazione - Enzo Mari]] 
 
 **Design as Art pg.25**
 What I love most about this part is that the first paragraph does not hold the word "designer" and the second paragraph doesn't have the word "artist". Munari talkes about the artist interesting a selective group of people and that the paradigm must change and "become active as man among man". He talks about the virtues the new artist should hold - humility and competence, I want to add to that - empathy.

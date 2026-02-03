@@ -4,7 +4,7 @@
 
 ---
 
-I agree with Tufekci that we should be careful with what we put in the plug, knowing that there are viscus animals in those holes... I now feel like its not going to happen to me and I do understand I have to take a better stand and knowledge.  
+I agree with Tufekci that we should be careful with what we put in the plug, knowing that there are vicious animals in those holes... I now feel like its not going to happen to me and I do understand I have to take a better stand and knowledge.  
 
 ---
 

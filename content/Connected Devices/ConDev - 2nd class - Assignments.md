@@ -13,6 +13,9 @@ Read:
 **Server = answers**
 **Client / Server is NOT about who sends data.**  
 **It’s about who STARTS the connection.**
+Client - eats at a restaurant, server - serves the dish. They often change between themselves.
+Netcat - a port on my ethernet, EN0 (default wifi). The program that puts the data in the port.
+Port - common time & place, like itp, where to go to get the data
 
 1. Arduino sends sensor data (JSON), Client - asks hi are you there?
 2. Netcat logs it to a file, Server - “I’m here. If someone connects, I’ll accept it.”
@@ -23,13 +26,13 @@ Arduino → Netcat → log.json → Python HTTP → Browser → JavaScript
 
 ---
 
-WifiNina_Startup & WifiStatus
+**WifiNina_Startup & WifiStatus**
 - Found "WifiStatus" from Tigoe git page
 - Created a new tab in Arduino IDE "arduino_secrets.h" and added my wifi name and passward
 ```
 #define SECRETS_SSID "Maya&Aram"
 
-#define SECRETS_PASS "Leondaking"
+#define SECRETS_PASS "my_pass"
 ```
 - Uploaded the sketch to Arduino
 - anddddd - ==its connected to my network!==
@@ -37,7 +40,7 @@ WifiNina_Startup & WifiStatus
 ![[condev wifistatus.webp]]
 
 ---
-TestHTTPClient
+**TestHTTPClient**
 Making a request and waiting for response.
 In this example we use the Arduino to connect to my home wifi and create a client to see a website "www,example.com". 
 Popular thing to do is to get information from the web to make a web client or [[HTTP]] client. Theres a library that does this really well.
@@ -49,7 +52,7 @@ DELETE - to delete posted data.
 
 ---
 
-Connected Device Data Dashboard
+**Connected Device Data Dashboard**
 I uploaded WifiTCPCLientLogger to my Arduino.
 Searched with `ipconfig getifaddr en0` my computers IP address, and changed it in the code. 
 I netcated `nc -klw 2 8080` in the terminal to get readings from the Arduino sketch
@@ -70,3 +73,6 @@ I opened `http://localhost:8000` on my browser and now I can see the Arduino's r
 ![[condev Data Dashboard.webp]]
 **Arduino → netcat/tee → log file → HTTP server → Chrome**.
 This is the first stage in sending information from Arduino to a server. Next stage is getting a sensor and designing the webpage. 
+
+---
+
