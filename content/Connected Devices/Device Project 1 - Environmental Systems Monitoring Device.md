@@ -3,4 +3,7 @@ find all the hotspots on the floor by signals strength. SSID - nyu can have bSSI
 - Mapping of AirDrop clients around me - can we tell who is closer and by how much?
 - Site that shows what bathroom is occupied in the itp corridor, or a physical interpataion of the lock being closed - parking lot. how do you make a dashboard with a validation of privacy. 
 - Temperature - where is it the hottest on the floor
-- 
+
+Referances
+https://www.instagram.com/tim_rodenbroeker/?hl=en
+[[The Immaterials project - Timo Arnall]]
