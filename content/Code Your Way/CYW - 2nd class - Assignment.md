@@ -7,8 +7,7 @@
 Im keeping a small journal of my progression throughout the weeks, i write here simple thoughts and things to remember.
 I created [[Hello World]] to summarize basic knowledge given by codeacademy.
 
-Let’s review what we’ve learned this lesson:
-
+CodeAcadmy: Let’s review what we’ve learned this lesson:
 - Boolean expressions are statements that can be either `True` or `False`
 - A boolean variable is a variable that is set to either `True` or `False`.
 - We can create boolean expressions using relational operators:
@@ -22,6 +21,14 @@ Let’s review what we’ve learned this lesson:
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met.
 - `elif` statements can be used to build additional checks into your `if` statements
 
+NYU Library training:
+- Lists
+- Dictionaries
+- Loops - for / while
+- Working with strings
+- Functions
+
+---
 
 I went through:
 - Boolean Expressions - a statement that can either be true or false (= bool)
@@ -87,15 +94,82 @@ While a free version of Copilot ([Copilot Free](https://docs.github.com/en/copil
 1. If you don’t already have one, create a [GitHub account](https://github.com/).
 2. Sign up for a free [GitHub Education account](https://github.com/education/students).
 3. Once verified as a student, [request free GitHub Copilot Pro access](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer). (Approval might take several days.)
-
 ---
-#### Part 3: Document
+NYU's Library 3 hour session:
+https://tutorials-1-spring.rcnyu.org/user/aap9316/notebooks/shared/QUAN_IntroPython/introduction_to_python.ipynb
 
-[](https://github.com/ellennickles/code-your-way-s26/tree/main/week2#part-3-document-1)
+**Lists**
+like arrays, anything goes into a list, general structure to hold, a container. can be counted from the back with `[-1]` list them `[0:3]` step 2 at a time `[::2]` 
+`.append` - add item to a list
+`.pop` - remove element from a list
+`+` in lists - concatenate them
 
-- Documenting your weekly progress and reflections will be valuable for tracking your growth. Use this outline to guide your documentation:
-    - **What did you work on this week?** (topics, exercises, mini-projects, etc.)
-    - **What clicked?** (concepts or techniques that made sense or felt useful)
-    - **What was challenging?** (any points of confusion, how you approached them, and whether you found a solution or decided to revisit them later)
-    - **What’s next?** (next steps and any lingering questions to explore)
-- [Submit here](https://forms.gle/HaUJ7Mg74TJHxrJe8)
+Challenge 2
+Write some code that picks a student from your list `my_students` at random
+Hint: you can always round down a decimal number to an integer with the `int(x)` function:
+int( 4.6 ) ## this equals 4
+
+```
+from random import *
+import random
+my_students
+random_integer = random.randint(1, 5)
+x = random_integer
+#x = int(x)
+
+my_index = x
+print(my_students[my_index])
+print("is chosen from:")
+print(my_students)
+```
+
+or you can also do:
+```
+my_students[int(random()*8)]
+or
+my_students[int(random()*len(my_students))]
+```
+
+**Dictionaries**
+Dictionaries can live inside a list and vice versa
+```
+student1 = {
+    "name" : "Alice",
+    "netid": "az123",
+    "currently_enrolled": True,
+    "credits_completed": 32,
+    "school": "GSAS",
+    "enrolled_in": ["Intro to Python", "Fundamental Algorithms"]
+}
+
+student2 = {
+    "name" : "Xiaojing",
+    "netid": "xa746",
+    "currently_enrolled": True,
+    "credits_completed": 16,
+    "school": "Wagner",
+    "enrolled_in": [
+        "Intro to Python",
+        "Natural Language Processing",
+        "Urban Planning",
+        "Shakespeare"]
+}
+
+student_profiles = [student1, student2]
+student_profiles[0]["name"]
+```
+from `student_profiles[0]` we will get -> the whole dictionary of student1
+from `student_profiles[0]["name"]` we will get -> alice
+
+**For Loop**
+```
+## Print each element of a list
+for i in my_students:
+    print(i)
+```
+
+**Working with strings**
+`.replace` 
+
+**Functions**
+Reuse a piece of code over time

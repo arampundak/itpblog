@@ -1,0 +1,1 @@
+- https://www.ted.com/talks/simone_giertz_why_you_should_make_useless_things
