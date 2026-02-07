@@ -27,4 +27,4 @@ And from the process of it:
 ![[energy - fan.mp4]]
 
 Yay this was fun!
-Also started thinking about ideas for [[Kinetic Assignment]] - I want to create something that is within the design/art realm and ill be happy with putting on the wall in my house.
+Also started thinking about ideas for [[Kinetic Assignment - Ideation]] - I want to create something that is within the design/art realm and ill be happy with putting on the wall in my house.
