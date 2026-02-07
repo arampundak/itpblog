@@ -1,1 +1,0 @@
-Interesting topic isen't it?

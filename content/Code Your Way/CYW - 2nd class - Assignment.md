@@ -96,6 +96,7 @@ While a free version of Copilot ([Copilot Free](https://docs.github.com/en/copil
 3. Once verified as a student, [request free GitHub Copilot Pro access](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer). (Approval might take several days.)
 ---
 NYU's Library 3 hour session:
+https://tutorials-1-spring.rcnyu.org/user/aap9316/tree/shared/QUAN_IntroPython?redirects=1
 https://tutorials-1-spring.rcnyu.org/user/aap9316/notebooks/shared/QUAN_IntroPython/introduction_to_python.ipynb
 
 **Lists**

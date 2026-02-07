@@ -18,3 +18,6 @@ I've read and saw
 - [[Personality in Design]]
 - [[Why you should make useless things]]
 - 
+---
+References
+[[Mystery Animal]]
