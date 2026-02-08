@@ -22,5 +22,5 @@ I take the A subway from home to school - the screen for stations on the train i
 For Class
 - Bring in a Nano 33 IoT with working WiFi antenna next week.
 - Read [[Connecting a microcontroller via TCP to netcat]]
-- Understand [[Command line tools]]
+- Understand [[Network Litercey]]
 

@@ -16,8 +16,9 @@ _**Thought Starters:**_
 ---
 I've read and saw
 - [[Personality in Design]]
+- [[Semantics - Gricean Maxims]]
 - [[Why you should make useless things]]
-- 
 ---
-References
+
+References:
 [[Mystery Animal]]

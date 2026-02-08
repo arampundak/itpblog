@@ -1,13 +1,16 @@
+When Fabri and me decided to work together we were looking for a "fun sensor"... we couldnt find any so we decided to use the power of the microcontroller to detect networks and work our way from there.
+First few thoughts were:
 - Mapping of Wifi signals - checking to visualize wifi signals
-find all the hotspots on the floor by signals strength. SSID - nyu can have bSSID (base station) address for each individual hotspot, im on nyu on that hotspot or another hotspot. ideally my device has the strongest signal and connect to it. 
+	find all the hotspots on the floor by signals strength. SSID - nyu can have bSSID (base station) address for each individual hotspot, im on nyu on that hotspot or another hotspot. Ideally my device has the strongest signal and connect to it. 
 - Mapping of AirDrop clients around me - can we tell who is closer and by how much?
 - Site that shows what bathroom is occupied in the itp corridor, or a physical interpataion of the lock being closed - parking lot. how do you make a dashboard with a validation of privacy. 
 - Temperature - where is it the hottest on the floor
 
 Referances
 https://www.instagram.com/tim_rodenbroeker/?hl=en
-[[The Immaterials project - Timo Arnall]]
+[[The Immaterials project - Timo Arnall]] - showing invisable infastructures
 
+We had a conversation with Tom that was very interesting but we still didn't feel like we have a project or a question at hand.
 Conversation with Tom - 04.02.26 - "_Wi-Fi surveyor’s tool_"
 **Wi-Fi Surveyor: An Intentional Tool for Mapping Invisible Infrastructure** / **Seeing Wi-Fi by Choosing to Measure It**
 A. “Why” beats “how”
@@ -32,10 +35,10 @@ A handheld device that allows a person to **intentionally measure and log Wi-Fi 
 
 ---
 
-New More thoughts: 
+With some more time to think I cam to Fabri with these 'New More thoughts': 
 Social presence of infrastructure
-I remembered a project by Eran Hileli showing in AR the invisible devices talking to themselves around us [[Invisible Roommates - Eran Hilleli & Nicole He]]. It made me think of [[Invisibility of interfaces and infrastructures]] and how we can show them in a way that will explain them to ppl? or make them see/experience space differently?
-**Invisibility of interfaces & infrastructures** → things that shape space but don’t announce themselves
+I remember a project by Eran Hileli showing in AR the invisible devices around us talking to themselves: [[Invisible Roommates - Eran Hilleli & Nicole He]]. It made me think of [[Invisibility of interfaces and infrastructures]] and how we can show these in a way that will make people rethink their surroundings? or make people see & experience space differently?
+**Invisibility of interfaces & infrastructures** → things that shape space but don’t announce themselves.
 Not “How strong is Wi-Fi here?”  
 but  
 **“Who (or what) is already here with me?”**
@@ -50,6 +53,9 @@ A device that reveals the _digital presence_ of a space by detecting and logging
 
 This reframes infrastructure as **co-presence**, not utility.
 Creatures that live in the space and only reveal themselves when you look the right way.
+
+Metaphors / how to show the concept
+
 1. **Ghosts in the Background - open computer camera - shows you and in the background - ghosts
 - Everything happens in text
 - Devices become symbols
@@ -63,3 +69,8 @@ https://www.reddit.com/r/creativecoding/comments/1lqt0z2/ascii_portal_hand_track
 
 3. Airtraffic Radar Sonar
 ![[condev device project 1.webp]]
+
+Continue reading [[Device Project 1 - Concept]]
+
+
+

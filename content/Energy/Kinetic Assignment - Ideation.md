@@ -44,6 +44,9 @@ Abstracted dog faces / minimal expressions
 - Energy constraints _are interaction design_
 - Embodiment > screens
 - Dependency creates attachment
+![[nrg kinetic ref 1.webp]]
+![[nrg kinetic ref 2.webp]]
+
 
 
 Tech questions:
@@ -69,7 +72,7 @@ Charge mode:
 - Tail shaft is coupled (through gears/belt) to the **generator stepper**.
 Wag mode:
 When the threshold triggers, a **second motor (DC motor)** briefly drives that _same tail shaft_ through:
-- a **one-way clutch** / **ratchet** / **sprag bearing**, or
+- a **one-way clutch** / **ratchet** / **sprag bearing**, or 
 - a **slip clutch** (friction coupling)
 How:
 - a cheap **one-way bearing** (like in bikes/skateboard rollers) or

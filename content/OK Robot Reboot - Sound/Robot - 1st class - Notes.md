@@ -22,7 +22,7 @@ IBM 7094 (1961)
 UNIMATE (1961) - the first industrial robot
 "Mother of all Demos" by Douglas Engelbart (1968)
 
-We talked about [[Command line tools]] & [[Network Literacy]]
+We talked about [[Network Litercey]] & [[Command line tools]]
 
 References:
 [[Jim Campbell]] [[Random International]] [[Seiko Mikami]] 
