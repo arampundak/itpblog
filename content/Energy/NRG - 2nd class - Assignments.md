@@ -2,8 +2,8 @@
 **Reading/Listening**:
 - “[Inside Meta’s Massive Nuclear Push](https://www.latitudemedia.com/news/open-circuit-inside-metas-massive-nuclear-push/)“, Open Circuit podcast. For discussion next week.
  
-Meta’s 6.6 GW nuclear strategy signals a **major shift** in how tech giants think about energy — moving from purchasing grid power to shaping energy supply. But **much of the plan is aspirational**, hinging on future technology and regulatory outcomes, not immediate new capacity.
-This nuclear push reflects how rapidly corporate power demand — especially from hyperscalers like Meta, Microsoft, Google, and Amazon — is reshaping energy markets.
+Meta’s 6.6 GW nuclear strategy signals a major shift in how tech giants think about energy — moving from purchasing grid power to shaping energy supply. But **much of the plan is aspirational**, hinging on future technology and regulatory outcomes, not immediate new capacity.
+This nuclear push reflects how rapidly corporate power demand - especially from hyperscalers like Meta, Microsoft, Google, and Amazon - is reshaping energy markets.
 
 ---
 

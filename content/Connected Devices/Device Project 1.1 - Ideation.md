@@ -1,3 +1,5 @@
+Continue reading [[Device Project 1.2 - Concept]]
+
 When Fabri and me decided to work together we were looking for a "fun sensor"... we couldnt find any so we decided to use the power of the microcontroller to detect networks and work our way from there.
 First few thoughts were:
 - Mapping of Wifi signals - checking to visualize wifi signals
@@ -70,7 +72,7 @@ https://www.reddit.com/r/creativecoding/comments/1lqt0z2/ascii_portal_hand_track
 3. Airtraffic Radar Sonar
 ![[condev device project 1.webp]]
 
-Continue reading [[Device Project 1 - Concept]]
+
 
 
 

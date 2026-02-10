@@ -1,7 +1,8 @@
 ---
 
 ---
-
+I was approved on 080226 - need to wait 72 hours to use copilot pro...
+https://github.com/settings/education/benefits
 
 ---
 Im keeping a small journal of my progression throughout the weeks, i write here simple thoughts and things to remember.

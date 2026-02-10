@@ -16,6 +16,10 @@ A voice assistant that:
 - answers ambiguously → feels untrustworthy
 How do we design machines so people assume they are cooperating?
 
+more readings:
+- https://web.archive.org/web/20190826083147/http://www.linguisticsnetwork.com/an-introduction-to-semantics/
+- https://web.archive.org/web/20190820155206/http://www.linguisticsnetwork.com/
+
 ---
 
 Summarize by LLM:

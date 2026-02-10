@@ -1,4 +1,5 @@
-Previous episodes [[Device Project 1 - Ideation]]
+Previous episodes [[Device Project 1.1 - Ideation]]
+Read more at [[Device Project 1.3 - MyMap]]
 
 A building with great wifi:
 ![[condev building with great wifi.webp]]
