@@ -1,4 +1,9 @@
-![[Screenshot 2026-01-22 at 7.59.53 PM.png]]
+#studio 
+
+in the picture - **Zoological** #project 
+![[ref random international zoological.webp]]
+
+
 
 https://www.random-international.com/
 

@@ -10,13 +10,6 @@ When a block under `with` is executed:
 1. The context manager’s `__enter__()` method is called.
 2. The block of code inside the `with` statement runs.
 3. The context manager’s `__exit__()` method is automatically called after the block finishes — even if an error occurs.
-
-
-
-
-
-
-
 ## from
 The **`from`** keyword in Python is used to import specific items (such as [functions](https://www.codecademy.com/resources/docs/python/functions), [classes](https://www.codecademy.com/resources/docs/python/classes), or [variables](https://www.codecademy.com/resources/docs/python/variables)) from a module instead of importing the entire module. It helps keep the code cleaner and avoids unnecessary namespace clutter.
 
@@ -34,7 +27,6 @@ For example, instead of importing the entire `math` module, only the required 
 Squared is ** like ^, meaning 2^2 = 4 is 2 ** 2 = 4
 ## Try
 The **`try`** keyword in Python is used to define a code block that may raise an exception, allowing errors to be caught and handled gracefully with `except`, and optionally complemented by `else` and `finally` clauses.
-
 
 # Python Operators
 

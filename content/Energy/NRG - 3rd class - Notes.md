@@ -30,4 +30,4 @@ Capacitor has a rated Formula:
 We used a 10,000 uF Capacitor and chraged it for a sec with a 9V battery meaning:
 0.5 * 10000 micro F * (9v) ^ 2 = **0.405 Joules**.
 
-![[nrg bridge rectifier parallel and sires.jpeg]]
+![[nrg bridge rectifier parallel and sires.webp]]
