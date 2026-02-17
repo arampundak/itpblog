@@ -6,4 +6,4 @@ Acceleration = Force / Mass
 (last episodes)
 `vel.add(acc)` 
 `pos.add(vel)`
- Velocity is change in pos over time, like in Calcules - dx/dt. Velocity is the deriviaive of position, Acceleration is the derivative of Velocity. 
+ Velocity is change in pos over time, like in Calculas - dx/dt. Velocity is the derivative of position, Acceleration is the derivative of Velocity. 
