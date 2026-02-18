@@ -3,3 +3,12 @@ Pi is the value of the ratio of the circumference of a circle - the length of th
 Angles & Rotations - spin around radians
 Angular Motion - angular acceleration 
 Angels & Vectors - sin, cosine
+
+sine cosine tangent
+Polar coordinates used to rotate without  `rotate` but with the trigonometric function of sine and cosine:
+```
+let x = r * cos(angle)
+let y = r * sin(angle)
+```
+
+

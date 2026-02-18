@@ -14,3 +14,13 @@ pos.add(vel);
 - **Position** = where your car is.
 - **Velocity** = how fast and in what direction you're driving.
 - **Acceleration** = how hard you're pressing the gas or brake (or turning the wheel).
+
+From Videos about forces: 
+F = M * A
+Force = Mass * Acceleration
+A = M / F
+Acceleration = Force / Mass 
+(last episodes)
+`vel.add(acc)` 
+`pos.add(vel)`
+ Velocity is change in pos over time, like in Calculas - dx/dt. Velocity is the derivative of position, Acceleration is the derivative of Velocity. 

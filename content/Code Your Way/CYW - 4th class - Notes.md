@@ -26,4 +26,6 @@ you **Stage** (add) files to track and **Commit** changes into **repositories**.
 Git - software that allows us to fo version control.
 Git Repository - a collection of all the files and all the directories. 
 
+`git log --oneline`
 
+![[cyw 4 class.webp]]

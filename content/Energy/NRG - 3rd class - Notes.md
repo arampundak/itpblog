@@ -18,9 +18,9 @@ Buckminster fuller Cybernetics. In discussion we talked about [[A Cyborg Manifes
 In terms of the grid. buildings, houses, cities - almost nothing stores electricity that scale, the electricity we use is being produced real time. 
 Energy Storage - Wood, a Damn, no matter what techology egnostic for energy
 Specific Energy: energy / mass - for a house - stationary, for a car - movable
-Energy Density: energy / volume - gas or battaries
+Energy Density: energy / volume - gas or batteries
 Power != Energy
-Specific Power: power (input or output) / mass: theres a limit for battary discharge. Car and gasoline - a tube is in a specific size - this is the rates gas station to car. 
+Specific Power: power (input or output) / mass: theres a limit for battery discharge. Car and gasoline - a tube is in a specific size - this is the rates gas station to car. 
 Power Density
 Efficiency
 
