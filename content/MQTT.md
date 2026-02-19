@@ -18,4 +18,4 @@ It listens on:
 The broker does **nothing but route messages**.
 
 I installed mosquitto on terminal
-next is ==Step 3: Enable WebSockets (very important)==
+next is ==Step 3: Enable WebSockets==
