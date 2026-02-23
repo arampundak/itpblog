@@ -58,7 +58,7 @@ After understanding the conceptual side I started tinkering with the esp32 and c
 - It didn't work
 - I looked again at the circuit and at older documentation
 - I found the button is not set correctly
-I understood the importance of having indicators - I will add an LED to show a scan has been made
+I understood the importance of having indicators - **I will add an LED to show a scan has been made**
 - Rewrote code with LLM and ==uploaded== it
 - ==Pressed== button
 It worked!

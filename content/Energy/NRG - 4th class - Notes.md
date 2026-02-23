@@ -23,6 +23,7 @@ Swept area. and thus power, increases with square of radius (PI r^2) - Bigger is
 Kinetic energy increases with square of velocity (1/2 mv^2) - Faster is better.
 Capacity 
 
+References of kinetic art:
 Patrick Marold
 Jason Bruges
 Theo Jansen
