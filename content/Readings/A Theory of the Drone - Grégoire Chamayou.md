@@ -1,0 +1,7 @@
+#critical 
+
+Drone warfare has raised profound ethical and constitutional questions both in the halls of Congress and among the U.S. public. Not since debates over nuclear warfare has American military strategy been the subject of discussion in living rooms, classrooms, and houses of worship. Yet as this groundbreaking new work shows, the full implications of drones have barely been addressed in the media.
+
+In a unique take on a subject that has grabbed headlines and is consuming billions of taxpayer dollars each year, philosopher Grégoire Chamayou applies the lens of philosophy to our understanding of how drones are changing our world. For the first time in history, a state has claimed the right to wage war across a mobile battlefield that potentially spans the globe. Remote-control flying weapons, he argues, take us well beyond even George W. Bush's justification for the war on terror.  
+  
+What we are seeing is a fundamental transformation of the laws of war that have defined military conflict as between combatants. As more and more drones are launched into battle, war now has the potential to transform into a realm of secretive, targeted assassinations of individuals—beyond the view and control not only of potential enemies but also of citizens of democracies themselves. Far more than a simple technology, Chamayou shows, drones are profoundly influencing what it means for a democracy to wage war. A Theory of the Drone will be essential reading for all who care about this important question.

@@ -1,3 +1,7 @@
+230226
+
+It was a snow storm and we had a zoom class
+
 **Nuclear Energy**
 Fusion vs. Fission
 Fission - start with heavy and split to light (uranium to ???)
@@ -19,3 +23,11 @@ The footprint of nuclear energy is low but extracting the materials for it is ve
 
 **AI and energy**
 Scope being narrowed for the advantage of the topic - show how much energy is being used for each prompt dosen't show all the infustructure that created that 
+
+References:
+[[A Theory of the Drone - Grégoire Chamayou]]
+[[The Demon Core]]
+[[Chicago Pile-1]]
+[[Einstein's Letter to President Roosevelt - 1939]]
+[[Natural Nuclear Reactor]]
+

@@ -5,6 +5,8 @@ https://jzhao.xyz/
 markdown cheatsheat
 https://www.markdownguide.org/cheat-sheet/
 
+https://jzhao.xyz/thoughts/rhizomatic-vs-arborescent
+
 ### reflective log:
 
 - what you did (task)

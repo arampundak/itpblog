@@ -28,3 +28,18 @@ Research and write a blog post about two examples of robotic art. Tell us about 
 _Due Class 6_
 
 [[Patrick Tresset]]
+
+---
+## Readings:
+
+[](https://github.com/juxtapix/OkRobotReboot_Voice/wiki/04.-Robotic-Art#readings)
+
+**Origin and Development of Robotic Art**  
+_Eduardo Kac, 1997_  
+[Link](https://www.ekac.org/roboticart.html)
+
+[[Bruno Munari's "Manifesto del Macchinismo" Bruce Sterling, 2013 - WIRED]]
+
+[[Machine Art in the Twentieth Century]]
+
+_ Introduction: The Phantom of “Machine Art” (pg.9)

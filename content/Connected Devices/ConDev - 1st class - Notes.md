@@ -9,7 +9,7 @@ VPN
 VPS - virtuale privete server
 Websites can run on a machine in AWS (amazon) or Digital Ocean. A website in a container with other websites next to it - not interfiring with eachother.
 VS code -> .md (mark down) -> github desktop -> upload to github - github pages.
-
+https://github.com/ZhuJingwen/DigitalOceanWorkshop
 We will build web interfaces to talk to a network device.
 
 # The internets geography
