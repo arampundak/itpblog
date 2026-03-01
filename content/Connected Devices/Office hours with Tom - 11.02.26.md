@@ -1,4 +1,4 @@
-# 1️⃣ What Tom Is Actually Saying (Beyond the Words)
+️1. What Tom Is Actually Saying (Beyond the Words)
 
 ## The Core Message
 
@@ -36,7 +36,7 @@ He wants:
 
 ---
 
-# 2️⃣ The Technical & Ethical Boundaries He’s Drawing
+️ 2. The Technical & Ethical Boundaries He’s Drawing
 
 ### 🧭 A. Start With What You Can Prove
 
@@ -63,7 +63,7 @@ That’s science.
 
 ---
 
-### 🛑 B. Security ≠ Age ≠ Intent
+### B. Security ≠ Age ≠ Intent
 
 You tried:
 
@@ -89,7 +89,7 @@ This is a huge lesson.
 
 ---
 
-### ⚖️ C. Ethics: Where You Were About to Go Too Far
+###  C. Ethics: Where You Were About to Go Too Far
 
 The moment you said:
 
@@ -119,7 +119,7 @@ That’s a serious maturity checkpoint in network art.
 
 ---
 
-# 3️⃣ The Good News: Your Concept Is Strong
+# 3. The Good News: Your Concept Is Strong
 
 When Cody reframed it as:
 
@@ -133,7 +133,7 @@ Not “exposing infrastructure.”
 
 But:
 
-### 🧠 Augmenting perception of space.
+### Augmenting perception of space.
 
 That’s very Aram.
 
@@ -144,7 +144,7 @@ That’s an HCI / speculative design lens.
 
 ---
 
-# 4️⃣ What You Should Actually Do Next (Clear Plan)
+# 4. What You Should Actually Do Next (Clear Plan)
 
 ## Stage 1 (2 weeks)
 
@@ -226,7 +226,7 @@ That’s advanced and powerful.
 
 ---
 
-# 5️⃣ The Most Important Thing He Said
+# 5. The Most Important Thing He Said
 
 This line:
 
@@ -254,7 +254,7 @@ That intellectual humility is what separates:
 
 ---
 
-# 6️⃣ Where You Personally Showed Up
+# 6. Where You Personally Showed Up
 
 There are two Arams in that meeting:
 
@@ -272,7 +272,7 @@ Then Aram A.
 
 ---
 
-# 7️⃣ The Deeper Lesson About Networks
+# 7. The Deeper Lesson About Networks
 
 This line was subtle but powerful:
 
@@ -294,7 +294,7 @@ That’s a serious conceptual insight.
 
 ---
 
-# 8️⃣ The Real Opportunity Hidden Here
+# 8. The Real Opportunity Hidden Here
 
 If you focus your framing like this:
 

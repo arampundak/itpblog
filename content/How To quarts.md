@@ -1,3 +1,5 @@
+I'm using **Quartz** (Jacky Zhao’s static site generator) to publish an Obsidian “digital garden”: it takes your Markdown vault and builds a static website (HTML/CSS/JS).
+
 quarts - what is here
 https://quartz.jzhao.xyz/
 https://jzhao.xyz/
