@@ -1,6 +1,9 @@
 .content-meta {
   margin-top: 0;
-  color: var(--darkgray);
+  // font color
+  color: #787878;
+  // date font size
+  font-size: 0.85rem;
 
   &[show-comma="true"] {
     > *:not(:last-child) {
