@@ -5,20 +5,10 @@ and understanding of inverse kinematics from last semester and i want to combine
 
 ![[cyw LeRobot Arm.webp]]
 
-<div style="display:flex; gap:10px;"> 
-![[cyw 1 shoulder pan.webp|300]] 
-![[cyw 2 shoulder lift.webp|300]] 
-</div>
-<div style="display:flex; gap:10px;"> 
-![[cyw 3 elbow flex.webp]] 
-![[cyw 4 wrist felx.webp]] 
-</div>
-<div style="display:flex; gap:10px;"> 
-![[cyw 5 wrist roll.webp]] 
-![[cyw 6 gripper.webp]] 
-</div>
-
-i read the documentation and started exploring libraries.
+| ![[cyw 1 shoulder pan.webp\|300]] | ![[cyw 2 shoulder lift.webp\|300]] | ![[cyw 3 elbow flex.webp]] |
+| --------------------------------- | ---------------------------------- | -------------------------- |
+| ![[cyw 4 wrist felx.webp]]        | ![[cyw 5 wrist roll.webp]]         | ![[cyw 6 gripper.webp]]    |
+I read the documentation and started exploring libraries.
 
 My 'simple' goal:
 ![[cyw ur light painting.webp]]
