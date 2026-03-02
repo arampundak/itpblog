@@ -1,7 +1,6 @@
 I have found a direction.
 I am going to control a robotic arm.
-I have understood that without a cause I move slower, I have access to [[LeRobot]] **Python-based control and learning system** developed by Hugging Face. That normally comes with [[SO101]] **a robot arm that sits on your desk**. 
-and understanding of inverse kinematics from last semester and i want to combine them.
+I have understood that without a cause I move slower, I have access to [[LeRobot]] **Python-based control and learning system** developed by Hugging Face. That normally comes with [[SO101]] **a robot arm that sits on your desk**. By implementing  inverse kinematics I studied last semester.
 
 ![[cyw LeRobot Arm.webp]]
 
