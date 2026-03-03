@@ -25,7 +25,7 @@ I will go over
 [[PyTorch]]
 [[TorchScript]]
 Might check out 
-[[ROS2]] 
+[[ROS 1+2]] 
 
 References
 Single Stroke Aerial Robot Light Painting: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cs.mcgill.ca/~kry/pubs/expressive19/lightPaintingExpressive.pdf
