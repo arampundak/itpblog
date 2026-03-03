@@ -1,5 +1,7 @@
 160226
 Fabri and I set to work. 
+Next episode [[The Future-BOT Podcast - 3]]
+
 ![[robot - the future bot 1.mp4]]
 
 I had a few days of CAD work to integrate motors to animate the microphones. Mike A has a solenoid to move its head up & down like Southpark Canadians do, Mike B has a servo to open its mouth on a hinge axis.

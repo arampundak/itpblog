@@ -1,4 +1,5 @@
 Fabri and I are making - A microphone podcast.
+Read more at [[The Future-BOT Podcast - 2]] & [[The Future-BOT Podcast - 3]]
 We’re building two microphones that have fired their human hosts and now run their own autonomous podcast. They’re trained on tech podcasters and AI investors and talk endlessly about the AI revolution, Asimov’s Laws, AGI, and the future of humanity - but everything is engagement-optimized rather than meaningful.
 
 ![[robot future bot sketch 3.webp]]
