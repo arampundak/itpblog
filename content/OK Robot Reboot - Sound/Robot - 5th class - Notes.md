@@ -1,5 +1,7 @@
 240226
 
+Intelligence!
+
 **Designing Intelligence**
 Pulling the input and output together - that adds up to autonomy. 
 
@@ -33,7 +35,7 @@ Pneumatic / Hydraulic / Electric
 Something that tells how much they should turn and when
 Control -> Driver -> Motor
 Ardunio -> Transistor (TIP120) -> DC Motor
-Close Loop (Close loop within the motor) - sending signal to go to position, they have feedback of reaching a postion / Open Loop - DC motors (i have no way to know what their status is).
+Close Loop (Close loop within the motor) - sending signal to go to position, they have feedback of reaching a position / Open Loop - DC motors (i have no way to know what their status is).
 Servo - PWM - waits to get to position. They have feedback loop.
 Stepper Motor - in 3d printing they count their steps from their home position.
 

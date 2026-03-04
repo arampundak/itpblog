@@ -22,6 +22,14 @@ Tom: 2 use cases
 ---
 
 ![[condev - class 5.1.webp]]
+Your computer → opened a TCP connection → to a remote MQTT broker on the internet.
+I am just a client connecting to someone else’s message router.
+```
+Host: public.cloud.shifter.io  
+Port: 1883  
+Username: public  
+Password: public
+```
 
 MQTT in class with Tigoe.net
 - ==downloaded== MQTT explorer
@@ -36,6 +44,14 @@ We did the same thing with tigoe.net
 webserver is a program running on server
 server never emmets a message it waits for the client's request
 https://github.com/tigoe/mqtt-examples/blob/main/arduino-clients/ArduinoMqttClient/ArduinoMqttClient.ino
+
+![[condev - class 5.2.webp]]
+```
+Host: tigoe.net
+Port: 1883
+Username: conndev
+Password
+```
 
 ---
 MQTT in class with Arduino
