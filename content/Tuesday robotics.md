@@ -1,3 +1,5 @@
+### Getting ready for talk
+
 I care about how motion translates into perceived intent — and that requires reliable mechanical execution. And im a hands-on builder who understands system-level integration and validation.
 im obsessive.  
 i build constantly.  
@@ -51,3 +53,12 @@ about internship
 **“If we were sitting here a year from now and things had gone really well, what would you hope I had meaningfully improved or contributed to?”**
 
 building dilghtful robot for the home, zaha hadid, pixer for motion and character design. defrentiator is delight. also utility - where si the product what will it do for me? raised a small seed round. 
+
+
+
+### CPT
+
+CPT allows you, as an F-1 student, to accept off-campus employment as part of the curriculum of your degree program. CPT employment MUST be directly related to your major area of study with a US based employer.
+
+https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/curricular-practical-training.html
+

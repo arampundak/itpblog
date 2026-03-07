@@ -1,6 +1,6 @@
 030326
 
-**Artificial Intelagence** 
+**Artificial Inteligence** 
 AI became a brand. Its a black box, there some things we understand and some things we dont - but that dosent come in the way of creating with it. Interaction with machines is the grand field of us humans and computation, input -> computation -> output. Alexa became a big thing what brought Pedro to teach the class. When talk about robotics interacting by sound - we put ai on everything, they use artificial mechanisms - Speech to Text - speech recognition, we use ai to train a model that is better in recognizing a voice, this used to be just computation, now its training a better model that recognize speech, and that happend because we have mote data. 
 Smart device, smart lamp, the whole term of IoT - you connect them to the coud, outsource the comoputatuion to large data centers.
 Ok google, Hi Sirir, Alexa - a model being train to operate on local small microprocessor - DSP - Alexa listen all the time for trigger word and then records a window of the sound and upload to the cloud. 
@@ -20,14 +20,13 @@ Needybot - a robot that is good with asking for help. Big dreams and low capabil
 Tweenbot - A research project that checks the good will of people to help a robotic entity. **This is using outsourced Artificial Intelligence.**
 Sammi - Swedish grandmother robot on the wall.
 
-
 **Challenges in designing voice interfaces**
 Barge in / Interruption - it comes with social ques - how do we interrupt.
 Command vs Conversation - "tell me the time" 
 Finding the right voice - tone and authority
 Combining VUI with other interfaces - trigger using physical switch.
 
-How to design a Voice Interface
+**How to design a Voice Interface**
 Goal - what the voice is doing here - is it for accecibility
 User Research - patterns
 Finding the Voice - how should the vice sound like and how should it feel to us, the tempo pacing etc

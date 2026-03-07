@@ -1,4 +1,4 @@
-My all-time favorite human-machine interaction guru is [[Guy Hoffman]]. His robot, [[Shimi Robotic Speaker Dock]] (2013), is one of those rare perfect concepts (I immediately fall in love). I consider it not just a product, but a design thought - an art piece - an idea - almost a virtue.
+My all-time favorite human-machine interaction guru is [[Guy Hoffman]]. His robot, [[Shimi Robotic Speaker Dock]] (2013), is one of those rare perfect concepts (I immediately fell in love). I consider it not just a product, but a design thought - an art piece - an idea - almost a virtue.
 
 Shimi is a robotic smartphone speaker dock and music listening companion. It’s a cute tabletop device with a head composed of two speakers and body, two distinguished limbs in front - one functioning as an arm, the other as a leg - each with its own purpose (great use of asymmetry). The “arm” is a phone holder. The user places their Android device in Shimi’s hand, where it docks and charges. After selecting a song, the robot turns the phone toward itself and tilts its head as if to look at it - a small gesture that reads immediately as curiosity.
 

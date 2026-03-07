@@ -1,3 +1,4 @@
+#resource #software 
 NYU Library Zoom:
 A link with many links: https://guides.nyu.edu/viz/resources
 
@@ -30,3 +31,6 @@ Define + Gather data, Design...
 
 https://docs.google.com/presentation/d/1y76edMks__o0FpDVucaBP9qKO_g7iq9UvyES8dm-VVw/edit?slide=id.g137cf031c2_6_0#slide=id.g137cf031c2_6_0
 
+Other good links:
+https://datavizproject.com/
+https://100.datavizproject.com/

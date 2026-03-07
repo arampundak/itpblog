@@ -2,7 +2,7 @@ Parametric Equations
 
 Git -commit and Git Branches
 
-Go over git commit 
+Go over git commit
 
 Command Line / Terminal / Shell - Oh My Zsh! - Zsh, or the Z shell, is a shell application that interprets commands to interact with your computer's operating system using your command line interface / terminal.
 Ellens: https://github.com/ellennickles/code-your-way-s26/blob/main/version-control-guides/tips-and-tricks.md
