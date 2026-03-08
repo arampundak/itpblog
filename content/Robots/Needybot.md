@@ -1,0 +1,11 @@
+#robot #hri 
+
+>Needybot is an experiment from The Lodge at Wieden+Kennedy. We made Needybot because we feel that we can learn the most about how humans and technology interact if we can get people to connect with a robot the same way they connect with other humans. Unlike other robots, Needy was not made to perform a specific function to help us. Needybot’s purpose is to make us care, but it was built with just a few senses and little idea how to survive on its own. Needy’s story will develop through its connections with the people around it, but how it will make those connections is something it will have to discover on its own—with a lot of help. And who can help? Humans.
+
+https://www.youtube.com/watch?v=jk0Hi7kv7rc
+
+https://www.glovercreative.co/needybot
+
+
+
+

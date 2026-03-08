@@ -1,3 +1,5 @@
+#hri #hardware 
+
 *This seventy-five-year-old declaration sounds remarkably New Aesthetic. It's an argument: machines surround us now, we spend all our time with machines, more and more are coming along faster and faster, and it's old-fashioned not to recognize that. Creatives should get on with accustoming themselves to the new realities of vision and production. If you took out the term "machine" and substituted "software," you'd almost be there.
 
 *The emphasis on glitching – "re-route them into functioning in irregular ways" – and the projection of animism and vitalism onto non-human things, that's an especially New Aesthetic attitude. The bit about machines as reproducing insects sounds rather Singularitarian.

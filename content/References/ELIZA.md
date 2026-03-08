@@ -1,0 +1,5 @@
+#software #robot 
+
+ELIZA, ==developed by [Joseph Weizenbaum](https://www.google.com/search?q=Joseph+Weizenbaum&num=10&sca_esv=f7e7e39cbdb7bf55&rlz=1C5OZZY_enUS1147US1148&sxsrf=ANbL-n7VkU20wBmIF5fG-uTI2WZQDO7NxQ%3A1772896443121&ei=u0CsabiOB9CW5OMP88PwsA8&biw=1728&bih=958&ved=2ahUKEwjflrP9iY6TAxVVm4kEHQKZFBkQgK4QegYIAQgAEAQ&uact=5&oq=ELIZA%2C+the+world%27s+first+chatbot&gs_lp=Egxnd3Mtd2l6LXNlcnAiIEVMSVpBLCB0aGUgd29ybGQncyBmaXJzdCBjaGF0Ym90MgYQABgWGB4yCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGKIEGIkFMgUQABjvBUjDDlCkA1jnDHAEeAGQAQCYAVygAbIBqgEBMrgBA8gBAPgBAvgBAZgCBqACyAHCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcBNqAHlAeyBwEyuAe9AcIHBTAuMy4zyAcRgAgA&sclient=gws-wiz-serp) at MIT between 1964 and 1966==, is widely recognized as the world's first chatbot. It used pattern matching and substitution to simulate a Rogerian psychotherapist via the "DOCTOR" script. By reflecting user statements as questions, it created a convincing, albeit simplistic, illusion of understanding.
+
+https://sites.google.com/view/elizagen-org/
