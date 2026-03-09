@@ -10,7 +10,6 @@ Player score:
 
 I learned about [[Epoch Time]]
 
-
 All that we have sent to the [[MQTT]] broker
 
 ```
