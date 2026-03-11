@@ -24,7 +24,7 @@ This is easy mathematically.
 You do the opposite.
 You say:
 > “I want the hand to be HERE.”
-
+> 
 And the system calculates **what joint angles are needed**.
 So:
 target position → angles
@@ -34,7 +34,7 @@ The algorithm finds the joint angles that reach that point.
 
 ---
 
-### Idea 1 — Robotic Light Painter (Best for your references)
+### Idea 1 - Robotic Light Painter 
 
 Concept
 A simulated robotic arm draws **light trails in space**.
@@ -51,7 +51,7 @@ The result:
 A robotic arm **painting light in space**.
 
 ---
-### Idea 2 — Tentacle Creature
+### Idea 2 - Tentacle Creature
 Inspired by **Daniel Shiffman examples**.
 
 Concept
@@ -64,7 +64,7 @@ Motion rules = Nature of Code physics.
 
 ---
 
-### Idea 3 — Pixel Drawing Robot
+### Idea 3 - Pixel Drawing Robot
 Inspired by **p1xelfool**.
 
 Concept
@@ -99,7 +99,7 @@ particles.add(arm.end)
 ```
 
 
-### Extra Twist (Very You)
+### Extra Twist
 
 Add **expressive motion**.
 Robot has "emotions".
