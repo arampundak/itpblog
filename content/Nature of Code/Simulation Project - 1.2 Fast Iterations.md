@@ -1,3 +1,6 @@
+Link to code:
+https://editor.p5js.org/arampundak/full/Idv0djUST
+
 I started exploring the universe of [[Forward + Inverse Kinematics]] in p5. In order to try and manipulating [[SO101]] IRL.
 ## Concept
 The interaction is intentionally simple.
