@@ -67,3 +67,8 @@ Each state handles a different phase of the interaction:
 Some references:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ihp6tOCYHug?si=hCqwBnUbfFH4RuPP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+
+3js
+webGL
+do isometric view ands draw path, or draw in each face, point by point. have a 3d layout - learn how 3d software do it, do not invent a bad wheel but see how interactipons are happening

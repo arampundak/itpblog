@@ -1,4 +1,4 @@
-### Getting ready for talk
+### Talk with Rosalind 20260303
 
 I care about how motion translates into perceived intent — and that requires reliable mechanical execution. And im a hands-on builder who understands system-level integration and validation.
 im obsessive.  
@@ -52,9 +52,9 @@ about internship
 
 **“If we were sitting here a year from now and things had gone really well, what would you hope I had meaningfully improved or contributed to?”**
 
+What Ros said:
+
 building dilghtful robot for the home, zaha hadid, pixer for motion and character design. defrentiator is delight. also utility - where si the product what will it do for me? raised a small seed round. 
-
-
 
 ### CPT
 
@@ -62,3 +62,15 @@ CPT allows you, as an F-1 student, to accept off-campus employment as part of th
 
 https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/curricular-practical-training.html
 
+### Talk with Amy 20260313
+
+Main inquiries as a designer engineer:
+- I believe in empathy in design, and human centered design. Design should evoke emotion, unless research shows otherwise. I structure iterative phases that emphasize understanding of the human perspective. People centered combined with system thinking and many iterations.
+- How to design for emotion? animatronics can cretae a delightful movement but the obejct should appear in a certain way also when it's still.
+- I belive in storytelling as design strategy - Carla Diana
+- What iv'e learnd from pixar and disney
+- I'm not a junior, iv'e worked with engineers and delivered products, i've dealt with clients.
+- DFM, CMF, design for disassembly
+- When I design Im always about Reasoned / Argumanted Design. Design that can explain it self
+- I came to nyc to pivot myself & succeed, i have experience in planning products and now i want to grow to design and engineer experiences of ppl with machines. 
+- Not enough has been done around User research for the robotics age. what are people aspiring for? what are they afraid of? how will we engage with robots in life

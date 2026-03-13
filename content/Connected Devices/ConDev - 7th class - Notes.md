@@ -50,3 +50,10 @@ Tools for creating graphs:
 For next class:
 1. Short description with what we made with pictures and what it does.
 2. System Diagram of what the device does
+
+---
+
+We talked about [[Bluetooth]] and [[BLE - Bluetooth LE]]
+Go over [[ConDev - 5th class - Notes]] and BT
+
+https://www.tigoe.com/pcomp/code/author/tigoe/
