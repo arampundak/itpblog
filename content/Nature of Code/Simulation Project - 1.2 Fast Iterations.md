@@ -72,3 +72,5 @@ Some references:
 3js
 webGL
 do isometric view ands draw path, or draw in each face, point by point. have a 3d layout - learn how 3d software do it, do not invent a bad wheel but see how interactipons are happening
+
+p5.fab - https://machineagency.github.io/p5.fab-docs/ https://github.com/machineagency/p5.fab
