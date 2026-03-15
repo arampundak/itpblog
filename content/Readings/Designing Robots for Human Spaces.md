@@ -5,7 +5,7 @@ https://www.frog.co/work/designing-robots-for-human-spaces-with-physical-ai
 
 ---
 
-An article by Inna Lobel, Head of Industrial Design, frog - A human-centered approach to how physical AI shows up, behaves and collaborates.
+An article by [[Inna Lobel]], Head of Industrial Design, frog - A human-centered approach to how physical AI shows up, behaves and collaborates.
 
 She states most of my beliefs, I find the robot design to be quite and appliancy - market adaptation is questionable, research is amazing. 
 
