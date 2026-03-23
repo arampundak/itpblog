@@ -1,3 +1,5 @@
+#networks #software #iot 
+
 Designed for real-time ==communication between devices in an IP-based networked device ecosystem==. It ==operates over TCP/IP using a publish/subscribe model==, where devices (referred to as clients) can ==publish messages to specific topics or subscribe to topics to receive messages==.
 **Message Queuing Telemetry Transport** is a broker, the broker is a message router. The broker receives messages published by clients, filters them by topic, and distributes the messages to subscribed clients. ==It does not generate or consume data directly but rather routes messages between clients==.
 Clients that send messages - ==publishers are separated from subscribers== - those that receive messages, allowing them to exchange information without requiring direct connections or awareness of each other’s existence.
