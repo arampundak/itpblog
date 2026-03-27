@@ -1,6 +1,9 @@
 **What I want: Robotic Light Painting**
 ![[cyw ur light painting.webp]]
 
+Inspiration:
+https://www.instagram.com/p/DCV_LqkirJk/?hl=en&img_index=6
+
 To build a system where a robotic arm draws light in space, captured through long-exposure photography. While learning python and stronger understanding of system architecture and software engineering.
 
 **What ill use:**
