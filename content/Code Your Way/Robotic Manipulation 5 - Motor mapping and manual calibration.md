@@ -1,4 +1,6 @@
-==Python uses **indentation** to define structure==
+Next episode [[Robotic Manipulation 6 - Moving the Arm]]
+
+I learned that ==Python uses **indentation** to define structure==
 
 After reading the live motor data, I moved from raw servo values to a structured arm model. I created a named pose representation in Python, mapped motor IDs to joint names, and built a safety check that verifies whether a full pose stays within the calibrated limits of each joint. This was the first moment the robot began to feel like a coherent system rather than a collection of motor IDs.
 
@@ -14,6 +16,14 @@ Stage after that **Control one motor**
 ---
 Wrote a python script similar to the one in [[Robotic Manipulation 4 - Calibration]] that addresses another file 'arm_config.py' with motors names to have a rest/min/max values.
 Checked by turning the motors and reading the positions what are the min/max values.
+
+Below is a video showing the motors values changing while I manually move the arm:
+
+![[ref - cyw live motor positions 2026-03-26 at 4.06.32 PM.mp4]]
+
+What is interesting about this is I actually am mimicking the 'normal' way of calibration but with my own code. This video shows how its done "the correct way".
+<iframe width="560" height="315" src="https://www.youtube.com/embed/22n6f5xH9Dk?si=IuM_8MB6HkVgGQBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### named_position.py
 ``` python
 import os

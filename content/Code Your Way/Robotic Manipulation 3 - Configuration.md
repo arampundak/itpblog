@@ -1,5 +1,8 @@
 250326
 
+==The process of introduction with the [[SO101]] robotic arm is documented in the following posts in order. Each post is about a small advancement I do.==
+Next episode [[Robotic Manipulation 4 - Calibration]]
+
 I set to operate the arm. The pipeline:
 **Python on your Mac → LeRobot → controller board → servo bus → motors → arm motion**
 The events: I followed the onboarding of the [[SO101]] (after receiving it from Zakai). I spent 3 hours trying to give IDs to the motors. They are meant to be activated one by one before 'daisy chaining' them together. After failing I disassembled the arm to try and activate one motor at a time. After failing I tried separating what I know and don't know and used a simple Arduino C++ sketch to move a motor and see it's not broken. 

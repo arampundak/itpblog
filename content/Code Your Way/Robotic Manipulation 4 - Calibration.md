@@ -1,7 +1,10 @@
 260326
-Next episode 
+Next episode [[Robotic Manipulation 5 - Motor mapping and manual calibration]]
 
 I set to operate the arm.
+
+I ==built a working bridge between the robot and Python==. The **microcontroller reads servo states and sends them to my computer**, where I ==parse and display them in Python==. This gave me a **live understanding of the arm’s internal state** and moved the project from black-box setup toward my own control pipeline.
+
 I went over LeRobot documentation
 
 ```
@@ -32,7 +35,8 @@ LeRobot Table of Contents
 [L. Evaluate your policy](https://wiki.seeedstudio.com/lerobot_so100m_new/#evaluate-your-policy)
 ```
 
-
+**Order of operations**
+Built my own path:
 1. Connect the arm to computer, before connecting power
 2. Run: 
 ``` bash
@@ -45,9 +49,8 @@ source /Users/arampundik/code/lerobot310/bin/activate
 cd /Users/arampundik/code/lerobot-seeed
 ```
 
-I built a working bridge between the robot and Python. The microcontroller reads servo states and sends them to my computer, where I parse and display them in Python. This gave me a live understanding of the arm’s internal state and moved the project from black-box setup toward my own control pipeline.
 
-# Stage 1 — Uploading code to the XIAO to read the motors
+# Stage 1 - Uploading code to the XIAO to read the motors
 
 At this point, the goal was no longer to make LeRobot work.  
 The goal became simpler:
@@ -75,6 +78,9 @@ That was the first real proof that the arm was alive and readable.
 
 Uploading this code to the XIAO was a breakthrough.  
 For the first time, I could reliably read the motors and confirm that the arm was already configured and responding by ID.
+
+![[ref - cyw ardunio ide motors id - Screenshot 2026-03-25 at 8.57.33 PM.webp]]
+
 ### A simplified version of that code looked like this:
 ``` c++
 #include <SCServo.h>
@@ -234,9 +240,13 @@ This stage was important not only technically, but conceptually.
 It marked the moment when I stopped treating the robot as a black box and started building my own readable control pipeline.
 
 ---
-After starting the process with copilot I understood I want to get my hand dirty and try learning from doing with my finger tips. But im keeping here the original prompts
+## I started with asking copilot to do everything and then stopped
 
-## Prompt for Copilot
+After starting the process with copilot I understood I want to get my hand dirty and try learning from doing with my finger tips. But im keeping here the original prompts
+My way of learning is asking chatGPT to build the code for me and writing it word by word with my own fingertips. While having another conversation where I ask the chat what each command does to better understand and annotate. Im also using VScode auto complete for annotation.
+![[ref - cyw - how i work - Screenshot 2026-03-26 at 3.27.48 PM.webp]]
+
+### Prompt for Copilot
 >I am building a control pipeline for a Seeed / Hugging Face SO100/SO101- using a XIAO ESP32-C3 and smart serial bus servos.
 Current situation:
 >- The servos are alive and can be detected by ID through the XIAO using Arduino and the SCServo library.
@@ -260,7 +270,7 @@ Important:
 >- Explain each step so I can learn Python while building.
 >- Help me build this incrementally rather than generating a huge finished system at once.
 
-## From Copilot
+### From Copilot
 This is a great way to build real understanding.  
 Your goals are exactly the right order for a safe control pipeline.
 

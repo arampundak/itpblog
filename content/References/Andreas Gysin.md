@@ -13,4 +13,8 @@ Animations
 How its made
 https://www.instagram.com/p/DCV_LqkirJk/?hl=en&img_index=6
 
+![[ref - Andreas Gysin.mp4]]
 
+![[ref - Andreas Gysin 2.mp4]]
+
+![[ref - Andreas Gysin 3.png]]
