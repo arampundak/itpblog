@@ -6,7 +6,7 @@ https://github.com/settings/education/benefits
 
 ---
 Im keeping a small journal of my progression throughout the weeks, i write here simple thoughts and things to remember.
-I created [[Hello World]] to summarize basic knowledge given by codeacademy.
+I created [[Hello World of the snake]] to summarize basic knowledge given by codeacademy.
 
 CodeAcadmy: Let’s review what we’ve learned this lesson:
 - Boolean expressions are statements that can be either `True` or `False`
