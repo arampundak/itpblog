@@ -10,6 +10,10 @@ A handheld game device that uses the WiFi environment around you as a gameplay m
 
 An **Adafruit ESP32 Feather V2** microcontroller with a **1.5" 128×128 grayscale OLED display** wired via I2C. Two buttons are wired to GPIO pins - one for jumping, one for mode switching and power. The whole thing fits in your hand. When you hold the side button for 3 seconds, it deep-sleeps to save power and wakes on button press.
 
+![[condev - device doc 1.webp]]
+![[condev - device doc 3.webp]]
+
+
 ---
 
 ### The Game
@@ -30,6 +34,9 @@ Score builds up over time. Reaching the target score completes the level. Scores
 Pressing the side button switches to a scanner mode that continuously scans nearby WiFi networks and displays them ranked by signal strength. The strongest network becomes the "level", its RSSI sets the game difficulty when you switch back. You can "mark" a specific network to track it: the display shows whether you're getting closer or farther in real time.
 
 The scanning runs asynchronously (non-blocking) so the game physics and display never freeze while channels are being scanned.
+![[condev - device doc 2.webp]]
+![[condev - device doc 4.webp]]
+
 
 ---
 
