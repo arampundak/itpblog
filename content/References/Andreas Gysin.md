@@ -10,11 +10,6 @@ Animations
 - https://verse.works/series/recursive-tile-by-andreas-gysin-sidi-vanetti
 - https://verse.works/artworks/0f7989df-0698-423e-baf8-3f46094f23f1/10
 
-How its made
-https://www.instagram.com/p/DCV_LqkirJk/?hl=en&img_index=6
+Made [[Link]]
 
-![[ref - Andreas Gysin.mp4]]
-
-![[ref - Andreas Gysin 2.mp4]]
-
-![[ref - Andreas Gysin 3.png]]
+Watch interview: https://verse.works/journal/verse-meets-andreas-gysin-sidi-vanetti

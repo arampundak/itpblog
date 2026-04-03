@@ -27,10 +27,10 @@ While trying to get all the scans we found difficulties connecting to 'sandbox37
 ![[condev - 4 fabri 4.webp]]
 
 ---
-The channel number is the most useful piece of data. Because the NYU infrastructure uses channels 1, 6, and 11 on separate physical APs, the dominant channel in each scan essentially tells you which AP you're closest to — giving you a rough mapping of AP locations from signal readings alone, without needing floor plan coordinates.
+The channel number is the most useful piece of data. Because the NYU infrastructure uses channels 1, 6, and 11 on separate physical APs, the dominant channel in each scan essentially tells you which AP you're closest to - giving you a rough mapping of AP locations from signal readings alone, without needing floor plan coordinates.
 ### 1. The NYU infrastructure is a single physical AP broadcasting 5 SSIDs simultaneously
 
-In every single scan, `eduroam`, `sandbox370`, `frontporch370`, `nyuguest-legacy`, and `nyu-android` appear with **identical RSSI values** on the same channel. They're not separate routers — they're one radio broadcasting all five networks at once. This is standard enterprise AP configuration. It means in your bar charts, you're seeing the same physical device represented 5 times.
+In every single scan, `eduroam`, `sandbox370`, `frontporch370`, `nyuguest-legacy`, and `nyu-android` appear with **identical RSSI values** on the same channel. They're not separate routers - they're one radio broadcasting all five networks at once. This is standard enterprise AP configuration. It means in your bar charts, you're seeing the same physical device represented 5 times.
 
 ### 2. The dominant channel flips by position — and maps to different physical APs
 

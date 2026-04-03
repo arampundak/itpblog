@@ -8,8 +8,8 @@ We talked about:
 [[FTP]] - File Transfer Protocol 
 [[POP3]] - Post Office Protocol version 3
 
-Vannevar Bush invented the idea
-Tim Berners-Lee reinterpreted it to be Hyper Text 
+[[Vannevar Bush]] invented the idea
+[[Tim Berners Lee]] reinterpreted it to be Hyper Text 
 HTML is how you create documents (Hyper Text Markup Language)
 you send and receive them via HTTP
 

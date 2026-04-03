@@ -3,9 +3,9 @@
 ### The Idea
 
 A handheld game device that uses the WiFi environment around you as a gameplay mechanic. The stronger the WiFi signal, the easier the game. The weaker it is, the harder. Walk toward a router - game gets easier. Walk away - obstacles grow taller. It turns a physical space into a difficulty curve.
+Read more in [[Device Project 4 - Data Analysis]]
 
 ---
-
 ### The Hardware
 
 An **Adafruit ESP32 Feather V2** microcontroller with a **1.5" 128×128 grayscale OLED display** wired via I2C. Two buttons are wired to GPIO pins - one for jumping, one for mode switching and power. The whole thing fits in your hand. When you hold the side button for 3 seconds, it deep-sleeps to save power and wakes on button press.
@@ -15,7 +15,6 @@ An **Adafruit ESP32 Feather V2** microcontroller with a **1.5" 128×128 grayscal
 
 
 ---
-
 ### The Game
 
 The known and loved T-Rex endless runner from Google Chrome. A pixel dinosaur runs across the screen, tap to jump over cactus obstacles. The twist: obstacle height is calculated directly from WiFi signal strength using a linear map:
@@ -28,7 +27,6 @@ RSSI -80 dBm (weak)   → obstacle height 25px (hard)
 Score builds up over time. Reaching the target score completes the level. Scores are stored locally on the device and uploaded to a leaderboard server over MQTT when you power it off.
 
 ---
-
 ### The WiFi Scanner
 
 Pressing the side button switches to a scanner mode that continuously scans nearby WiFi networks and displays them ranked by signal strength. The strongest network becomes the "level", its RSSI sets the game difficulty when you switch back. You can "mark" a specific network to track it: the display shows whether you're getting closer or farther in real time.
