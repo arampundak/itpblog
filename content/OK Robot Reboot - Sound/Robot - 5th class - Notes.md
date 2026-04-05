@@ -13,7 +13,7 @@ Dr Barbara Webb - Cricket robots. "the evidence we have shows its not more compl
 Valentino Breintenberg - "Robotics is nothing new"
 Ingo Rechenberg - Walking Rolling spider
 Anthony Pipe - interface of nature and engineering. using whiskers to see.
-Rodney Brooks - MIT
+[[Rodney Brooks]] - MIT
 
 **The Neuron - an on off machine**
 The biological neuron - having an input, computation and output. 

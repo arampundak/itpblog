@@ -1,8 +1,7 @@
-SCL
-SDA
-
 For Philips Hue, changing state uses **PUT**.
-The CLIP debugger lets you **test API calls from your browser** without writing a single line of code. Ill use it to test my commands
+The CLIP debugger lets you **test API calls from your browser** without writing a single line of code. Ill use it to test my commands.
+HUE JS example by Tom: https://tigoe.github.io/hue-control/client-example-js/index.html?ip=172.22.151.226
+API Debugger: http://172.22.151.226/debug/clip.html
 
 
 ### Tried light 1

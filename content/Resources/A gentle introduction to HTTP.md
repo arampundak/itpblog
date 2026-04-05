@@ -1,3 +1,5 @@
+#reference #networks #software 
+
 https://itp.nyu.edu/networks/explanations/a-gentle-introduction-to-http/#id.cawiu339co1i
 
 ![[condev - client server.webp]]
