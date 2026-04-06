@@ -1,4 +1,5 @@
-The human is the author. The robot is the translator. The output is the human's gesture, estranged — shaky, mechanical, performed in a dark room by a machine. The gap between input and output _is_ the piece. Your photo from 16 years ago is the emotional reference: someone standing inside light they made with their own body. Here, someone stands outside, watching a machine re-make what their hand did.
+The human is the author. The robot is the translator. The output is the human's gesture, estranged - shaky, mechanical, performed in a dark room by a machine. The gap between input and output _is_ the piece. 
+Photo from 16 years ago is the emotional reference: me standing inside light I made with my own body. In this piece, someone stands outside, watching a machine re-make what their hand did.
 
 Timeline
 **Phase 1 — 2D plane in robot workspace** _(next 1-2 weeks)_ Define an imaginary vertical plane in the robot's reachable space. Map a normalized 2D coordinate (0-1, 0-1) to a real XYZ point on that plane. Move the arm to a grid of points on that plane and verify it works physically. This is the core technical unlock — everything else depends on it.

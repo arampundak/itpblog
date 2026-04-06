@@ -1,0 +1,11 @@
+https://www.instructables.com/LED-Hanukkah-Menorah/
+https://www.evilmadscientist.com/2006/holiday-electronics-projects-technical-details-and-reference-data/
+https://www.evilmadscientist.com/2006/how-to-make-high-tech-led-decorations-for-the-holidays/
+https://hackaday.com/2008/11/09/led-menorahs/
+https://www.tindie.com/products/djacobow/electronic-menorah-model-ii-kit-2/
+https://www.wired.com/2011/12/the-diy-led-menorah-and-the-tradition-of-hanukkah/
+https://shop.evilmadscientist.com/tinykitlist/152-scanner
+https://shop.evilmadscientist.com/productsmenu/44#
+https://www.tindie.com/products/jackandstephsworkshop/shift-register-menorah-pin-soldering-kit/
+https://www.tindie.com/products/fourbitindustries/hanukkah-menorah-soldering-practice-kit/
+https://hackaday.io/project/182920-menorah555/details
