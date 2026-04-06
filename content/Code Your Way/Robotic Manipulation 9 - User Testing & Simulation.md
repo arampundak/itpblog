@@ -9,7 +9,7 @@ Link to code in p5: https://editor.p5js.org/arampundak/full/VO18ZfbpP
 
 2. Simulation of the [[SO101]] in [[MuJoCo]] 
 
-![[ref - rob arm mujoco.webp]]
+![[ref - rob arm mujoco.mp4]]
 
 What I'm testing with this sketch is the drawing interface. The user sits down, draws something with their pinch gesture, hits reveal, and sees their drawing glow on a dark screen - a preview of what the long-exposure photo will look like. No robot yet. Just the input side.
 
