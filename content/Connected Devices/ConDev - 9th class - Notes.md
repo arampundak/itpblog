@@ -45,3 +45,5 @@ But it depends in the API
 
 Toms references for HTTP & WiFi: https://tigoe.github.io/Wifi_Examples/#arduino-http-clients
 Tom's references for Philips Hue: https://tigoe.github.io/hue-control/
+
+
