@@ -1,29 +1,37 @@
 20260406
-End of night before - the build didn't work like I wanted, but i've learned a bunch!
 
-For this project I will use:
-[[Rotary Encoder]]
-I2C OLED Display Module 0.96 inches
-[[XIAO ESP32 C3]]
+Summery of todays events:
+- I used Claude AI with a method is called **Socratic teaching** - they asked questions that led me to figure things out by myself
+- I've started with [[Philips Hue 1 - Getting the Jist]] and worked my way to understand the JSON sends by PUT & GET requests.
+- Then I planned to build a small device inspired by: ![[ref - screen with knob.webp|300]]
+- And made a circuit with the following parts (while documenting them for future use):
+	[[Rotary Encoder]]
+	I2C OLED Display Module 0.96 inches
+	[[XIAO ESP32 C3]]
+- Went over Amelia's blog:
+	- She was sending HSB values continuously and the light kept flickering. Tom confirmed - **don't send PUT requests continuously**.
+	- Using a NeoPixel
 
-### Understanding behind the hood:
+### Hardware:
+A potentiometer gives you an _absolute_ position (always 0-1023). A [[Rotary Encoder]] gives you _relative_ movement - code needs to track a running number and increment/decrement it with each click.
+
+By using an OLED screen I can create two states - two "screens":
+- **Navigation state** — browsing the menu
+- **Control state** — controlling a specific light
+### Software:
 **HTTP sits on top of TCP.** It uses the same connection underneath, but adds a structured "language" both sides agree on. TCP as road, and HTTP as the rules of the road.
 
 When your sending a PUT to turn a light blue, it will:
 1. Send a **request** — with the URL, the method (PUT), and the JSON body
 2. Wait and receive a **response** — that list of `{"success": ...}` objects you saw
 
-A potentiometer gives you an _absolute_ position (always 0-1023). A rotary encoder gives you _relative_ movement - code needs to track a running number and increment/decrement it with each click.
-
-Two states, two "screens":
-- **Navigation state** — browsing the menu
-- **Control state** — controlling a specific light
-
-From Amelia's blog:
-- She was sending HSB values continuously and the light kept flickering. Tom confirmed - **don't send PUT requests continuously**.
-- The NeoPixel idea - I had the same one :)
+**Reference Points for 16-bit Hue**
+RED - 0 / 65535
+GREEN - 21845
+BLUE - 43690
 
 ### Pseudo Codes
+I had an iterative process writing and understanding pseudo code by myself:
 
 **Pseudo Code 1**
 SETUP: 
@@ -41,7 +49,7 @@ SETUP:
 
 LOOP: 
 - if state = NAVIGATION: 
-	- turning: scroll through lights (3-7) 
+	- turning: scroll through lights (3-9) 
 	- clicking: select light → state = CONTROL, sub-state = SUB-MENU 
 
 - if state = CONTROL: 
@@ -109,13 +117,10 @@ void loop() {
 WORKED! 
 I built a microcontroller that connects to WiFi and controls a Philips Hue light over HTTP.
 
-Reference Points for 16-bit Hue
-RED - 0 / 65535
-GREEN - 21845
-BLUE - 43690
-
 #### 2nd try
 ```cpp
+// Blinking light sketch
+
 #include "WiFi.h"
 #include "arduino_secrets.h"
 #include "HTTPClient.h"
@@ -156,13 +161,14 @@ sendRequest(8, "{\"on\": false}");
 delay(2000);
 }
 ```
-
-### OLED and such
+WORKED!
+Light 8 physically blinked on and off every 2 seconds
+### OLED test
 Downloaded 
 - **U8g2** by oliver
 - **ArduinoJson** 
 
-Uploded a code to see the screen working. At first it didn't work, I added `Wire.begin(8, 9);` because GPIO8 conflict is real - you need to explicitly tell the ESP32 which pins to use for I2C.
+Uploaded a code to see the screen working. At first it didn't work, I added `Wire.begin(8, 9);` because GPIO8 conflict is real - you need to explicitly tell the ESP32 which pins to use for I2C.
 ``` cpp
 #include <Wire.h>
 #include <U8g2lib.h>
@@ -200,12 +206,39 @@ delay(300);
 }
 ```
 
-The Encoder didn't work, or it worked but not feeling live, I tried switching it, I tried another code... nothing reasonable.
-![[condev - encoder not work.webp]]
-![[condev - ph encoder not.webp]]
-
+The Encoder didn't work, or it worked but not feeding live, I tried switching it, I tried another code... nothing reasonable.
+![[condev - encoder not work.webp|300]]
+![[condev - ph encoder not.webp|300]]
+After finishing I talked with Ines who showed me she was using 'EncoderStepCounter' library. Ill try that next time.
 ### Controlling light 5 with Potentiometer
-After trying to troubleshoot without success, I switched to using a potentiometer and a button.
+![[condev - chnaging light with pot.mp4|300]]
+
+After not succeeding troubleshooting the encoder, I tried using a potentiometer and a button.
+
+**Hardware added:**
+- `Wire.begin(8, 9)` - explicitly sets I2C pins for OLED (needed because GPIO8 conflicts with onboard LED)
+- `U8g2` library driving the OLED display
+- Potentiometer on GPIO0 reading brightness
+- Button on GPIO2 confirming and sending
+
+**setup():**
+- Shows "Connecting..." on OLED while WiFi connects
+- Shows "Connected!" on OLED when done
+- The OLED gives visual feedback without needing a computer connected
+
+**loop():**
+- Reads potentiometer value (0-4095)
+- Maps it to Hue brightness range (0-254)
+- Updates OLED live showing current brightness value
+- On button press — sends PUT only if brightness changed by more than 5 (`lastBrightness` noise filter)
+- Waits for button release before continuing
+
+**What happened when uploaded:**
+- OLED showed "Connecting..." then "Connected!"
+- Turning the pot updated the brightness number on screen in real time
+- Pressing the button sent the brightness value to lamp 5
+- The lamp physically changed brightness based on the pot position
+
 ```cpp
 #include "WiFi.h"
 #include "arduino_secrets.h"
@@ -280,5 +313,4 @@ while (digitalRead(SW) == LOW);
 }
 ```
 
-This works...
-![[condev - chnaging light with pot.mp4]]
+
