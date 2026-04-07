@@ -1,9 +1,10 @@
 20260406
 
-Summery of todays events:
+**Summery of todays events:**
 - I used Claude AI with a method is called **Socratic teaching** - they asked questions that led me to figure things out by myself
 - I've started with [[Philips Hue 1 - Getting the Jist]] and worked my way to understand the JSON sends by PUT & GET requests.
-- Then I planned to build a small device inspired by: ![[ref - screen with knob.webp|300]]
+- Then I planned to build a small device inspired by: 
+- ![[ref - screen with knob.webp|300]]
 - And made a circuit with the following parts (while documenting them for future use):
 	[[Rotary Encoder]]
 	I2C OLED Display Module 0.96 inches
@@ -12,13 +13,13 @@ Summery of todays events:
 	- She was sending HSB values continuously and the light kept flickering. Tom confirmed - **don't send PUT requests continuously**.
 	- Using a NeoPixel
 
-### Hardware:
+### **Hardware**:
 A potentiometer gives you an _absolute_ position (always 0-1023). A [[Rotary Encoder]] gives you _relative_ movement - code needs to track a running number and increment/decrement it with each click.
 
 By using an OLED screen I can create two states - two "screens":
 - **Navigation state** — browsing the menu
 - **Control state** — controlling a specific light
-### Software:
+### **Software**:
 **HTTP sits on top of TCP.** It uses the same connection underneath, but adds a structured "language" both sides agree on. TCP as road, and HTTP as the rules of the road.
 
 When your sending a PUT to turn a light blue, it will:
@@ -30,10 +31,11 @@ RED - 0 / 65535
 GREEN - 21845
 BLUE - 43690
 
-### Pseudo Codes
+### **Pseudo Codes**
 I had an iterative process writing and understanding pseudo code by myself:
 
-**Pseudo Code 1**
+Pseudo Code 1
+
 SETUP: 
 - connect to wifi
 - GET to know the lights 
@@ -42,6 +44,7 @@ LOOP:
 - if control state: PUT the users choices
 
 **Pseudo Code 2**
+
 SETUP: 
 - connect to WiFi (sandbox370) 
 - GET /lights → store available lights + current values 
@@ -78,8 +81,8 @@ The backslash is an **escape character** — it tells the compiler "this quote m
 ```
 It's like saying "this quote mark is literal, don't interpret it."
 
-### Code
-#### 1st try
+### **Code**
+#### **1st try**
 ```cpp
 #include "WiFi.h"
 #include "arduino_secrets.h"
@@ -117,7 +120,7 @@ void loop() {
 WORKED! 
 I built a microcontroller that connects to WiFi and controls a Philips Hue light over HTTP.
 
-#### 2nd try
+#### **2nd try**
 ```cpp
 // Blinking light sketch
 
@@ -163,7 +166,7 @@ delay(2000);
 ```
 WORKED!
 Light 8 physically blinked on and off every 2 seconds
-### OLED test
+### **OLED test**
 Downloaded 
 - **U8g2** by oliver
 - **ArduinoJson** 
@@ -207,10 +210,10 @@ delay(300);
 ```
 
 The Encoder didn't work, or it worked but not feeding live, I tried switching it, I tried another code... nothing reasonable.
-![[condev - encoder not work.webp|300]]
-![[condev - ph encoder not.webp|300]]
+![[condev - encoder not work.webp]]
+![[condev - ph encoder not.webp]]
 After finishing I talked with Ines who showed me she was using 'EncoderStepCounter' library. Ill try that next time.
-### Controlling light 5 with Potentiometer
+### **Controlling light 5 with Potentiometer**
 ![[condev - chnaging light with pot.mp4|300]]
 
 After not succeeding troubleshooting the encoder, I tried using a potentiometer and a button.
