@@ -12,3 +12,5 @@ ROS - robot operation system is not an operation system but a framework. It comb
 - AI/ML
 
 Simulation in GAZEBO / RVIZ
+
+https://vimeo.com/1024972602

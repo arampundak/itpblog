@@ -5,7 +5,6 @@ When you turn a rotary encoder, it has two electrical contacts (`CLK` and `DT`) 
 `SW` is just a regular button — it clicks when you push down on the knob.
 
 So the encoder needs:
-
 - `GND` and `VCC` → power
 - `CLK` and `DT` → any two regular digital GPIO pins
 - `SW` → any digital GPIO pin
