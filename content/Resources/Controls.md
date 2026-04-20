@@ -50,6 +50,7 @@ My professor had me listen to a [1kHz sine wave](https://www.youtube.com/watch?v
 2. **The PID Simulator** - Visual, interactive learning is so much better than just equations
 3. **Turtlesim** (ROS) - For practicing control in simulation
 
+https://www.youtube.com/watch?v=LfydfvHyikM&list=PLUMWjy5jgHK32mWe-yx5aDmO4948FV2fq
 
 ### Reflection
 
