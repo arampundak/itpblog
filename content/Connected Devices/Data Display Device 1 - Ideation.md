@@ -11,6 +11,8 @@ Your device must have the following features:
 > - Physical enclosure, so we are not looking at the electronics, but are looking at the physical interface instead.
 > - Means to access a more detailed web-based display and control panel, including the status of the physical device and the value of the controlling data from the API.
 
+202060420
+
 ![[condev - restapi ideation arjun style.webp]]
 This piece of technology inspired me
 https://www.youtube.com/watch?v=LOICNiwDKaE&list=LL&index=6

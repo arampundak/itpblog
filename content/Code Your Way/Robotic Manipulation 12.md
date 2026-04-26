@@ -2,7 +2,9 @@ References to similar projects:
 https://eduardochamorro.github.io/beansreels/portfolio/lightpainting.html
 https://eduardochamorro.github.io/beansreels/portfolio.html
 https://www.kevynmc.com/#/ilp/
-
+A video of a robotic arm drawing faces: https://www.youtube.com/watch?v=G8jidJsiJH8, downloaded the Article
+https://www.autophoto.org/ - photo booth museum
+https://www.photomatica.com/analog-photo-booth-guide - analog photo booth
 20260419
 
 Reflecting on where I am - I understand my project is simulated to almost exactly what I imagined, I've tinkered with it by myself and solved two more problems I had in mind.

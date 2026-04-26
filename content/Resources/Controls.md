@@ -1,5 +1,6 @@
 #robot #hardware 
 
+Taught by Professor William Peng
 look at: https://automaticaddison.com/
 
 ![[ref - controls rob.webp]]
