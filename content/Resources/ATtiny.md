@@ -1,30 +1,42 @@
-ATTinyCore - ISP programmer without bootloader
-Burn a bootloader to program it with usb to C++ converter
+ATtiny (or TinyAVR) is ==a family of small, low-power, 8-bit AVR microcontrollers from [Microchip Technology](https://www.microchip.com/en-us/about/corporate-overview/acquisitions/atmel/attiny) designed for compact applications==, often used as smaller, cheaper alternatives to Arduino.
+Big thanks to Nasif (itp 26) for all the help and guidance, lets go hardware!
 
+Best documentation:
 Spence Konde Documentation
 https://github.com/spencekonde/attinycore
 ATTiny84 Documentation
 https://github.com/SpenceKonde/ATTinyCore/blob/v2.0.0-devThis-is-the-head-submit-PRs-against-this/avr/extras/ATtiny_x4.md
 
-1. take the bootloader we have in the shop
-2. connect corresponding pins from the breakout to a prototyping board with the ATTiny
-3. Pay attention to CW/CCW orientation
-4. XTAL 1 and 2 (Crystal) least important
-5. VCC GND are important
-6. MISO <-> MISO
-7. MOSI <-> MOSI
-8. SCK <-> SCK
+Start with downloading the hardware ATTiny Core library, seen later below.
+Download the old Arduino IDE 1.8.19, works better for burning the bootloader.
 
-Board - No Bootloader
-Chip
-Clock - 8Mhz internal
-Pin Mapping - for arduino naming (define before you code) Nasifs - CCW
-Built in Software - No reciving, transmit only
-EEPROM - if im missing flash
-Port - with the usb converter - choose no port!
-Press Burn Bootloader - to set the fuses and define all we choose before
+#### First! Burn Bootloader (Set Fuses)**
 
-Then - Write Code
+**CRITICAL STEP - Must be done first or after changing clock/BOD settings:**
+(if this dosent work - I have a documantation)
+1. Click **Tools → Burn Bootloader**
+2. Wait for "Done burning bootloader" message
+3. This sets the fuses (clock source, BOD, etc.) - **NOT optional!**
+![[ref - burn bootloader.png|500]]
+####  **Configure Arduino IDE**
+1. **Select Board:**
+    - **Tools → Board → ATtinyCore → ATtiny24/44/84** (No Bootloader)
+2. **Select Chip:**
+    - **Tools → Chip → ATtiny84**
+3. **Select Clock Speed:**
+    - **Tools → Clock → 8 MHz (internal)** (recommended for beginners)
+    - Other options: 1 MHz, 16 MHz, external crystal, etc.
+4. **Select Pin Mapping:**
+    - **Tools → Pin Mapping → Counterclockwise** (this is the standard)
+5. **Select Programmer:**
+    - **Tools → Programmer → **USBtinyISP - FAST, for parts running >=2MHz**
+6. **Other Settings:**
+    - **Tools → B.O.D. Level:** 2.7V (recommended) or Disabled
+    - **Tools → Save EEPROM:** EEPROM retained (if you want to keep data)
+    - **Tools → millis()/micros():** Enabled (unless you need to save flash)
+7. **Port**: with the usb converter - choose no port!
+
+Then - Write Code, just in Arduino IDE 1.8
 Hit Upload
 
 In the circuit!
@@ -32,7 +44,8 @@ Connect to GND 0.1 uF Cpacitor
 Connect to RST 10K resistor pull up
 
 ---
-
+How to download ATTiny Core:
+if this gives problams, read at the end ->
 Opened a new folder in Documents->Ardiuno->hardware
 ```bash
 git clone https://github.com/SpenceKonde/ATTinyCore.git
@@ -43,10 +56,22 @@ into the folder
 Now in Tools->Boards I have ATTiny Core
 ![[ref - ATTiny 2.webp]]
 
+---
+
 Pinout for ATTiny84 
 ![[ref - ATtiny_x4.webp]]
 
 To program the ATTiny84 ill be using Tiny AVR Programmer itp shop has available.
+
+1. take the Programmer we have in the shop
+2. connect corresponding pins from the breakout to a prototyping board with the ATTiny
+3. Pay attention to CW/CCW orientation
+4. XTAL 1 and 2 (Crystal) least important
+5. VCC GND are important
+6. MISO <-> MISO
+7. MOSI <-> MOSI
+8. SCK <-> SCK
+
 ![[ref - Tiny AVR Programmer 1.webp]]
 ![[ref - Tiny AVR Programmer 2.webp]]
 By comparing the pins from the ATTiny85 that fits this programmer and the ATTiny84 that I use because it has more pins:
@@ -57,4 +82,7 @@ By comparing the pins from the ATTiny85 that fits this programmer and the ATTiny
 
 Another important thing
 ![[ref - ATTiny 4.webp]]
+
+ATTinyCore - ISP programmer without bootloader
+Burn a bootloader to program it with usb to C++ converter
 

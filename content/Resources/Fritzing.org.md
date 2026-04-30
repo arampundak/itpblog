@@ -1,0 +1,3 @@
+#resource #software #hardware 
+
+Fritzing is an [open-source hardware initiative](https://en.wikipedia.org/wiki/Open-source_hardware) that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of [Processing](https://processing.org/) and [Arduino](https://arduino.cc/), fostering a creative ecosystem that allows users to _document_ their prototypes, _share_ them with others, _teach_ electronics in a classroom, and layout and _manufacture_ professional PCBs.
