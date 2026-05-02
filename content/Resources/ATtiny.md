@@ -10,13 +10,15 @@ https://github.com/SpenceKonde/ATTinyCore/blob/v2.0.0-devThis-is-the-head-submit
 Start with downloading the hardware ATTiny Core library, seen later below.
 Download the old Arduino IDE 1.8.19, works better for burning the bootloader.
 
-#### First! Burn Bootloader (Set Fuses)**
+#### First! Burn Bootloader (Set Fuses)
 
 **CRITICAL STEP - Must be done first or after changing clock/BOD settings:**
 (if this dosent work - I have a documantation)
-1. Click **Tools → Burn Bootloader**
-2. Wait for "Done burning bootloader" message
-3. This sets the fuses (clock source, BOD, etc.) - **NOT optional!**
+![[attiny - burn bootloder.png]]
+1. Click Tools → configure to the settings as above (for ATTiny 84)
+2. Click **Tools → Burn Bootloader**
+3. Wait for "Done burning bootloader" message
+4. This sets the fuses (clock source, BOD, etc.) - **NOT optional!**
 ![[ref - burn bootloader.png|500]]
 ####  **Configure Arduino IDE**
 1. **Select Board:**
@@ -38,7 +40,7 @@ Download the old Arduino IDE 1.8.19, works better for burning the bootloader.
 
 Then - Write Code, just in Arduino IDE 1.8
 Hit Upload
-
+Suggestion - upload first a simple LED Blink to check that the upload is complete.
 In the circuit!
 Connect to GND 0.1 uF Cpacitor
 Connect to RST 10K resistor pull up
