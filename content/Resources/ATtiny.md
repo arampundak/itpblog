@@ -45,6 +45,25 @@ In the circuit!
 Connect to GND 0.1 uF Cpacitor
 Connect to RST 10K resistor pull up
 
+Blink test
+```cpp
+// Blink test for ATtiny84
+// LED on Pin 10 (PA0, physical pin 13)
+
+#define LED_PIN 10  // Arduino pin 10 = PA0 = Physical pin 13
+
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_PIN, HIGH);  // LED on
+  delay(1000);                  // Wait 1 second
+  digitalWrite(LED_PIN, LOW);   // LED off
+  delay(1000);                  // Wait 1 second
+}
+```
+
 ---
 How to download ATTiny Core:
 if this gives problams, read at the end ->
