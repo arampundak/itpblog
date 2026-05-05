@@ -1,6 +1,10 @@
 Download libraries:
 https://www.autodesk.com/products/fusion-360/blog/library-basics-install-use-sparkfun-adafruit-libraries-autodesk-eagle/
 
+[[PCB 3 - Crate board outline]]
+[[PCB 4 - Design and Route]]
+[[PCB Create your own electronics parts]]
+
 Terminology:
 
 Terminal Block Footprint**

@@ -63,6 +63,7 @@ void loop() {
   delay(1000);                  // Wait 1 second
 }
 ```
+![[res - attiny blink.mp4]]
 
 ---
 How to download ATTiny Core:

@@ -2,6 +2,7 @@
 
 Don't forget chamfer!
 
+M2 - 3 mm hole
 M3 - 4.1mm hole
 M4 - 5.6mm hole
 
