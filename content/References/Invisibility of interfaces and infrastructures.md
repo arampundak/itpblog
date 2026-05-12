@@ -1,5 +1,6 @@
 #idea 
 
-Interesting topic isen't it?
+Interesting topic isn't it?
 
-Connected to [[Invisible Roommates - Eran Hilleli & Nicole He]]
+Comes from [[Invisible Roommates - Eran Hilleli & Nicole He]]
+
