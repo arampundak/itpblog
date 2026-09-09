@@ -1,4 +1,5 @@
 #reference #reading #hri #robot
+
 by [[Frog Design]]
 from March 2026
 https://www.frog.co/work/designing-robots-for-human-spaces-with-physical-ai

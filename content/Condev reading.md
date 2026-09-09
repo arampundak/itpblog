@@ -1,0 +1,1 @@
+https://www.nytimes.com/2025/12/04/technology/personaltech/why-one-man-is-fighting-for-our-right-to-control-our-garage-door-openers.html
