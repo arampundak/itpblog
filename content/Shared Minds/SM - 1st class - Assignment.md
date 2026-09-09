@@ -6,7 +6,7 @@
 
 >**ask:** How do you think? What is your stream of consciousness like? Do you feel like you are aware and in control of your thoughts? Do you decide to think your thoughts or do they just occur to you. Are you generally aware that you are thinking or are you usually "lost in thought?" Are your thoughts delivered as voices. Do your thoughts repeat? Are your thoughts mostly positive or negative? Do you think one thought at a time? Are you the same person over time? What makes one thought follow another? Do you always feel like there are many candidates for a connecting to a following thought? How can you better get to know how you think?
 
-BOOM! everything stops, everyone! stop!!! i'm right now, at the moment am thinking. Im looking at my own mind, why is it so dark? why am i thinking in/of the color blue? 
+BOOM! everything stops, everyone! stop!!! i'm right now, at the moment am thinking. Im looking at my own mind, why is it so dark? why am i thinking in/of the color blue? Its wave-particle duality collapsing under observation all over again.
 Every time it hit me I had to stop, understand what I am and put together my thoughts in light of this ongoingly novel thought: IM THINKING ABOUT THINKING!!!. 
 Reading chapter 3 of "A World Appears, A Journey into Consciousness" gave me tools to better investigate my thoughts. Pollan's experience of the experiment conducted on him made me clearly think about the shape of a thoughts - how am I imagining something when its clear and new and just born, how am I thinking of the same thing - while thinking of thinking it?
 
@@ -16,6 +16,10 @@ Reading chapter 3 of "A World Appears, A Journey into Consciousness" gave me too
 >**ask:** Abraham Lincoln was quoted as saying “ Give me six hours to chop down a tree and I will spend the first four sharpening the ax.”. As much as we love the p5 web editor because it is simple and cloud based, you might consider editing your code in a more powerful environment. An environment is basically the text editor for your code but these days they also do stuff like formatting, running, sharing and even writing your code for you. Eventually upgrading your environment will help you tie into the bigger ecosystem of machine learning.
 >
 Within that environment, see if you can make a vanilla javascript canvas that records your stream of consciousness. If you can just get my examples working in your new environment, that would be great. But maybe try having the text field that creates thoughts that bounce around the screen like the might bounce around your head. Maybe have them grow if you click on them and decay if you don’t. Maybe try getting AI to add a button for you? If this is all easy for you think about other input like voice or body.
+
+https://arampundak.github.io/NYU_Shared_Minds/talking-journal/
+
+![[sm_w1 - talking-journal.webp]]
 
 My initial idea was about a TTS thought catcher. 
 I watched Cody making one as we walked out of class. I took more days to think with my self, contemplate, i've said that this semester will have less procrastination...
@@ -79,7 +83,6 @@ Start by proposing the file structure and reply-bank content, then wait for my g
 
 ---
 
-![[sm_w1 - talking-journal.webp]]
 
 
 

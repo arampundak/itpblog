@@ -34,7 +34,6 @@ We make the tool - but then we are left with less material to use the tool with.
 
 > "How long does a moment in consciousness lasts?"
 
->i love how he describes the interview about his stream of con ceusnes written and stopped by the beep in the ear, when asked if and how he imagined the roll" 
 >"We then devoted at least another ten minutes to the question of whether I inwardly heard or inwardly spoke the words "Should I buy a roll or use the heel of bread at home?" I felt that the moment had been more visual than verbal and told Hurlburt, "It may be a thought that was so simple it didn't rise to the level of having words attached." He then drilled down, trying to get me to describe the mental imagery; how detailed was it? "It was just a kind of visual shorthand for a roll, like an emoji of a roll." He leaned forward and looked at me intently through the Zoom window, clearly skeptical but trying not to show it. "And do you see the roll straight on? Or from an angle? Or on a plate?" "It's kind of floating in space.""
 
 Top shot or 3d? an emoji? I've never tried to put these pictures in words, and also haven't tried understanding if they are a recalling of the moment or a deception of my mind.
