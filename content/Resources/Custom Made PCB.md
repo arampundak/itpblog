@@ -1,3 +1,5 @@
+#resource 
+
 Download libraries:
 https://www.autodesk.com/products/fusion-360/blog/library-basics-install-use-sparkfun-adafruit-libraries-autodesk-eagle/
 

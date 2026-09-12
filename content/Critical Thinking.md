@@ -1,2 +1,0 @@
-https://www.google.com/search?num=10&sca_esv=b7a78c7db20616cf&rlz=1C5OZZY_enUS1147US1148&sxsrf=ANbL-n5r3pPDlQK7IbvUgHakFZqjffWBeQ:1772147296595&q=critical+making&source=lnms&fbs=ADc_l-anYpvSch6nZB23wgI5nE2rmiB5eWMOuULHKiSpvEnkgZ3GhONjHxmxXFEcQawHGpUHMdwIwTgJpveNnVhoHkjTXybOn_zkVvUfJJMsEOD7op5ZwzGFXANXibWzxSEFsw22iyIHCox6fo0XWsQ6wbBotlS0l-hxFk4Qu9Rb5kEIwsL8wWfGiv0ZU19cFIXKNNGYrvg8BcHkwFFY_Cb--PBSevE6XeEBdkuG-rr9R8S3XSqnHG0&sa=X&ved=2ahUKEwjkxuiQo_iSAxXbhIkEHWr1LZIQ0pQJegQIChAB&biw=1728&bih=958&dpr=2
-

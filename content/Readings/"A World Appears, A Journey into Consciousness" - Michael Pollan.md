@@ -12,7 +12,7 @@ Reading chapter 3 of "A World Appears, A Journey into Consciousness" gave me too
 
 > "Capture a snapshot of the contact of the consciousness at a specific moment in time by dipping a ladel into the onrushing stream"
 
->"he is devoted to data as he is alergic to theories"
+>"he is devoted to data as he is allergic to theories"
 
 >"So what more might we learn about consciousness if we gave up on the impartial third-person view from nowhere and instead began to give more weight to the view from inside the experience—the phenomenological viewpoint? Different perspectives yield very different kinds of knowledge, as Eddington's two tables suggest." - 
 
