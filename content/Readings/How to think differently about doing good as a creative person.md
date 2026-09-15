@@ -6,6 +6,7 @@ https://thecreativeindependent.com/guides/how-to-think-differently-about-doing-g
 ---
 
 The writer starts with explaining “White Savior Complex”
+
 >"which, broadly, is when a person (who is usually white) believes they are “helping” underprivileged non-white people when they are likely not."
 
 I can relate. 
