@@ -29,7 +29,8 @@ What is choosing? What is a choice?
 
 in NN there are weights and biases
 
-We talk about "encoding our thought" and "capturing the world using neural networks". This made me think of how I save information in my head, how do I live with referencing, am i storing my information-mind in drawers or puddles? 
+We talk about "encoding our thought" and "capturing the world using neural networks". This made me think of how I save information in my head, how do I live with referencing, am I storing my information-mind in drawers or puddles? 
+
 As a visual person, neural networks and how they are shown made me want to have a neural network for all my references. Combined with the ask to think of a new social media platform and some research I came up with an idea:
 
 A private archive of the posts I save from LinkedIn and X - robotics, AI, markets - stored as plain markdown files in a local vault, so that an AI can read the whole corpus and do analysis across it. Not a bookmark manager. The point isn't finding a post again; it's asking what the collection as a whole says.

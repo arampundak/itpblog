@@ -1,9 +1,12 @@
 
 by Mark Riedl
+Aug 6, 2025
 from [[SM - 2nd class - Notes]]
 https://mark-riedl.medium.com/the-intuition-behind-how-large-language-models-work-166cf2fb278a
 
 ---
+Loved it!
+A very simplified explanation of LLMs
 
 >I’m not saying that a Large Language Model does sentence diagramming. But that intuition will sort of work. The LLM is looking at all pairs of words and assessing if they are relevant to each other or not. And if they are relevant to the missing next word, then they contribute more heavily to the next word guess.
 

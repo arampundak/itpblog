@@ -16,3 +16,5 @@ The suggests biases we see on daily life, not knowing anyone that had the flu - 
 >"To illustrate his claim, Slovic lists nine ways of defining the mortality risk associated with the release of a toxic material into the air, ranging from 'death per million people' to 'death per million dollars of product produced.' His point is that the evaluation of the risk depends on the choice of a measure — with the obvious possibility that the choice may have been guided by a preference for one outcome or another. He goes on to conclude that [the] ... exercise in power." You might not have guessed"
 
 >"The Alar tale illustrates a basic limitation in the ability of our mind to deal with small risks: we either ignore them altogether or give them far too much weight — nothing in between."
+
+Prospect theory
