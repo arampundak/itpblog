@@ -1,5 +1,7 @@
 #reading 
+
 by Daniel Kahnaman
+2011
 from [[GDes - 2nd class - Assignemnt]]
 
 ---

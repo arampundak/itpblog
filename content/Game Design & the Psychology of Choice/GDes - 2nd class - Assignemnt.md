@@ -4,5 +4,5 @@
 
 [[101 Design Goals]]
 
-[[Thinking Fast and Slow (2011)]]
+[[Thinking Fast and Slow]]
 

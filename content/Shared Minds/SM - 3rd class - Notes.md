@@ -46,3 +46,5 @@ chase metaphors of thinking and remembering and mind data
 
 Vibe coding projects are passion projects - they can differentiate you from other candidates.
 vibe coding will create a bench mark for human creation, everything by ai looks the same, we want the original, we want man made. same thing happened over the 20th century with plastics and 'made in china'. when my grandparents traveled the world - markets were filled with crafted artifacts, better made or worse. but they were unique and different and originated from a specific place geographically and time lined wise. 
+
+Host your stuff and understand it
