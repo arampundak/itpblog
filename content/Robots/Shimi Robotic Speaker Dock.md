@@ -1,5 +1,7 @@
 #reference #robot #hri #y2013
- 
+
+![[rob - shimi.jpeg]]
+
 http://guyhoffman.com/travis-shimi-robotic-speaker-dock/
 
 from 2013

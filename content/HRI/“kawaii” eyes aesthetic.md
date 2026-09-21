@@ -1,6 +1,7 @@
 #hri #robots 
 
 Kawaii is a Japanese cultural aesthetic that ==celebrates childlike cuteness, charm, and innocence==.
+![[ref - kiwi robot.com.png|500]]
 
 Core Characteristics
 - **Visual features:** Large eyes, round faces, small mouths, and soft or pastel color palettes.

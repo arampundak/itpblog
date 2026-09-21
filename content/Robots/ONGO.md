@@ -1,5 +1,7 @@
 #robot #cute #hri 
 
+![[rob - ongo.png]]
+
 https://ongolamp.com/
 
 A living lamp that lights  up your life.
