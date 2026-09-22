@@ -5,7 +5,19 @@
 // Restyle: white background, no dark mode, system-ui, flat type scale
 // ---------------------------------------------------------------------------
 
-$systemFont: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+// San Francisco. On macOS/iOS `system-ui` resolves to SF Pro, which is how SF
+// is meant to be used — it is not licensed as a webfont, so other platforms
+// fall through to their own system font rather than downloading anything.
+$systemFont:
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "SF Pro Text",
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif;
 $metaGray: #888888; // dates / content meta
 $panelGray: #999999; // right sidebar
 $contentPad: 20px; // extra breathing room on the main column
@@ -44,7 +56,7 @@ body {
 // --- body text --------------------------------------------------------------
 body {
   font-family: $systemFont;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.7;
   color: #000000;
 }
@@ -59,7 +71,7 @@ tr,
 text,
 figcaption,
 blockquote {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.7;
 }
 
@@ -69,8 +81,13 @@ p {
   line-height: 1.7;
 }
 
+// body copy — 20px of space above and below
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 // --- markdown headings ------------------------------------------------------
-// h1 = 22px, h2 = 18px, h3 = 16px, all with 24px of space above.
 h1,
 h2,
 h3,
@@ -81,40 +98,48 @@ thead {
   font-family: $systemFont;
   font-weight: 700;
   color: #000000;
-  line-height: 1.35;
-  margin-top: 24px;
-  margin-bottom: 8px;
+  line-height: 1.2;
 }
 
 h1,
 .page article > h1 {
   // .page article > h1 also overrides base.scss's 2rem
-  font-size: 22px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 23px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
+// h3-h6 were not specified; kept stepping down from h2 so they stay
+// distinguishable from the 20px body copy.
 h3 {
-  font-size: 16px;
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 20px;
 }
 
 h4,
 h5,
 h6 {
-  font-size: 14px;
+  font-size: 20px;
+  margin-top: 28px;
+  margin-bottom: 16px;
 }
 
 // --- page / site titles -----------------------------------------------------
 // article title — 24px bold, with room beneath it
 .article-title,
 h1.article-title {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   font-family: $systemFont;
   color: #000000;
-  line-height: 1.25;
+  line-height: 1.2;
   margin: 2rem 0 0 0;
 }
 
@@ -292,6 +317,15 @@ button.desktop-explorer h2 {
 }
 
 // --- misc -------------------------------------------------------------------
+// search: drop the magnifying glass, keep the "Search" label
+.search > .search-button {
+  padding: 0 1rem;
+
+  & > svg {
+    display: none;
+  }
+}
+
 .search .search-button,
 .search .search-button p,
 .search input {
