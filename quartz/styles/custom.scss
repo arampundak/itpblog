@@ -261,17 +261,20 @@ a.external .external-icon > path {
   }
 }
 
-// file names inside open folders — 10px, a little more line spacing
+// file names inside open folders — 12px, no underline, roomy line spacing
 .explorer-content ul li > a {
-  font-size: 10px;
+  font-size: 12px;
   font-family: $systemFont;
   font-weight: 400;
   color: #000000;
   opacity: 1;
   line-height: 1.9;
   display: inline-block;
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 
   &.active {
     color: #000000;
