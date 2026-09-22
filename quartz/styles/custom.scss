@@ -21,6 +21,8 @@ $systemFont:
 $metaGray: #888888; // dates / content meta
 $panelGray: #999999; // right sidebar
 $contentPad: 20px; // extra breathing room on the main column
+$contentWidth: 680px; // measured line length of body copy (~72 chars at 20px)
+$quoteGray: #666666; // blockquote text (5.74:1 on white — passes WCAG AA)
 
 // --- no dark mode -----------------------------------------------------------
 // Force the light palette regardless of saved-theme / prefers-color-scheme.
@@ -85,6 +87,68 @@ p {
 p {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+// `**bold**` emits <strong>, but base.scss flattens it to font-weight 400,
+// which renders it as normal text. Restore actual bold.
+strong,
+b {
+  font-weight: 700;
+}
+
+// --- blockquotes (markdown `>`) — smaller and grey ---------------------------
+// #666 is the darkest grey that still reads as clearly secondary while passing
+// WCAG AA contrast (5.74:1); #777 and lighter fail at this size.
+blockquote,
+blockquote p,
+blockquote li,
+blockquote ul,
+blockquote ol {
+  font-size: 17px;
+  line-height: 1.5;
+  color: $quoteGray;
+}
+
+blockquote {
+  // the stock rule is a heavy 3px black bar, which fights the softer text
+  border-left: 2px solid #d8d8d8;
+  padding-left: 16px;
+  margin: 20px 0;
+
+  // keep emphasis inside a quote readable rather than pure black
+  & strong,
+  & b {
+    color: $quoteGray;
+  }
+}
+
+// --- mobile ------------------------------------------------------------------
+// Long unbreakable strings (URLs, file paths) refuse to wrap and force the
+// whole page wider than the screen, which is what made phones scroll
+// sideways. `anywhere` is stronger than `break-word`: it lets the browser
+// count a mid-word break when working out the minimum width.
+p,
+li,
+td,
+th,
+figcaption,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.article-title,
+.page-title {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+// code blocks scroll internally instead of stretching the page
+pre {
+  min-width: 0;
+  max-width: 100%;
 }
 
 // --- markdown headings ------------------------------------------------------
@@ -205,14 +269,31 @@ a.external .external-icon > path {
   fill: #000000;
 }
 
-// --- main column: extra left padding ----------------------------------------
+// --- main column: left padding + capped measure ------------------------------
+// base.scss pins .center and footer to `min-width: 100%` of the 850px grid
+// column, so min-width has to be released before a width can take effect.
+// They keep base.scss's auto side margins, so the column sits centred in its
+// grid area and the footer stays aligned with the body copy above it.
+// `max-width` only — never a fixed `width`. As a grid item this still
+// stretches to fill its column, so it caps at $contentWidth on desktop but
+// shrinks to the column on tablet and to the screen on mobile. A fixed
+// `width` here overflows narrow viewports, because `max-width: 100%` would
+// resolve against the auto-sized column that the width itself created.
 .page > #quartz-body {
-  & .page-header,
   & .center,
-  & .center > article,
   & > footer {
     box-sizing: border-box;
     padding-left: $contentPad;
+    min-width: 0;
+    max-width: calc(#{$contentWidth} + #{$contentPad});
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // .page-header is a child of .center, which already supplies the padding
+  & .page-header {
+    padding-left: 0;
+    max-width: none;
   }
 }
 
@@ -257,6 +338,66 @@ a.external .external-icon > path {
     &.in-view {
       opacity: 1;
     }
+  }
+}
+
+// --- left sidebar: make the whole column the scroll container ----------------
+// Stock Quartz scrolls an inner `ul.overflow` nested inside .explorer-content,
+// while .explorer and .explorer-content are overflow:hidden around it. Anything
+// the pointer lands on that is not inside that inner ul — and any layout where
+// rows escape its box — leaves the wheel with nothing to scroll. Hoisting the
+// scroll to .sidebar.left means hovering anywhere in the column scrolls it,
+// open folders or closed. Desktop only: on mobile the sidebar is a horizontal
+// bar and the explorer is a full-screen overlay with its own scrolling.
+@media all and not ($mobile) {
+  .page > #quartz-body .sidebar.left {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  // let the explorer grow to its natural height instead of being clipped
+  // (.explorer.collapsed is more specific, so the collapse toggle still works)
+  .explorer:not(.collapsed) {
+    overflow-y: visible;
+    flex: 0 0 auto;
+  }
+
+  // beats base.scss's `div:has(> .overflow)`
+  .explorer .explorer-content {
+    max-height: none;
+    overflow: visible;
+  }
+
+  // beats base.scss's `ul.overflow`; scoped to the left sidebar so the
+  // table of contents and backlinks keep their own internal scrolling
+  .sidebar.left ul.overflow,
+  .sidebar.left ol.overflow {
+    max-height: none;
+    overflow-y: visible;
+
+    // the fade-out mask only makes sense on a clipped list
+    &.gradient-active {
+      mask-image: none;
+    }
+  }
+
+  // The lists inside open folders (ul.content — note: NOT ul.overflow) are set
+  // to `overflow: hidden` by explorer.scss so the open/close grid animation
+  // clips them. But `hidden` makes an element a scroll container that the user
+  // cannot scroll, so the wheel is captured there and never chains up to the
+  // sidebar — which is why hovering a post did nothing while hovering a folder
+  // name (outside this ul) worked. `clip` clips identically but is explicitly
+  // NOT a scroll container, so the animation survives and the wheel passes
+  // through. `hidden` first as a fallback for browsers without `clip`.
+  //
+  // `min-height: 0` is required: this ul is a grid item, and a grid item's
+  // automatic minimum size is its content unless it is a scroll container.
+  // `overflow: hidden` made it one (which is how the 0fr row collapsed);
+  // `clip` does not, so without this the closed state stops collapsing.
+  .sidebar.left .explorer-content .folder-outer > ul {
+    overflow: hidden;
+    overflow: clip;
+    min-height: 0;
   }
 }
 
@@ -370,4 +511,74 @@ footer a {
 
 .tag-link {
   font-size: 11px;
+}
+
+// --- mobile overrides (must stay last: media queries add no specificity) ----
+@media all and ($mobile) {
+  // the desktop scale is too large on a phone; step the big type down
+  .article-title,
+  h1.article-title,
+  h1,
+  .page article > h1 {
+    font-size: 30px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 28px;
+    margin-bottom: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  body,
+  p,
+  ul,
+  ol,
+  li,
+  td,
+  th {
+    font-size: 17px;
+  }
+
+  blockquote,
+  blockquote p,
+  blockquote li {
+    font-size: 15px;
+  }
+
+  // the 20px inset costs too much of a narrow screen.
+  // The cap is viewport-relative on purpose: `100%` would resolve against the
+  // auto-sized grid column, which is itself inflated by wide content (a code
+  // block's min-content width), so it never actually caps. 2rem = the
+  // 1rem side padding #quartz-body carries at this breakpoint.
+  .page > #quartz-body {
+    & .center,
+    & > footer {
+      padding-left: 0;
+      max-width: calc(100vw - 2rem);
+    }
+  }
+
+  // wide children scroll inside themselves rather than stretching the page
+  pre,
+  pre > code,
+  table,
+  .table-container {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  img,
+  video,
+  iframe,
+  .table-container {
+    max-width: 100%;
+  }
 }
