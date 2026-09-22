@@ -1,5 +1,3 @@
-#resource 
-
 040926
 1st class - Computational approaches to narrative
 by Allison Parish
