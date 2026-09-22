@@ -1,3053 +1,376 @@
 {
- "nodes": [
-  {
-   "id": "n0000",
-   "type": "group",
-   "label": "1. The dog",
-   "x": 0,
-   "y": 0,
-   "width": 1820,
-   "height": 220,
-   "color": "4"
-  },
-  {
-   "id": "n0001",
-   "type": "text",
-   "text": "what is bad about robots",
-   "x": 60,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0002",
-   "type": "text",
-   "text": "we want the robot to do something",
-   "x": 310,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0003",
-   "type": "text",
-   "text": "we want things to be nice to us",
-   "x": 560,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0004",
-   "type": "text",
-   "text": "when a dog wants to play and I don't",
-   "x": 810,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0005",
-   "type": "text",
-   "text": "not being in the same mood",
-   "x": 1060,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0006",
-   "type": "text",
-   "text": "closing up",
-   "x": 1310,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0007",
-   "type": "text",
-   "text": "not seeing who is in front of me",
-   "x": 1560,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0014",
-   "type": "group",
-   "label": "2. Acknowledgment",
-   "x": 0,
-   "y": 340,
-   "width": 1320,
-   "height": 600,
-   "color": "4"
-  },
-  {
-   "id": "n0015",
-   "type": "text",
-   "text": "interaction",
-   "x": 60,
-   "y": 620,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0016",
-   "type": "text",
-   "text": "think & respond",
-   "x": 310,
-   "y": 620,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0017",
-   "type": "text",
-   "text": "behavior",
-   "x": 560,
-   "y": 620,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0018",
-   "type": "text",
-   "text": "attentiveness",
-   "x": 810,
-   "y": 430,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0019",
-   "type": "text",
-   "text": "curiosity",
-   "x": 810,
-   "y": 525,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0020",
-   "type": "text",
-   "text": "hesitation",
-   "x": 810,
-   "y": 620,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0021",
-   "type": "text",
-   "text": "acknowledgment",
-   "x": 810,
-   "y": 715,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0022",
-   "type": "text",
-   "text": "wanting to be together",
-   "x": 1060,
-   "y": 715,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0023",
-   "type": "text",
-   "text": "caring for",
-   "x": 810,
-   "y": 810,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0024",
-   "type": "text",
-   "text": "feeling comfortable with",
-   "x": 1060,
-   "y": 810,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0034",
-   "type": "group",
-   "label": "3. Legibility cluster",
-   "x": 0,
-   "y": 1060,
-   "width": 1320,
-   "height": 410,
-   "color": "4"
-  },
-  {
-   "id": "n0035",
-   "type": "text",
-   "text": "waiving hand",
-   "x": 60,
-   "y": 1150,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0036",
-   "type": "text",
-   "text": "servo moving",
-   "x": 310,
-   "y": 1150,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0037",
-   "type": "text",
-   "text": "readability",
-   "x": 560,
-   "y": 1150,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0038",
-   "type": "text",
-   "text": "seeing intent",
-   "x": 810,
-   "y": 1150,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0039",
-   "type": "text",
-   "text": "sloths",
-   "x": 1060,
-   "y": 1150,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0040",
-   "type": "text",
-   "text": "timing",
-   "x": 60,
-   "y": 1245,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0041",
-   "type": "text",
-   "text": "legibility",
-   "x": 310,
-   "y": 1245,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0042",
-   "type": "text",
-   "text": "kinematic",
-   "x": 560,
-   "y": 1245,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0043",
-   "type": "text",
-   "text": "anticipation",
-   "x": 60,
-   "y": 1340,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0051",
-   "type": "group",
-   "label": "4. Hurt my baby",
-   "x": 0,
-   "y": 1590,
-   "width": 1070,
-   "height": 505,
-   "color": "4"
-  },
-  {
-   "id": "n0052",
-   "type": "text",
-   "text": "what is bad about robots",
-   "x": 60,
-   "y": 1822,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0053",
-   "type": "text",
-   "text": "anger",
-   "x": 310,
-   "y": 1822,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0054",
-   "type": "text",
-   "text": "breakdown",
-   "x": 560,
-   "y": 1822,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0055",
-   "type": "text",
-   "text": "fear",
-   "x": 810,
-   "y": 1680,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0056",
-   "type": "text",
-   "text": "hurt my baby",
-   "x": 810,
-   "y": 1775,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0057",
-   "type": "text",
-   "text": "feeling safety",
-   "x": 810,
-   "y": 1870,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0058",
-   "type": "text",
-   "text": "reliability",
-   "x": 810,
-   "y": 1965,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0065",
-   "type": "group",
-   "label": "5. Feel more comfortable",
-   "x": 0,
-   "y": 2215,
-   "width": 1070,
-   "height": 505,
-   "color": "4"
-  },
-  {
-   "id": "n0066",
-   "type": "text",
-   "text": "what is bad about robots",
-   "x": 60,
-   "y": 2447,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0067",
-   "type": "text",
-   "text": "love / wonder",
-   "x": 310,
-   "y": 2447,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0068",
-   "type": "text",
-   "text": "feel more comfortable",
-   "x": 560,
-   "y": 2447,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0069",
-   "type": "text",
-   "text": "when?",
-   "x": 810,
-   "y": 2305,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0070",
-   "type": "text",
-   "text": "why?",
-   "x": 810,
-   "y": 2400,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0071",
-   "type": "text",
-   "text": "where?",
-   "x": 810,
-   "y": 2495,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0072",
-   "type": "text",
-   "text": "with whom?",
-   "x": 810,
-   "y": 2590,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0079",
-   "type": "group",
-   "label": "6. What is bad about robots (hub)",
-   "x": 0,
-   "y": 2840,
-   "width": 1570,
-   "height": 980,
-   "color": "4"
-  },
-  {
-   "id": "n0080",
-   "type": "text",
-   "text": "what is bad about robots",
-   "x": 60,
-   "y": 3310,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0081",
-   "type": "text",
-   "text": "robots come in coffins",
-   "x": 310,
-   "y": 2930,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0082",
-   "type": "text",
-   "text": "all the same",
-   "x": 310,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0083",
-   "type": "text",
-   "text": "I want to be like everyone",
-   "x": 560,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0084",
-   "type": "text",
-   "text": "AI makes everything the same",
-   "x": 810,
-   "y": 3025,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0085",
-   "type": "text",
-   "text": "low common ground",
-   "x": 810,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0086",
-   "type": "text",
-   "text": "we are all exposed to the algorithm",
-   "x": 810,
-   "y": 3215,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0087",
-   "type": "text",
-   "text": "discomfort",
-   "x": 310,
-   "y": 3357,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0088",
-   "type": "text",
-   "text": "failure",
-   "x": 560,
-   "y": 3310,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0089",
-   "type": "text",
-   "text": "surveillance",
-   "x": 560,
-   "y": 3405,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0090",
-   "type": "text",
-   "text": "expectation",
-   "x": 310,
-   "y": 3500,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0091",
-   "type": "text",
-   "text": "anticipation",
-   "x": 560,
-   "y": 3500,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0092",
-   "type": "text",
-   "text": "robots can do everything",
-   "x": 310,
-   "y": 3642,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0093",
-   "type": "text",
-   "text": "what can only ppl do",
-   "x": 560,
-   "y": 3642,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0094",
-   "type": "text",
-   "text": "the human touch",
-   "x": 810,
-   "y": 3595,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0095",
-   "type": "text",
-   "text": "craft",
-   "x": 1060,
-   "y": 3595,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0096",
-   "type": "text",
-   "text": "one off",
-   "x": 1310,
-   "y": 3595,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0097",
-   "type": "text",
-   "text": "Aristotle: create tools",
-   "x": 810,
-   "y": 3690,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0115",
-   "type": "group",
-   "label": "7. The pipeline gap",
-   "x": 0,
-   "y": 3940,
-   "width": 1570,
-   "height": 600,
-   "color": "4"
-  },
-  {
-   "id": "n0116",
-   "type": "text",
-   "text": "what is missing",
-   "x": 60,
-   "y": 4220,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0117",
-   "type": "text",
-   "text": "what is needed?",
-   "x": 310,
-   "y": 4220,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0118",
-   "type": "text",
-   "text": "gap?",
-   "x": 560,
-   "y": 4220,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0119",
-   "type": "text",
-   "text": "pipeline",
-   "x": 810,
-   "y": 4220,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0120",
-   "type": "text",
-   "text": "creating behavior",
-   "x": 1060,
-   "y": 4030,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0121",
-   "type": "text",
-   "text": "what tools",
-   "x": 1060,
-   "y": 4125,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0122",
-   "type": "text",
-   "text": "transformation to body",
-   "x": 1060,
-   "y": 4220,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0123",
-   "type": "text",
-   "text": "decision making",
-   "x": 1060,
-   "y": 4315,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0124",
-   "type": "text",
-   "text": "output",
-   "x": 1060,
-   "y": 4410,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0125",
-   "type": "text",
-   "text": "what does it make us feel",
-   "x": 1310,
-   "y": 4410,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0135",
-   "type": "group",
-   "label": "8. Non-humanoid constraint",
-   "x": 0,
-   "y": 4660,
-   "width": 820,
-   "height": 885,
-   "color": "4"
-  },
-  {
-   "id": "n0136",
-   "type": "text",
-   "text": "what is needed?",
-   "x": 60,
-   "y": 4797,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0137",
-   "type": "text",
-   "text": "non humanoid",
-   "x": 310,
-   "y": 4797,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0138",
-   "type": "text",
-   "text": "FFF: form follows function",
-   "x": 560,
-   "y": 4750,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0139",
-   "type": "text",
-   "text": "simple shapes",
-   "x": 560,
-   "y": 4845,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0140",
-   "type": "text",
-   "text": "embodiment",
-   "x": 60,
-   "y": 5139,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0141",
-   "type": "text",
-   "text": "rig",
-   "x": 310,
-   "y": 4940,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0142",
-   "type": "text",
-   "text": "DOF",
-   "x": 310,
-   "y": 5035,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0143",
-   "type": "text",
-   "text": "body",
-   "x": 310,
-   "y": 5130,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0144",
-   "type": "text",
-   "text": "boxy / round / shape / head",
-   "x": 560,
-   "y": 5130,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0145",
-   "type": "text",
-   "text": "perception",
-   "x": 310,
-   "y": 5225,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0146",
-   "type": "text",
-   "text": "physical movement",
-   "x": 310,
-   "y": 5367,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0147",
-   "type": "text",
-   "text": "manipulation / locomotion / gait / bipedal",
-   "x": 560,
-   "y": 5320,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0148",
-   "type": "text",
-   "text": "kinematic",
-   "x": 560,
-   "y": 5415,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0160",
-   "type": "group",
-   "label": "9. Interruption and breaking character",
-   "x": 2600,
-   "y": 0,
-   "width": 1320,
-   "height": 600,
-   "color": "3"
-  },
-  {
-   "id": "n0161",
-   "type": "text",
-   "text": "character",
-   "x": 2660,
-   "y": 200,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0162",
-   "type": "text",
-   "text": "personality",
-   "x": 2910,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0163",
-   "type": "text",
-   "text": "breaking character",
-   "x": 2910,
-   "y": 185,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0164",
-   "type": "text",
-   "text": "surprise",
-   "x": 2910,
-   "y": 327,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0165",
-   "type": "text",
-   "text": "funny",
-   "x": 3160,
-   "y": 327,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0166",
-   "type": "text",
-   "text": "failure",
-   "x": 3410,
-   "y": 280,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0167",
-   "type": "text",
-   "text": "making us laugh",
-   "x": 3410,
-   "y": 375,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0168",
-   "type": "text",
-   "text": "we laugh at: animals in zoo or cage",
-   "x": 3660,
-   "y": 375,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0169",
-   "type": "text",
-   "text": "reasoning",
-   "x": 2660,
-   "y": 470,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0170",
-   "type": "text",
-   "text": "interruption",
-   "x": 2910,
-   "y": 470,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0179",
-   "type": "group",
-   "label": "10. Intention and being together",
-   "x": 2600,
-   "y": 720,
-   "width": 1570,
-   "height": 410,
-   "color": "3"
-  },
-  {
-   "id": "n0180",
-   "type": "text",
-   "text": "character",
-   "x": 2660,
-   "y": 905,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0181",
-   "type": "text",
-   "text": "intention",
-   "x": 2910,
-   "y": 905,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0182",
-   "type": "text",
-   "text": "choose your own",
-   "x": 3160,
-   "y": 810,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0183",
-   "type": "text",
-   "text": "build yourself",
-   "x": 3160,
-   "y": 905,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0184",
-   "type": "text",
-   "text": "feeling together",
-   "x": 3160,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0185",
-   "type": "text",
-   "text": "loneliness",
-   "x": 3410,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0186",
-   "type": "text",
-   "text": "being old",
-   "x": 3660,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0187",
-   "type": "text",
-   "text": "dying",
-   "x": 3910,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0195",
-   "type": "group",
-   "label": "11. What objects feel terrible?",
-   "x": 2600,
-   "y": 1250,
-   "width": 570,
-   "height": 220,
-   "color": "3"
-  },
-  {
-   "id": "n0196",
-   "type": "text",
-   "text": "what objects around us feel terrible?",
-   "x": 2660,
-   "y": 1340,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0197",
-   "type": "text",
-   "text": "(empty: add 5 real answers)",
-   "x": 2910,
-   "y": 1340,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0199",
-   "type": "group",
-   "label": "12. Anthropomorphism and dose",
-   "x": 2600,
-   "y": 1590,
-   "width": 820,
-   "height": 600,
-   "color": "3"
-  },
-  {
-   "id": "n0200",
-   "type": "text",
-   "text": "anthropomorphism",
-   "x": 2660,
-   "y": 1727,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0201",
-   "type": "text",
-   "text": "looking like animal",
-   "x": 2910,
-   "y": 1680,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0202",
-   "type": "text",
-   "text": "cognition",
-   "x": 2910,
-   "y": 1775,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0203",
-   "type": "text",
-   "text": "think how you think",
-   "x": 3160,
-   "y": 1775,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0204",
-   "type": "text",
-   "text": "social",
-   "x": 2660,
-   "y": 1965,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0205",
-   "type": "text",
-   "text": "psychology",
-   "x": 2910,
-   "y": 1870,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0206",
-   "type": "text",
-   "text": "communication: verbal / nonverbal",
-   "x": 2910,
-   "y": 1965,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0207",
-   "type": "text",
-   "text": "social intelligent",
-   "x": 2910,
-   "y": 2060,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0208",
-   "type": "text",
-   "text": "how much is seen / needed / wanted",
-   "x": 3160,
-   "y": 2060,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0216",
-   "type": "group",
-   "label": "13. Surveillance",
-   "x": 2600,
-   "y": 2310,
-   "width": 820,
-   "height": 410,
-   "color": "3"
-  },
-  {
-   "id": "n0217",
-   "type": "text",
-   "text": "discomfort",
-   "x": 2660,
-   "y": 2495,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0218",
-   "type": "text",
-   "text": "surveillance",
-   "x": 2910,
-   "y": 2495,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0219",
-   "type": "text",
-   "text": "covering laptop camera",
-   "x": 3160,
-   "y": 2400,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0220",
-   "type": "text",
-   "text": "\"agree to all\"",
-   "x": 3160,
-   "y": 2495,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0221",
-   "type": "text",
-   "text": "WhatsApp listening to me",
-   "x": 3160,
-   "y": 2590,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0226",
-   "type": "group",
-   "label": "14. Useless robot",
-   "x": 2600,
-   "y": 2840,
-   "width": 1570,
-   "height": 410,
-   "color": "3"
-  },
-  {
-   "id": "n0227",
-   "type": "text",
-   "text": "function",
-   "x": 2660,
-   "y": 3001,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0228",
-   "type": "text",
-   "text": "context",
-   "x": 2910,
-   "y": 2930,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0229",
-   "type": "text",
-   "text": "is it needed?",
-   "x": 2910,
-   "y": 3072,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0230",
-   "type": "text",
-   "text": "do we accept more",
-   "x": 3160,
-   "y": 3072,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0231",
-   "type": "text",
-   "text": "what is the function of a useless robot",
-   "x": 3410,
-   "y": 3072,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0232",
-   "type": "text",
-   "text": "art",
-   "x": 3660,
-   "y": 3072,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0233",
-   "type": "text",
-   "text": "dancing robot",
-   "x": 3910,
-   "y": 3025,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0234",
-   "type": "text",
-   "text": "poets / robots",
-   "x": 3910,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0242",
-   "type": "group",
-   "label": "15. Done before (empty template)",
-   "x": 2600,
-   "y": 3370,
-   "width": 820,
-   "height": 505,
-   "color": "3"
-  },
-  {
-   "id": "n0243",
-   "type": "text",
-   "text": "done before",
-   "x": 2660,
-   "y": 3650,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0244",
-   "type": "text",
-   "text": "research area",
-   "x": 2910,
-   "y": 3555,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0245",
-   "type": "text",
-   "text": "what hasn't been done",
-   "x": 3160,
-   "y": 3460,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0246",
-   "type": "text",
-   "text": "what to build on",
-   "x": 3160,
-   "y": 3555,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0247",
-   "type": "text",
-   "text": "what is not great",
-   "x": 3160,
-   "y": 3650,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0248",
-   "type": "text",
-   "text": "discover new ground",
-   "x": 2910,
-   "y": 3745,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0254",
-   "type": "group",
-   "label": "16. AI stack",
-   "x": 5000,
-   "y": 0,
-   "width": 820,
-   "height": 600,
-   "color": "1"
-  },
-  {
-   "id": "n0255",
-   "type": "text",
-   "text": "vision",
-   "x": 5060,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0256",
-   "type": "text",
-   "text": "computer vision",
-   "x": 5310,
-   "y": 90,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0257",
-   "type": "text",
-   "text": "NLP",
-   "x": 5060,
-   "y": 185,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0258",
-   "type": "text",
-   "text": "information",
-   "x": 5310,
-   "y": 185,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0259",
-   "type": "text",
-   "text": "neural networks",
-   "x": 5060,
-   "y": 280,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0260",
-   "type": "text",
-   "text": "reasoning",
-   "x": 5060,
-   "y": 422,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0261",
-   "type": "text",
-   "text": "decision making",
-   "x": 5310,
-   "y": 375,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0262",
-   "type": "text",
-   "text": "understanding",
-   "x": 5310,
-   "y": 470,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0263",
-   "type": "text",
-   "text": "responding",
-   "x": 5560,
-   "y": 470,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0270",
-   "type": "group",
-   "label": "17. Faces and eyes",
-   "x": 5000,
-   "y": 720,
-   "width": 820,
-   "height": 410,
-   "color": "1"
-  },
-  {
-   "id": "n0271",
-   "type": "text",
-   "text": "facial expressions",
-   "x": 5060,
-   "y": 810,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0272",
-   "type": "text",
-   "text": "smile / frown / beautiful",
-   "x": 5310,
-   "y": 810,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0273",
-   "type": "text",
-   "text": "gaze",
-   "x": 5060,
-   "y": 905,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0274",
-   "type": "text",
-   "text": "stare / look / understand",
-   "x": 5310,
-   "y": 905,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0275",
-   "type": "text",
-   "text": "they don't have eyes",
-   "x": 5060,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0276",
-   "type": "text",
-   "text": "window to soul",
-   "x": 5310,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0277",
-   "type": "text",
-   "text": "show intent",
-   "x": 5560,
-   "y": 1000,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0282",
-   "type": "group",
-   "label": "18. Teaching us to be nicer",
-   "x": 5000,
-   "y": 1250,
-   "width": 1570,
-   "height": 410,
-   "color": "1"
-  },
-  {
-   "id": "n0283",
-   "type": "text",
-   "text": "who?",
-   "x": 5060,
-   "y": 1387,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0284",
-   "type": "text",
-   "text": "education figures",
-   "x": 5310,
-   "y": 1387,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0285",
-   "type": "text",
-   "text": "our founding fathers",
-   "x": 5560,
-   "y": 1387,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0286",
-   "type": "text",
-   "text": "teaching us to be nicer",
-   "x": 5810,
-   "y": 1387,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0287",
-   "type": "text",
-   "text": "make someone more empathic",
-   "x": 6060,
-   "y": 1340,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0288",
-   "type": "text",
-   "text": "less racist",
-   "x": 6310,
-   "y": 1340,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0289",
-   "type": "text",
-   "text": "to strangers",
-   "x": 6060,
-   "y": 1435,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0290",
-   "type": "text",
-   "text": "greeting machine",
-   "x": 6310,
-   "y": 1435,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0291",
-   "type": "text",
-   "text": "we need to replace caregivers",
-   "x": 5060,
-   "y": 1530,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0292",
-   "type": "text",
-   "text": "why?",
-   "x": 5310,
-   "y": 1530,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0301",
-   "type": "group",
-   "label": "19. Children growing up with AI",
-   "x": 5000,
-   "y": 1780,
-   "width": 570,
-   "height": 315,
-   "color": "1"
-  },
-  {
-   "id": "n0302",
-   "type": "text",
-   "text": "children growing up with AI",
-   "x": 5060,
-   "y": 1917,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0303",
-   "type": "text",
-   "text": "saving thoughts from childhood",
-   "x": 5310,
-   "y": 1870,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0304",
-   "type": "text",
-   "text": "how was your day \"fun\"",
-   "x": 5310,
-   "y": 1965,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0307",
-   "type": "group",
-   "label": "20. Beings and machines",
-   "x": 5000,
-   "y": 2215,
-   "width": 820,
-   "height": 695,
-   "color": "1"
-  },
-  {
-   "id": "n0308",
-   "type": "text",
-   "text": "beings",
-   "x": 5060,
-   "y": 2376,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0309",
-   "type": "text",
-   "text": "born",
-   "x": 5310,
-   "y": 2305,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0310",
-   "type": "text",
-   "text": "baby",
-   "x": 5560,
-   "y": 2305,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0311",
-   "type": "text",
-   "text": "man made",
-   "x": 5310,
-   "y": 2447,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0312",
-   "type": "text",
-   "text": "rituals",
-   "x": 5560,
-   "y": 2400,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0313",
-   "type": "text",
-   "text": "old vs new",
-   "x": 5560,
-   "y": 2495,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0314",
-   "type": "text",
-   "text": "machines",
-   "x": 5060,
-   "y": 2685,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0315",
-   "type": "text",
-   "text": "repetitive",
-   "x": 5310,
-   "y": 2590,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0316",
-   "type": "text",
-   "text": "dangerous / boring / the same",
-   "x": 5560,
-   "y": 2590,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0317",
-   "type": "text",
-   "text": "factory",
-   "x": 5310,
-   "y": 2685,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0318",
-   "type": "text",
-   "text": "create themselves",
-   "x": 5310,
-   "y": 2780,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0328",
-   "type": "group",
-   "label": "21. Loose adjectives",
-   "x": 5000,
-   "y": 3030,
-   "width": 820,
-   "height": 410,
-   "color": "1"
-  },
-  {
-   "id": "n0329",
-   "type": "text",
-   "text": "interaction",
-   "x": 5060,
-   "y": 3215,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0330",
-   "type": "text",
-   "text": "nice",
-   "x": 5310,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0331",
-   "type": "text",
-   "text": "empathic",
-   "x": 5560,
-   "y": 3120,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0332",
-   "type": "text",
-   "text": "rich",
-   "x": 5310,
-   "y": 3215,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0333",
-   "type": "text",
-   "text": "poor / lame",
-   "x": 5560,
-   "y": 3215,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0334",
-   "type": "text",
-   "text": "greet",
-   "x": 5310,
-   "y": 3310,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0335",
-   "type": "text",
-   "text": "hello / hi / have a nice day",
-   "x": 5560,
-   "y": 3310,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0342",
-   "type": "group",
-   "label": "22. The critical node",
-   "x": 5000,
-   "y": 3560,
-   "width": 570,
-   "height": 410,
-   "color": "1"
-  },
-  {
-   "id": "n0343",
-   "type": "text",
-   "text": "white dudes making machines to replace their mothers",
-   "x": 5060,
-   "y": 3745,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0344",
-   "type": "text",
-   "text": "god",
-   "x": 5310,
-   "y": 3650,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0345",
-   "type": "text",
-   "text": "Adam & Eve",
-   "x": 5310,
-   "y": 3745,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0346",
-   "type": "text",
-   "text": "why?",
-   "x": 5310,
-   "y": 3840,
-   "width": 200,
-   "height": 70
-  },
-  {
-   "id": "n0350",
-   "type": "text",
-   "text": "# TIER 1: keep, the spine",
-   "x": 0,
-   "y": -220,
-   "width": 700,
-   "height": 120,
-   "color": "4"
-  },
-  {
-   "id": "n0351",
-   "type": "text",
-   "text": "# TIER 2: keep, secondary",
-   "x": 2600,
-   "y": -220,
-   "width": 700,
-   "height": 120,
-   "color": "3"
-  },
-  {
-   "id": "n0352",
-   "type": "text",
-   "text": "# TIER 3: cut or park",
-   "x": 5000,
-   "y": -220,
-   "width": 700,
-   "height": 120,
-   "color": "1"
-  },
-  {
-   "id": "n0353",
-   "type": "text",
-   "text": "## A machine moving near me, and whether it shows that it noticed me",
-   "x": -2200,
-   "y": 600,
-   "width": 420,
-   "height": 180,
-   "color": "6"
-  },
-  {
-   "id": "n0354",
-   "type": "text",
-   "text": "### What goes wrong",
-   "x": -1550,
-   "y": 100,
-   "width": 300,
-   "height": 90,
-   "color": "5"
-  },
-  {
-   "id": "n0356",
-   "type": "text",
-   "text": "### What has been done",
-   "x": -1550,
-   "y": 800,
-   "width": 300,
-   "height": 90,
-   "color": "5"
-  },
-  {
-   "id": "n0358",
-   "type": "text",
-   "text": "### What I would build",
-   "x": -1550,
-   "y": 1400,
-   "width": 300,
-   "height": 90,
-   "color": "5"
-  }
- ],
- "edges": [
-  {
-   "id": "n0008",
-   "fromNode": "n0001",
-   "fromSide": "right",
-   "toNode": "n0002",
-   "toSide": "left"
-  },
-  {
-   "id": "n0009",
-   "fromNode": "n0002",
-   "fromSide": "right",
-   "toNode": "n0003",
-   "toSide": "left"
-  },
-  {
-   "id": "n0010",
-   "fromNode": "n0003",
-   "fromSide": "right",
-   "toNode": "n0004",
-   "toSide": "left"
-  },
-  {
-   "id": "n0011",
-   "fromNode": "n0004",
-   "fromSide": "right",
-   "toNode": "n0005",
-   "toSide": "left"
-  },
-  {
-   "id": "n0012",
-   "fromNode": "n0005",
-   "fromSide": "right",
-   "toNode": "n0006",
-   "toSide": "left"
-  },
-  {
-   "id": "n0013",
-   "fromNode": "n0006",
-   "fromSide": "right",
-   "toNode": "n0007",
-   "toSide": "left"
-  },
-  {
-   "id": "n0025",
-   "fromNode": "n0015",
-   "fromSide": "right",
-   "toNode": "n0016",
-   "toSide": "left"
-  },
-  {
-   "id": "n0026",
-   "fromNode": "n0016",
-   "fromSide": "right",
-   "toNode": "n0017",
-   "toSide": "left"
-  },
-  {
-   "id": "n0027",
-   "fromNode": "n0017",
-   "fromSide": "right",
-   "toNode": "n0018",
-   "toSide": "left"
-  },
-  {
-   "id": "n0028",
-   "fromNode": "n0017",
-   "fromSide": "right",
-   "toNode": "n0019",
-   "toSide": "left"
-  },
-  {
-   "id": "n0029",
-   "fromNode": "n0017",
-   "fromSide": "right",
-   "toNode": "n0020",
-   "toSide": "left"
-  },
-  {
-   "id": "n0030",
-   "fromNode": "n0017",
-   "fromSide": "right",
-   "toNode": "n0021",
-   "toSide": "left"
-  },
-  {
-   "id": "n0031",
-   "fromNode": "n0021",
-   "fromSide": "right",
-   "toNode": "n0022",
-   "toSide": "left"
-  },
-  {
-   "id": "n0032",
-   "fromNode": "n0017",
-   "fromSide": "right",
-   "toNode": "n0023",
-   "toSide": "left"
-  },
-  {
-   "id": "n0033",
-   "fromNode": "n0023",
-   "fromSide": "right",
-   "toNode": "n0024",
-   "toSide": "left"
-  },
-  {
-   "id": "n0044",
-   "fromNode": "n0035",
-   "fromSide": "right",
-   "toNode": "n0036",
-   "toSide": "left"
-  },
-  {
-   "id": "n0045",
-   "fromNode": "n0036",
-   "fromSide": "right",
-   "toNode": "n0037",
-   "toSide": "left"
-  },
-  {
-   "id": "n0046",
-   "fromNode": "n0037",
-   "fromSide": "right",
-   "toNode": "n0038",
-   "toSide": "left"
-  },
-  {
-   "id": "n0047",
-   "fromNode": "n0038",
-   "fromSide": "right",
-   "toNode": "n0039",
-   "toSide": "left"
-  },
-  {
-   "id": "n0048",
-   "fromNode": "n0040",
-   "fromSide": "right",
-   "toNode": "n0041",
-   "toSide": "left"
-  },
-  {
-   "id": "n0049",
-   "fromNode": "n0043",
-   "fromSide": "right",
-   "toNode": "n0041",
-   "toSide": "left"
-  },
-  {
-   "id": "n0050",
-   "fromNode": "n0041",
-   "fromSide": "right",
-   "toNode": "n0042",
-   "toSide": "left"
-  },
-  {
-   "id": "n0059",
-   "fromNode": "n0052",
-   "fromSide": "right",
-   "toNode": "n0053",
-   "toSide": "left"
-  },
-  {
-   "id": "n0060",
-   "fromNode": "n0053",
-   "fromSide": "right",
-   "toNode": "n0054",
-   "toSide": "left"
-  },
-  {
-   "id": "n0061",
-   "fromNode": "n0054",
-   "fromSide": "right",
-   "toNode": "n0055",
-   "toSide": "left"
-  },
-  {
-   "id": "n0062",
-   "fromNode": "n0054",
-   "fromSide": "right",
-   "toNode": "n0056",
-   "toSide": "left"
-  },
-  {
-   "id": "n0063",
-   "fromNode": "n0054",
-   "fromSide": "right",
-   "toNode": "n0057",
-   "toSide": "left"
-  },
-  {
-   "id": "n0064",
-   "fromNode": "n0054",
-   "fromSide": "right",
-   "toNode": "n0058",
-   "toSide": "left"
-  },
-  {
-   "id": "n0073",
-   "fromNode": "n0066",
-   "fromSide": "right",
-   "toNode": "n0067",
-   "toSide": "left"
-  },
-  {
-   "id": "n0074",
-   "fromNode": "n0067",
-   "fromSide": "right",
-   "toNode": "n0068",
-   "toSide": "left"
-  },
-  {
-   "id": "n0075",
-   "fromNode": "n0068",
-   "fromSide": "right",
-   "toNode": "n0069",
-   "toSide": "left"
-  },
-  {
-   "id": "n0076",
-   "fromNode": "n0068",
-   "fromSide": "right",
-   "toNode": "n0070",
-   "toSide": "left"
-  },
-  {
-   "id": "n0077",
-   "fromNode": "n0068",
-   "fromSide": "right",
-   "toNode": "n0071",
-   "toSide": "left"
-  },
-  {
-   "id": "n0078",
-   "fromNode": "n0068",
-   "fromSide": "right",
-   "toNode": "n0072",
-   "toSide": "left"
-  },
-  {
-   "id": "n0098",
-   "fromNode": "n0080",
-   "fromSide": "right",
-   "toNode": "n0081",
-   "toSide": "left"
-  },
-  {
-   "id": "n0099",
-   "fromNode": "n0080",
-   "fromSide": "right",
-   "toNode": "n0082",
-   "toSide": "left"
-  },
-  {
-   "id": "n0100",
-   "fromNode": "n0082",
-   "fromSide": "right",
-   "toNode": "n0083",
-   "toSide": "left"
-  },
-  {
-   "id": "n0101",
-   "fromNode": "n0083",
-   "fromSide": "right",
-   "toNode": "n0084",
-   "toSide": "left"
-  },
-  {
-   "id": "n0102",
-   "fromNode": "n0083",
-   "fromSide": "right",
-   "toNode": "n0085",
-   "toSide": "left"
-  },
-  {
-   "id": "n0103",
-   "fromNode": "n0083",
-   "fromSide": "right",
-   "toNode": "n0086",
-   "toSide": "left"
-  },
-  {
-   "id": "n0104",
-   "fromNode": "n0080",
-   "fromSide": "right",
-   "toNode": "n0087",
-   "toSide": "left"
-  },
-  {
-   "id": "n0105",
-   "fromNode": "n0087",
-   "fromSide": "right",
-   "toNode": "n0088",
-   "toSide": "left"
-  },
-  {
-   "id": "n0106",
-   "fromNode": "n0087",
-   "fromSide": "right",
-   "toNode": "n0089",
-   "toSide": "left"
-  },
-  {
-   "id": "n0107",
-   "fromNode": "n0080",
-   "fromSide": "right",
-   "toNode": "n0090",
-   "toSide": "left"
-  },
-  {
-   "id": "n0108",
-   "fromNode": "n0090",
-   "fromSide": "right",
-   "toNode": "n0091",
-   "toSide": "left"
-  },
-  {
-   "id": "n0109",
-   "fromNode": "n0080",
-   "fromSide": "right",
-   "toNode": "n0092",
-   "toSide": "left"
-  },
-  {
-   "id": "n0110",
-   "fromNode": "n0092",
-   "fromSide": "right",
-   "toNode": "n0093",
-   "toSide": "left"
-  },
-  {
-   "id": "n0111",
-   "fromNode": "n0093",
-   "fromSide": "right",
-   "toNode": "n0094",
-   "toSide": "left"
-  },
-  {
-   "id": "n0112",
-   "fromNode": "n0094",
-   "fromSide": "right",
-   "toNode": "n0095",
-   "toSide": "left"
-  },
-  {
-   "id": "n0113",
-   "fromNode": "n0095",
-   "fromSide": "right",
-   "toNode": "n0096",
-   "toSide": "left"
-  },
-  {
-   "id": "n0114",
-   "fromNode": "n0093",
-   "fromSide": "right",
-   "toNode": "n0097",
-   "toSide": "left"
-  },
-  {
-   "id": "n0126",
-   "fromNode": "n0116",
-   "fromSide": "right",
-   "toNode": "n0117",
-   "toSide": "left"
-  },
-  {
-   "id": "n0127",
-   "fromNode": "n0117",
-   "fromSide": "right",
-   "toNode": "n0118",
-   "toSide": "left"
-  },
-  {
-   "id": "n0128",
-   "fromNode": "n0118",
-   "fromSide": "right",
-   "toNode": "n0119",
-   "toSide": "left"
-  },
-  {
-   "id": "n0129",
-   "fromNode": "n0119",
-   "fromSide": "right",
-   "toNode": "n0120",
-   "toSide": "left"
-  },
-  {
-   "id": "n0130",
-   "fromNode": "n0119",
-   "fromSide": "right",
-   "toNode": "n0121",
-   "toSide": "left"
-  },
-  {
-   "id": "n0131",
-   "fromNode": "n0119",
-   "fromSide": "right",
-   "toNode": "n0122",
-   "toSide": "left"
-  },
-  {
-   "id": "n0132",
-   "fromNode": "n0119",
-   "fromSide": "right",
-   "toNode": "n0123",
-   "toSide": "left"
-  },
-  {
-   "id": "n0133",
-   "fromNode": "n0119",
-   "fromSide": "right",
-   "toNode": "n0124",
-   "toSide": "left"
-  },
-  {
-   "id": "n0134",
-   "fromNode": "n0124",
-   "fromSide": "right",
-   "toNode": "n0125",
-   "toSide": "left"
-  },
-  {
-   "id": "n0149",
-   "fromNode": "n0136",
-   "fromSide": "right",
-   "toNode": "n0137",
-   "toSide": "left"
-  },
-  {
-   "id": "n0150",
-   "fromNode": "n0137",
-   "fromSide": "right",
-   "toNode": "n0138",
-   "toSide": "left"
-  },
-  {
-   "id": "n0151",
-   "fromNode": "n0137",
-   "fromSide": "right",
-   "toNode": "n0139",
-   "toSide": "left"
-  },
-  {
-   "id": "n0152",
-   "fromNode": "n0140",
-   "fromSide": "right",
-   "toNode": "n0141",
-   "toSide": "left"
-  },
-  {
-   "id": "n0153",
-   "fromNode": "n0140",
-   "fromSide": "right",
-   "toNode": "n0142",
-   "toSide": "left"
-  },
-  {
-   "id": "n0154",
-   "fromNode": "n0140",
-   "fromSide": "right",
-   "toNode": "n0143",
-   "toSide": "left"
-  },
-  {
-   "id": "n0155",
-   "fromNode": "n0143",
-   "fromSide": "right",
-   "toNode": "n0144",
-   "toSide": "left"
-  },
-  {
-   "id": "n0156",
-   "fromNode": "n0140",
-   "fromSide": "right",
-   "toNode": "n0145",
-   "toSide": "left"
-  },
-  {
-   "id": "n0157",
-   "fromNode": "n0140",
-   "fromSide": "right",
-   "toNode": "n0146",
-   "toSide": "left"
-  },
-  {
-   "id": "n0158",
-   "fromNode": "n0146",
-   "fromSide": "right",
-   "toNode": "n0147",
-   "toSide": "left"
-  },
-  {
-   "id": "n0159",
-   "fromNode": "n0146",
-   "fromSide": "right",
-   "toNode": "n0148",
-   "toSide": "left"
-  },
-  {
-   "id": "n0171",
-   "fromNode": "n0161",
-   "fromSide": "right",
-   "toNode": "n0162",
-   "toSide": "left"
-  },
-  {
-   "id": "n0172",
-   "fromNode": "n0161",
-   "fromSide": "right",
-   "toNode": "n0163",
-   "toSide": "left"
-  },
-  {
-   "id": "n0173",
-   "fromNode": "n0161",
-   "fromSide": "right",
-   "toNode": "n0164",
-   "toSide": "left"
-  },
-  {
-   "id": "n0174",
-   "fromNode": "n0164",
-   "fromSide": "right",
-   "toNode": "n0165",
-   "toSide": "left"
-  },
-  {
-   "id": "n0175",
-   "fromNode": "n0165",
-   "fromSide": "right",
-   "toNode": "n0166",
-   "toSide": "left"
-  },
-  {
-   "id": "n0176",
-   "fromNode": "n0165",
-   "fromSide": "right",
-   "toNode": "n0167",
-   "toSide": "left"
-  },
-  {
-   "id": "n0177",
-   "fromNode": "n0167",
-   "fromSide": "right",
-   "toNode": "n0168",
-   "toSide": "left"
-  },
-  {
-   "id": "n0178",
-   "fromNode": "n0169",
-   "fromSide": "right",
-   "toNode": "n0170",
-   "toSide": "left"
-  },
-  {
-   "id": "n0188",
-   "fromNode": "n0180",
-   "fromSide": "right",
-   "toNode": "n0181",
-   "toSide": "left"
-  },
-  {
-   "id": "n0189",
-   "fromNode": "n0181",
-   "fromSide": "right",
-   "toNode": "n0182",
-   "toSide": "left"
-  },
-  {
-   "id": "n0190",
-   "fromNode": "n0181",
-   "fromSide": "right",
-   "toNode": "n0183",
-   "toSide": "left"
-  },
-  {
-   "id": "n0191",
-   "fromNode": "n0181",
-   "fromSide": "right",
-   "toNode": "n0184",
-   "toSide": "left"
-  },
-  {
-   "id": "n0192",
-   "fromNode": "n0184",
-   "fromSide": "right",
-   "toNode": "n0185",
-   "toSide": "left"
-  },
-  {
-   "id": "n0193",
-   "fromNode": "n0185",
-   "fromSide": "right",
-   "toNode": "n0186",
-   "toSide": "left"
-  },
-  {
-   "id": "n0194",
-   "fromNode": "n0186",
-   "fromSide": "right",
-   "toNode": "n0187",
-   "toSide": "left"
-  },
-  {
-   "id": "n0198",
-   "fromNode": "n0196",
-   "fromSide": "right",
-   "toNode": "n0197",
-   "toSide": "left"
-  },
-  {
-   "id": "n0209",
-   "fromNode": "n0200",
-   "fromSide": "right",
-   "toNode": "n0201",
-   "toSide": "left"
-  },
-  {
-   "id": "n0210",
-   "fromNode": "n0200",
-   "fromSide": "right",
-   "toNode": "n0202",
-   "toSide": "left"
-  },
-  {
-   "id": "n0211",
-   "fromNode": "n0202",
-   "fromSide": "right",
-   "toNode": "n0203",
-   "toSide": "left"
-  },
-  {
-   "id": "n0212",
-   "fromNode": "n0204",
-   "fromSide": "right",
-   "toNode": "n0205",
-   "toSide": "left"
-  },
-  {
-   "id": "n0213",
-   "fromNode": "n0204",
-   "fromSide": "right",
-   "toNode": "n0206",
-   "toSide": "left"
-  },
-  {
-   "id": "n0214",
-   "fromNode": "n0204",
-   "fromSide": "right",
-   "toNode": "n0207",
-   "toSide": "left"
-  },
-  {
-   "id": "n0215",
-   "fromNode": "n0207",
-   "fromSide": "right",
-   "toNode": "n0208",
-   "toSide": "left"
-  },
-  {
-   "id": "n0222",
-   "fromNode": "n0217",
-   "fromSide": "right",
-   "toNode": "n0218",
-   "toSide": "left"
-  },
-  {
-   "id": "n0223",
-   "fromNode": "n0218",
-   "fromSide": "right",
-   "toNode": "n0219",
-   "toSide": "left"
-  },
-  {
-   "id": "n0224",
-   "fromNode": "n0218",
-   "fromSide": "right",
-   "toNode": "n0220",
-   "toSide": "left"
-  },
-  {
-   "id": "n0225",
-   "fromNode": "n0218",
-   "fromSide": "right",
-   "toNode": "n0221",
-   "toSide": "left"
-  },
-  {
-   "id": "n0235",
-   "fromNode": "n0227",
-   "fromSide": "right",
-   "toNode": "n0228",
-   "toSide": "left"
-  },
-  {
-   "id": "n0236",
-   "fromNode": "n0227",
-   "fromSide": "right",
-   "toNode": "n0229",
-   "toSide": "left"
-  },
-  {
-   "id": "n0237",
-   "fromNode": "n0229",
-   "fromSide": "right",
-   "toNode": "n0230",
-   "toSide": "left"
-  },
-  {
-   "id": "n0238",
-   "fromNode": "n0230",
-   "fromSide": "right",
-   "toNode": "n0231",
-   "toSide": "left"
-  },
-  {
-   "id": "n0239",
-   "fromNode": "n0231",
-   "fromSide": "right",
-   "toNode": "n0232",
-   "toSide": "left"
-  },
-  {
-   "id": "n0240",
-   "fromNode": "n0232",
-   "fromSide": "right",
-   "toNode": "n0233",
-   "toSide": "left"
-  },
-  {
-   "id": "n0241",
-   "fromNode": "n0232",
-   "fromSide": "right",
-   "toNode": "n0234",
-   "toSide": "left"
-  },
-  {
-   "id": "n0249",
-   "fromNode": "n0243",
-   "fromSide": "right",
-   "toNode": "n0244",
-   "toSide": "left"
-  },
-  {
-   "id": "n0250",
-   "fromNode": "n0244",
-   "fromSide": "right",
-   "toNode": "n0245",
-   "toSide": "left"
-  },
-  {
-   "id": "n0251",
-   "fromNode": "n0244",
-   "fromSide": "right",
-   "toNode": "n0246",
-   "toSide": "left"
-  },
-  {
-   "id": "n0252",
-   "fromNode": "n0244",
-   "fromSide": "right",
-   "toNode": "n0247",
-   "toSide": "left"
-  },
-  {
-   "id": "n0253",
-   "fromNode": "n0243",
-   "fromSide": "right",
-   "toNode": "n0248",
-   "toSide": "left"
-  },
-  {
-   "id": "n0264",
-   "fromNode": "n0255",
-   "fromSide": "right",
-   "toNode": "n0256",
-   "toSide": "left"
-  },
-  {
-   "id": "n0265",
-   "fromNode": "n0257",
-   "fromSide": "right",
-   "toNode": "n0258",
-   "toSide": "left"
-  },
-  {
-   "id": "n0266",
-   "fromNode": "n0259",
-   "fromSide": "right",
-   "toNode": "n0258",
-   "toSide": "left"
-  },
-  {
-   "id": "n0267",
-   "fromNode": "n0260",
-   "fromSide": "right",
-   "toNode": "n0261",
-   "toSide": "left"
-  },
-  {
-   "id": "n0268",
-   "fromNode": "n0260",
-   "fromSide": "right",
-   "toNode": "n0262",
-   "toSide": "left"
-  },
-  {
-   "id": "n0269",
-   "fromNode": "n0262",
-   "fromSide": "right",
-   "toNode": "n0263",
-   "toSide": "left"
-  },
-  {
-   "id": "n0278",
-   "fromNode": "n0271",
-   "fromSide": "right",
-   "toNode": "n0272",
-   "toSide": "left"
-  },
-  {
-   "id": "n0279",
-   "fromNode": "n0273",
-   "fromSide": "right",
-   "toNode": "n0274",
-   "toSide": "left"
-  },
-  {
-   "id": "n0280",
-   "fromNode": "n0275",
-   "fromSide": "right",
-   "toNode": "n0276",
-   "toSide": "left"
-  },
-  {
-   "id": "n0281",
-   "fromNode": "n0276",
-   "fromSide": "right",
-   "toNode": "n0277",
-   "toSide": "left"
-  },
-  {
-   "id": "n0293",
-   "fromNode": "n0286",
-   "fromSide": "right",
-   "toNode": "n0287",
-   "toSide": "left"
-  },
-  {
-   "id": "n0294",
-   "fromNode": "n0287",
-   "fromSide": "right",
-   "toNode": "n0288",
-   "toSide": "left"
-  },
-  {
-   "id": "n0295",
-   "fromNode": "n0286",
-   "fromSide": "right",
-   "toNode": "n0289",
-   "toSide": "left"
-  },
-  {
-   "id": "n0296",
-   "fromNode": "n0289",
-   "fromSide": "right",
-   "toNode": "n0290",
-   "toSide": "left"
-  },
-  {
-   "id": "n0297",
-   "fromNode": "n0284",
-   "fromSide": "right",
-   "toNode": "n0285",
-   "toSide": "left"
-  },
-  {
-   "id": "n0298",
-   "fromNode": "n0285",
-   "fromSide": "right",
-   "toNode": "n0286",
-   "toSide": "left"
-  },
-  {
-   "id": "n0299",
-   "fromNode": "n0283",
-   "fromSide": "right",
-   "toNode": "n0284",
-   "toSide": "left"
-  },
-  {
-   "id": "n0300",
-   "fromNode": "n0291",
-   "fromSide": "right",
-   "toNode": "n0292",
-   "toSide": "left"
-  },
-  {
-   "id": "n0305",
-   "fromNode": "n0302",
-   "fromSide": "right",
-   "toNode": "n0303",
-   "toSide": "left"
-  },
-  {
-   "id": "n0306",
-   "fromNode": "n0302",
-   "fromSide": "right",
-   "toNode": "n0304",
-   "toSide": "left"
-  },
-  {
-   "id": "n0319",
-   "fromNode": "n0308",
-   "fromSide": "right",
-   "toNode": "n0309",
-   "toSide": "left"
-  },
-  {
-   "id": "n0320",
-   "fromNode": "n0309",
-   "fromSide": "right",
-   "toNode": "n0310",
-   "toSide": "left"
-  },
-  {
-   "id": "n0321",
-   "fromNode": "n0308",
-   "fromSide": "right",
-   "toNode": "n0311",
-   "toSide": "left"
-  },
-  {
-   "id": "n0322",
-   "fromNode": "n0311",
-   "fromSide": "right",
-   "toNode": "n0312",
-   "toSide": "left"
-  },
-  {
-   "id": "n0323",
-   "fromNode": "n0311",
-   "fromSide": "right",
-   "toNode": "n0313",
-   "toSide": "left"
-  },
-  {
-   "id": "n0324",
-   "fromNode": "n0314",
-   "fromSide": "right",
-   "toNode": "n0315",
-   "toSide": "left"
-  },
-  {
-   "id": "n0325",
-   "fromNode": "n0314",
-   "fromSide": "right",
-   "toNode": "n0317",
-   "toSide": "left"
-  },
-  {
-   "id": "n0326",
-   "fromNode": "n0314",
-   "fromSide": "right",
-   "toNode": "n0318",
-   "toSide": "left"
-  },
-  {
-   "id": "n0327",
-   "fromNode": "n0315",
-   "fromSide": "right",
-   "toNode": "n0316",
-   "toSide": "left"
-  },
-  {
-   "id": "n0336",
-   "fromNode": "n0329",
-   "fromSide": "right",
-   "toNode": "n0330",
-   "toSide": "left"
-  },
-  {
-   "id": "n0337",
-   "fromNode": "n0330",
-   "fromSide": "right",
-   "toNode": "n0331",
-   "toSide": "left"
-  },
-  {
-   "id": "n0338",
-   "fromNode": "n0329",
-   "fromSide": "right",
-   "toNode": "n0332",
-   "toSide": "left"
-  },
-  {
-   "id": "n0339",
-   "fromNode": "n0332",
-   "fromSide": "right",
-   "toNode": "n0333",
-   "toSide": "left"
-  },
-  {
-   "id": "n0340",
-   "fromNode": "n0329",
-   "fromSide": "right",
-   "toNode": "n0334",
-   "toSide": "left"
-  },
-  {
-   "id": "n0341",
-   "fromNode": "n0334",
-   "fromSide": "right",
-   "toNode": "n0335",
-   "toSide": "left"
-  },
-  {
-   "id": "n0347",
-   "fromNode": "n0343",
-   "fromSide": "right",
-   "toNode": "n0344",
-   "toSide": "left"
-  },
-  {
-   "id": "n0348",
-   "fromNode": "n0343",
-   "fromSide": "right",
-   "toNode": "n0345",
-   "toSide": "left"
-  },
-  {
-   "id": "n0349",
-   "fromNode": "n0343",
-   "fromSide": "right",
-   "toNode": "n0346",
-   "toSide": "left"
-  },
-  {
-   "id": "n0355",
-   "fromNode": "n0353",
-   "fromSide": "right",
-   "toNode": "n0354",
-   "toSide": "left"
-  },
-  {
-   "id": "n0357",
-   "fromNode": "n0353",
-   "fromSide": "right",
-   "toNode": "n0356",
-   "toSide": "left"
-  },
-  {
-   "id": "n0359",
-   "fromNode": "n0353",
-   "fromSide": "right",
-   "toNode": "n0358",
-   "toSide": "left"
-  },
-  {
-   "id": "n0360",
-   "fromNode": "n0354",
-   "fromSide": "right",
-   "toNode": "n0000",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0361",
-   "fromNode": "n0354",
-   "fromSide": "right",
-   "toNode": "n0051",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0362",
-   "fromNode": "n0354",
-   "fromSide": "right",
-   "toNode": "n0065",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0363",
-   "fromNode": "n0354",
-   "fromSide": "right",
-   "toNode": "n0079",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0364",
-   "fromNode": "n0354",
-   "fromSide": "right",
-   "toNode": "n0216",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0365",
-   "fromNode": "n0356",
-   "fromSide": "right",
-   "toNode": "n0242",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0366",
-   "fromNode": "n0358",
-   "fromSide": "right",
-   "toNode": "n0014",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0367",
-   "fromNode": "n0358",
-   "fromSide": "right",
-   "toNode": "n0034",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0368",
-   "fromNode": "n0358",
-   "fromSide": "right",
-   "toNode": "n0115",
-   "toSide": "left",
-   "color": "5"
-  },
-  {
-   "id": "n0369",
-   "fromNode": "n0358",
-   "fromSide": "right",
-   "toNode": "n0135",
-   "toSide": "left",
-   "color": "5"
-  }
- ]
+	"nodes":[
+		{"id":"n0000","type":"group","label":"1. The dog","x":0,"y":0,"width":1820,"height":220,"color":"4"},
+		{"id":"n0001","type":"text","text":"what is bad about robots","x":60,"y":90,"width":200,"height":70},
+		{"id":"n0002","type":"text","text":"we want the robot to do something","x":310,"y":90,"width":200,"height":70},
+		{"id":"n0003","type":"text","text":"we want things to be nice to us","x":560,"y":90,"width":200,"height":70},
+		{"id":"n0004","type":"text","text":"when a dog wants to play and I don't","x":810,"y":90,"width":200,"height":70},
+		{"id":"n0005","type":"text","text":"not being in the same mood","x":1060,"y":90,"width":200,"height":70},
+		{"id":"n0006","type":"text","text":"closing up","x":1310,"y":90,"width":200,"height":70},
+		{"id":"n0007","type":"text","text":"not seeing who is in front of me","x":1560,"y":90,"width":200,"height":70},
+		{"id":"n0014","type":"group","label":"2. Acknowledgment","x":0,"y":340,"width":1320,"height":600,"color":"4"},
+		{"id":"n0015","type":"text","text":"interaction","x":60,"y":620,"width":200,"height":70},
+		{"id":"n0016","type":"text","text":"think & respond","x":310,"y":620,"width":200,"height":70},
+		{"id":"n0017","type":"text","text":"behavior","x":560,"y":620,"width":200,"height":70},
+		{"id":"n0018","type":"text","text":"attentiveness","x":810,"y":430,"width":200,"height":70},
+		{"id":"n0019","type":"text","text":"curiosity","x":810,"y":525,"width":200,"height":70},
+		{"id":"n0020","type":"text","text":"hesitation","x":810,"y":620,"width":200,"height":70},
+		{"id":"n0021","type":"text","text":"acknowledgment","x":810,"y":715,"width":200,"height":70},
+		{"id":"n0022","type":"text","text":"wanting to be together","x":1060,"y":715,"width":200,"height":70},
+		{"id":"n0023","type":"text","text":"caring for","x":810,"y":810,"width":200,"height":70},
+		{"id":"n0024","type":"text","text":"feeling comfortable with","x":1060,"y":810,"width":200,"height":70},
+		{"id":"n0034","type":"group","label":"3. Legibility cluster","x":0,"y":1060,"width":1320,"height":410,"color":"4"},
+		{"id":"n0035","type":"text","text":"waiving hand","x":60,"y":1150,"width":200,"height":70},
+		{"id":"n0036","type":"text","text":"servo moving","x":310,"y":1150,"width":200,"height":70},
+		{"id":"n0037","type":"text","text":"readability","x":560,"y":1150,"width":200,"height":70},
+		{"id":"n0038","type":"text","text":"seeing intent","x":810,"y":1150,"width":200,"height":70},
+		{"id":"n0039","type":"text","text":"sloths","x":1060,"y":1150,"width":200,"height":70},
+		{"id":"n0040","type":"text","text":"timing","x":60,"y":1245,"width":200,"height":70},
+		{"id":"n0041","type":"text","text":"legibility","x":310,"y":1245,"width":200,"height":70},
+		{"id":"n0042","type":"text","text":"kinematic","x":560,"y":1245,"width":200,"height":70},
+		{"id":"n0043","type":"text","text":"anticipation","x":60,"y":1340,"width":200,"height":70},
+		{"id":"n0051","type":"group","label":"4. Hurt my baby","x":0,"y":1590,"width":1070,"height":505,"color":"4"},
+		{"id":"n0052","type":"text","text":"what is bad about robots","x":60,"y":1822,"width":200,"height":70},
+		{"id":"n0053","type":"text","text":"anger","x":310,"y":1822,"width":200,"height":70},
+		{"id":"n0054","type":"text","text":"breakdown","x":560,"y":1822,"width":200,"height":70},
+		{"id":"n0055","type":"text","text":"fear","x":810,"y":1680,"width":200,"height":70},
+		{"id":"n0056","type":"text","text":"hurt my baby","x":810,"y":1775,"width":200,"height":70},
+		{"id":"n0057","type":"text","text":"feeling safety","x":810,"y":1870,"width":200,"height":70},
+		{"id":"n0058","type":"text","text":"reliability","x":810,"y":1965,"width":200,"height":70},
+		{"id":"n0065","type":"group","label":"5. Feel more comfortable","x":0,"y":2215,"width":1070,"height":505,"color":"4"},
+		{"id":"n0066","type":"text","text":"what is bad about robots","x":60,"y":2447,"width":200,"height":70},
+		{"id":"n0067","type":"text","text":"love / wonder","x":310,"y":2447,"width":200,"height":70},
+		{"id":"n0068","type":"text","text":"feel more comfortable","x":560,"y":2447,"width":200,"height":70},
+		{"id":"n0069","type":"text","text":"when?","x":810,"y":2305,"width":200,"height":70},
+		{"id":"n0070","type":"text","text":"why?","x":810,"y":2400,"width":200,"height":70},
+		{"id":"n0071","type":"text","text":"where?","x":810,"y":2495,"width":200,"height":70},
+		{"id":"n0072","type":"text","text":"with whom?","x":810,"y":2590,"width":200,"height":70},
+		{"id":"n0079","type":"group","label":"6. What is bad about robots (hub)","x":0,"y":2840,"width":1570,"height":980,"color":"4"},
+		{"id":"n0080","type":"text","text":"what is bad about robots","x":60,"y":3310,"width":200,"height":70},
+		{"id":"n0081","type":"text","text":"robots come in coffins","x":310,"y":2930,"width":200,"height":70},
+		{"id":"n0082","type":"text","text":"all the same","x":310,"y":3120,"width":200,"height":70},
+		{"id":"n0083","type":"text","text":"I want to be like everyone","x":560,"y":3120,"width":200,"height":70},
+		{"id":"n0084","type":"text","text":"AI makes everything the same","x":810,"y":3025,"width":200,"height":70},
+		{"id":"n0085","type":"text","text":"low common ground","x":810,"y":3120,"width":200,"height":70},
+		{"id":"n0086","type":"text","text":"we are all exposed to the algorithm","x":810,"y":3215,"width":200,"height":70},
+		{"id":"n0087","type":"text","text":"discomfort","x":310,"y":3357,"width":200,"height":70},
+		{"id":"n0088","type":"text","text":"failure","x":560,"y":3310,"width":200,"height":70},
+		{"id":"n0089","type":"text","text":"surveillance","x":560,"y":3405,"width":200,"height":70},
+		{"id":"n0090","type":"text","text":"expectation","x":310,"y":3500,"width":200,"height":70},
+		{"id":"n0091","type":"text","text":"anticipation","x":560,"y":3500,"width":200,"height":70},
+		{"id":"n0092","type":"text","text":"robots can do everything","x":310,"y":3642,"width":200,"height":70},
+		{"id":"n0093","type":"text","text":"what can only ppl do","x":560,"y":3642,"width":200,"height":70},
+		{"id":"n0094","type":"text","text":"the human touch","x":810,"y":3595,"width":200,"height":70},
+		{"id":"n0095","type":"text","text":"craft","x":1060,"y":3595,"width":200,"height":70},
+		{"id":"n0096","type":"text","text":"one off","x":1310,"y":3595,"width":200,"height":70},
+		{"id":"n0097","type":"text","text":"Aristotle: create tools","x":810,"y":3690,"width":200,"height":70},
+		{"id":"n0115","type":"group","label":"7. The pipeline gap","x":0,"y":3940,"width":1570,"height":600,"color":"4"},
+		{"id":"n0116","type":"text","text":"what is missing","x":60,"y":4220,"width":200,"height":70},
+		{"id":"n0117","type":"text","text":"what is needed?","x":310,"y":4220,"width":200,"height":70},
+		{"id":"n0118","type":"text","text":"gap?","x":560,"y":4220,"width":200,"height":70},
+		{"id":"n0119","type":"text","text":"pipeline","x":810,"y":4220,"width":200,"height":70},
+		{"id":"n0120","type":"text","text":"creating behavior","x":1060,"y":4030,"width":200,"height":70},
+		{"id":"n0121","type":"text","text":"what tools","x":1060,"y":4125,"width":200,"height":70},
+		{"id":"n0122","type":"text","text":"transformation to body","x":1060,"y":4220,"width":200,"height":70},
+		{"id":"n0123","type":"text","text":"decision making","x":1060,"y":4315,"width":200,"height":70},
+		{"id":"n0124","type":"text","text":"output","x":1060,"y":4410,"width":200,"height":70},
+		{"id":"n0125","type":"text","text":"what does it make us feel","x":1310,"y":4410,"width":200,"height":70},
+		{"id":"n0135","type":"group","label":"8. Non-humanoid constraint","x":0,"y":4660,"width":820,"height":885,"color":"4"},
+		{"id":"n0136","type":"text","text":"what is needed?","x":60,"y":4797,"width":200,"height":70},
+		{"id":"n0137","type":"text","text":"non humanoid","x":310,"y":4797,"width":200,"height":70},
+		{"id":"n0138","type":"text","text":"FFF: form follows function","x":560,"y":4750,"width":200,"height":70},
+		{"id":"n0139","type":"text","text":"simple shapes","x":560,"y":4845,"width":200,"height":70},
+		{"id":"n0140","type":"text","text":"embodiment","x":60,"y":5139,"width":200,"height":70},
+		{"id":"n0141","type":"text","text":"rig","x":310,"y":4940,"width":200,"height":70},
+		{"id":"n0142","type":"text","text":"DOF","x":310,"y":5035,"width":200,"height":70},
+		{"id":"n0143","type":"text","text":"body","x":310,"y":5130,"width":200,"height":70},
+		{"id":"n0144","type":"text","text":"boxy / round / shape / head","x":560,"y":5130,"width":200,"height":70},
+		{"id":"n0145","type":"text","text":"perception","x":310,"y":5225,"width":200,"height":70},
+		{"id":"n0146","type":"text","text":"physical movement","x":310,"y":5367,"width":200,"height":70},
+		{"id":"n0147","type":"text","text":"manipulation / locomotion / gait / bipedal","x":560,"y":5320,"width":200,"height":70},
+		{"id":"n0148","type":"text","text":"kinematic","x":560,"y":5415,"width":200,"height":70},
+		{"id":"n0160","type":"group","label":"9. Interruption and breaking character","x":2600,"y":0,"width":1320,"height":600,"color":"3"},
+		{"id":"n0161","type":"text","text":"character","x":2660,"y":200,"width":200,"height":70},
+		{"id":"n0162","type":"text","text":"personality","x":2910,"y":90,"width":200,"height":70},
+		{"id":"n0163","type":"text","text":"breaking character","x":2910,"y":185,"width":200,"height":70},
+		{"id":"n0164","type":"text","text":"surprise","x":2910,"y":327,"width":200,"height":70},
+		{"id":"n0165","type":"text","text":"funny","x":3160,"y":327,"width":200,"height":70},
+		{"id":"n0166","type":"text","text":"failure","x":3410,"y":280,"width":200,"height":70},
+		{"id":"n0167","type":"text","text":"making us laugh","x":3410,"y":375,"width":200,"height":70},
+		{"id":"n0168","type":"text","text":"we laugh at: animals in zoo or cage","x":3660,"y":375,"width":200,"height":70},
+		{"id":"n0169","type":"text","text":"reasoning","x":2660,"y":470,"width":200,"height":70},
+		{"id":"n0170","type":"text","text":"interruption","x":2910,"y":470,"width":200,"height":70},
+		{"id":"n0179","type":"group","label":"10. Intention and being together","x":2600,"y":720,"width":1570,"height":410,"color":"3"},
+		{"id":"n0180","type":"text","text":"character","x":2660,"y":905,"width":200,"height":70},
+		{"id":"n0181","type":"text","text":"intention","x":2910,"y":905,"width":200,"height":70},
+		{"id":"n0182","type":"text","text":"choose your own","x":3160,"y":810,"width":200,"height":70},
+		{"id":"n0183","type":"text","text":"build yourself","x":3160,"y":905,"width":200,"height":70},
+		{"id":"n0184","type":"text","text":"feeling together","x":3160,"y":1000,"width":200,"height":70},
+		{"id":"n0185","type":"text","text":"loneliness","x":3410,"y":1000,"width":200,"height":70},
+		{"id":"n0186","type":"text","text":"being old","x":3660,"y":1000,"width":200,"height":70},
+		{"id":"n0187","type":"text","text":"dying","x":3910,"y":1000,"width":200,"height":70},
+		{"id":"n0195","type":"group","label":"11. What objects feel terrible?","x":2600,"y":1250,"width":570,"height":220,"color":"3"},
+		{"id":"n0196","type":"text","text":"what objects around us feel terrible?","x":2660,"y":1340,"width":200,"height":70},
+		{"id":"n0197","type":"text","text":"(empty: add 5 real answers)","x":2910,"y":1340,"width":200,"height":70},
+		{"id":"n0199","type":"group","label":"12. Anthropomorphism and dose","x":2600,"y":1590,"width":820,"height":600,"color":"3"},
+		{"id":"n0200","type":"text","text":"anthropomorphism","x":2660,"y":1727,"width":200,"height":70},
+		{"id":"n0201","type":"text","text":"looking like animal","x":2910,"y":1680,"width":200,"height":70},
+		{"id":"n0202","type":"text","text":"cognition","x":2910,"y":1775,"width":200,"height":70},
+		{"id":"n0203","type":"text","text":"think how you think","x":3160,"y":1775,"width":200,"height":70},
+		{"id":"n0204","type":"text","text":"social","x":2660,"y":1965,"width":200,"height":70},
+		{"id":"n0205","type":"text","text":"psychology","x":2910,"y":1870,"width":200,"height":70},
+		{"id":"n0206","type":"text","text":"communication: verbal / nonverbal","x":2910,"y":1965,"width":200,"height":70},
+		{"id":"n0207","type":"text","text":"social intelligent","x":2910,"y":2060,"width":200,"height":70},
+		{"id":"n0208","type":"text","text":"how much is seen / needed / wanted","x":3160,"y":2060,"width":200,"height":70},
+		{"id":"n0216","type":"group","label":"13. Surveillance","x":2600,"y":2310,"width":820,"height":410,"color":"3"},
+		{"id":"n0217","type":"text","text":"discomfort","x":2660,"y":2495,"width":200,"height":70},
+		{"id":"n0218","type":"text","text":"surveillance","x":2910,"y":2495,"width":200,"height":70},
+		{"id":"n0219","type":"text","text":"covering laptop camera","x":3160,"y":2400,"width":200,"height":70},
+		{"id":"n0220","type":"text","text":"\"agree to all\"","x":3160,"y":2495,"width":200,"height":70},
+		{"id":"n0221","type":"text","text":"WhatsApp listening to me","x":3160,"y":2590,"width":200,"height":70},
+		{"id":"n0226","type":"group","label":"14. Useless robot","x":2600,"y":2840,"width":1570,"height":410,"color":"3"},
+		{"id":"n0227","type":"text","text":"function","x":2660,"y":3001,"width":200,"height":70},
+		{"id":"n0228","type":"text","text":"context","x":2910,"y":2930,"width":200,"height":70},
+		{"id":"n0229","type":"text","text":"is it needed?","x":2910,"y":3072,"width":200,"height":70},
+		{"id":"n0230","type":"text","text":"do we accept more","x":3160,"y":3072,"width":200,"height":70},
+		{"id":"n0231","type":"text","text":"what is the function of a useless robot","x":3410,"y":3072,"width":200,"height":70},
+		{"id":"n0232","type":"text","text":"art","x":3660,"y":3072,"width":200,"height":70},
+		{"id":"n0233","type":"text","text":"dancing robot","x":3910,"y":3025,"width":200,"height":70},
+		{"id":"n0234","type":"text","text":"poets / robots","x":3910,"y":3120,"width":200,"height":70},
+		{"id":"n0242","type":"group","label":"15. Done before (empty template)","x":2600,"y":3370,"width":820,"height":505,"color":"3"},
+		{"id":"n0243","type":"text","text":"done before","x":2660,"y":3650,"width":200,"height":70},
+		{"id":"n0244","type":"text","text":"research area","x":2910,"y":3555,"width":200,"height":70},
+		{"id":"n0245","type":"text","text":"what hasn't been done","x":3160,"y":3460,"width":200,"height":70},
+		{"id":"n0246","type":"text","text":"what to build on","x":3160,"y":3555,"width":200,"height":70},
+		{"id":"n0247","type":"text","text":"what is not great","x":3160,"y":3650,"width":200,"height":70},
+		{"id":"n0248","type":"text","text":"discover new ground","x":2910,"y":3745,"width":200,"height":70},
+		{"id":"n0254","type":"group","label":"16. AI stack","x":5000,"y":0,"width":820,"height":600,"color":"1"},
+		{"id":"n0255","type":"text","text":"vision","x":5060,"y":90,"width":200,"height":70},
+		{"id":"n0256","type":"text","text":"computer vision","x":5310,"y":90,"width":200,"height":70},
+		{"id":"n0257","type":"text","text":"NLP","x":5060,"y":185,"width":200,"height":70},
+		{"id":"n0258","type":"text","text":"information","x":5310,"y":185,"width":200,"height":70},
+		{"id":"n0259","type":"text","text":"neural networks","x":5060,"y":280,"width":200,"height":70},
+		{"id":"n0260","type":"text","text":"reasoning","x":5060,"y":422,"width":200,"height":70},
+		{"id":"n0261","type":"text","text":"decision making","x":5310,"y":375,"width":200,"height":70},
+		{"id":"n0262","type":"text","text":"understanding","x":5310,"y":470,"width":200,"height":70},
+		{"id":"n0263","type":"text","text":"responding","x":5560,"y":470,"width":200,"height":70},
+		{"id":"n0270","type":"group","label":"17. Faces and eyes","x":5000,"y":720,"width":820,"height":410,"color":"1"},
+		{"id":"n0271","type":"text","text":"facial expressions","x":5060,"y":810,"width":200,"height":70},
+		{"id":"n0272","type":"text","text":"smile / frown / beautiful","x":5310,"y":810,"width":200,"height":70},
+		{"id":"n0273","type":"text","text":"gaze","x":5060,"y":905,"width":200,"height":70},
+		{"id":"n0274","type":"text","text":"stare / look / understand","x":5310,"y":905,"width":200,"height":70},
+		{"id":"n0275","type":"text","text":"they don't have eyes","x":5060,"y":1000,"width":200,"height":70},
+		{"id":"n0276","type":"text","text":"window to soul","x":5310,"y":1000,"width":200,"height":70},
+		{"id":"n0277","type":"text","text":"show intent","x":5560,"y":1000,"width":200,"height":70},
+		{"id":"n0282","type":"group","label":"18. Teaching us to be nicer","x":5000,"y":1250,"width":1570,"height":410,"color":"1"},
+		{"id":"n0283","type":"text","text":"who?","x":5060,"y":1387,"width":200,"height":70},
+		{"id":"n0284","type":"text","text":"education figures","x":5310,"y":1387,"width":200,"height":70},
+		{"id":"n0285","type":"text","text":"our founding fathers","x":5560,"y":1387,"width":200,"height":70},
+		{"id":"n0286","type":"text","text":"teaching us to be nicer","x":5810,"y":1387,"width":200,"height":70},
+		{"id":"n0287","type":"text","text":"make someone more empathic","x":6060,"y":1340,"width":200,"height":70},
+		{"id":"n0288","type":"text","text":"less racist","x":6310,"y":1340,"width":200,"height":70},
+		{"id":"n0289","type":"text","text":"to strangers","x":6060,"y":1435,"width":200,"height":70},
+		{"id":"n0290","type":"text","text":"greeting machine","x":6310,"y":1435,"width":200,"height":70},
+		{"id":"n0291","type":"text","text":"we need to replace caregivers","x":5060,"y":1530,"width":200,"height":70},
+		{"id":"n0292","type":"text","text":"why?","x":5310,"y":1530,"width":200,"height":70},
+		{"id":"n0301","type":"group","label":"19. Children growing up with AI","x":5000,"y":1780,"width":570,"height":315,"color":"1"},
+		{"id":"n0302","type":"text","text":"children growing up with AI","x":5060,"y":1917,"width":200,"height":70},
+		{"id":"n0303","type":"text","text":"saving thoughts from childhood","x":5310,"y":1870,"width":200,"height":70},
+		{"id":"n0304","type":"text","text":"how was your day \"fun\"","x":5310,"y":1965,"width":200,"height":70},
+		{"id":"n0307","type":"group","label":"20. Beings and machines","x":5000,"y":2215,"width":820,"height":695,"color":"1"},
+		{"id":"n0308","type":"text","text":"beings","x":5060,"y":2376,"width":200,"height":70},
+		{"id":"n0309","type":"text","text":"born","x":5310,"y":2305,"width":200,"height":70},
+		{"id":"n0310","type":"text","text":"baby","x":5560,"y":2305,"width":200,"height":70},
+		{"id":"n0311","type":"text","text":"man made","x":5310,"y":2447,"width":200,"height":70},
+		{"id":"n0312","type":"text","text":"rituals","x":5560,"y":2400,"width":200,"height":70},
+		{"id":"n0313","type":"text","text":"old vs new","x":5560,"y":2495,"width":200,"height":70},
+		{"id":"n0314","type":"text","text":"machines","x":5060,"y":2685,"width":200,"height":70},
+		{"id":"n0315","type":"text","text":"repetitive","x":5310,"y":2590,"width":200,"height":70},
+		{"id":"n0316","type":"text","text":"dangerous / boring / the same","x":5560,"y":2590,"width":200,"height":70},
+		{"id":"n0317","type":"text","text":"factory","x":5310,"y":2685,"width":200,"height":70},
+		{"id":"n0318","type":"text","text":"create themselves","x":5310,"y":2780,"width":200,"height":70},
+		{"id":"n0328","type":"group","label":"21. Loose adjectives","x":5000,"y":3030,"width":820,"height":410,"color":"1"},
+		{"id":"n0329","type":"text","text":"interaction","x":5060,"y":3215,"width":200,"height":70},
+		{"id":"n0330","type":"text","text":"nice","x":5310,"y":3120,"width":200,"height":70},
+		{"id":"n0331","type":"text","text":"empathic","x":5560,"y":3120,"width":200,"height":70},
+		{"id":"n0332","type":"text","text":"rich","x":5310,"y":3215,"width":200,"height":70},
+		{"id":"n0333","type":"text","text":"poor / lame","x":5560,"y":3215,"width":200,"height":70},
+		{"id":"n0334","type":"text","text":"greet","x":5310,"y":3310,"width":200,"height":70},
+		{"id":"n0335","type":"text","text":"hello / hi / have a nice day","x":5560,"y":3310,"width":200,"height":70},
+		{"id":"n0342","type":"group","label":"22. The critical node","x":5000,"y":3560,"width":570,"height":410,"color":"1"},
+		{"id":"n0343","type":"text","text":"white dudes making machines to replace their mothers","x":5060,"y":3745,"width":200,"height":70},
+		{"id":"n0344","type":"text","text":"god","x":5310,"y":3650,"width":200,"height":70},
+		{"id":"n0345","type":"text","text":"Adam & Eve","x":5310,"y":3745,"width":200,"height":70},
+		{"id":"n0346","type":"text","text":"why?","x":5310,"y":3840,"width":200,"height":70},
+		{"id":"n0350","type":"text","text":"# TIER 1: keep, the spine","x":0,"y":-220,"width":700,"height":120,"color":"4"},
+		{"id":"n0351","type":"text","text":"# TIER 2: keep, secondary","x":2600,"y":-220,"width":700,"height":120,"color":"3"},
+		{"id":"n0352","type":"text","text":"# TIER 3: cut or park","x":5000,"y":-220,"width":700,"height":120,"color":"1"},
+		{"id":"n0353","type":"text","text":"## A machine moving near me, and whether it shows that it noticed me","x":-2200,"y":600,"width":420,"height":180,"color":"6"},
+		{"id":"n0354","type":"text","text":"### What goes wrong","x":-1550,"y":100,"width":300,"height":90,"color":"5"},
+		{"id":"n0356","type":"text","text":"### What has been done","x":-1550,"y":800,"width":300,"height":90,"color":"5"},
+		{"id":"n0358","type":"text","text":"### What I would build","x":-1550,"y":1400,"width":300,"height":90,"color":"5"}
+	],
+	"edges":[
+		{"id":"n0008","fromNode":"n0001","fromSide":"right","toNode":"n0002","toSide":"left"},
+		{"id":"n0009","fromNode":"n0002","fromSide":"right","toNode":"n0003","toSide":"left"},
+		{"id":"n0010","fromNode":"n0003","fromSide":"right","toNode":"n0004","toSide":"left"},
+		{"id":"n0011","fromNode":"n0004","fromSide":"right","toNode":"n0005","toSide":"left"},
+		{"id":"n0012","fromNode":"n0005","fromSide":"right","toNode":"n0006","toSide":"left"},
+		{"id":"n0013","fromNode":"n0006","fromSide":"right","toNode":"n0007","toSide":"left"},
+		{"id":"n0025","fromNode":"n0015","fromSide":"right","toNode":"n0016","toSide":"left"},
+		{"id":"n0026","fromNode":"n0016","fromSide":"right","toNode":"n0017","toSide":"left"},
+		{"id":"n0027","fromNode":"n0017","fromSide":"right","toNode":"n0018","toSide":"left"},
+		{"id":"n0028","fromNode":"n0017","fromSide":"right","toNode":"n0019","toSide":"left"},
+		{"id":"n0029","fromNode":"n0017","fromSide":"right","toNode":"n0020","toSide":"left"},
+		{"id":"n0030","fromNode":"n0017","fromSide":"right","toNode":"n0021","toSide":"left"},
+		{"id":"n0031","fromNode":"n0021","fromSide":"right","toNode":"n0022","toSide":"left"},
+		{"id":"n0032","fromNode":"n0017","fromSide":"right","toNode":"n0023","toSide":"left"},
+		{"id":"n0033","fromNode":"n0023","fromSide":"right","toNode":"n0024","toSide":"left"},
+		{"id":"n0044","fromNode":"n0035","fromSide":"right","toNode":"n0036","toSide":"left"},
+		{"id":"n0045","fromNode":"n0036","fromSide":"right","toNode":"n0037","toSide":"left"},
+		{"id":"n0046","fromNode":"n0037","fromSide":"right","toNode":"n0038","toSide":"left"},
+		{"id":"n0047","fromNode":"n0038","fromSide":"right","toNode":"n0039","toSide":"left"},
+		{"id":"n0048","fromNode":"n0040","fromSide":"right","toNode":"n0041","toSide":"left"},
+		{"id":"n0049","fromNode":"n0043","fromSide":"right","toNode":"n0041","toSide":"left"},
+		{"id":"n0050","fromNode":"n0041","fromSide":"right","toNode":"n0042","toSide":"left"},
+		{"id":"n0059","fromNode":"n0052","fromSide":"right","toNode":"n0053","toSide":"left"},
+		{"id":"n0060","fromNode":"n0053","fromSide":"right","toNode":"n0054","toSide":"left"},
+		{"id":"n0061","fromNode":"n0054","fromSide":"right","toNode":"n0055","toSide":"left"},
+		{"id":"n0062","fromNode":"n0054","fromSide":"right","toNode":"n0056","toSide":"left"},
+		{"id":"n0063","fromNode":"n0054","fromSide":"right","toNode":"n0057","toSide":"left"},
+		{"id":"n0064","fromNode":"n0054","fromSide":"right","toNode":"n0058","toSide":"left"},
+		{"id":"n0073","fromNode":"n0066","fromSide":"right","toNode":"n0067","toSide":"left"},
+		{"id":"n0074","fromNode":"n0067","fromSide":"right","toNode":"n0068","toSide":"left"},
+		{"id":"n0075","fromNode":"n0068","fromSide":"right","toNode":"n0069","toSide":"left"},
+		{"id":"n0076","fromNode":"n0068","fromSide":"right","toNode":"n0070","toSide":"left"},
+		{"id":"n0077","fromNode":"n0068","fromSide":"right","toNode":"n0071","toSide":"left"},
+		{"id":"n0078","fromNode":"n0068","fromSide":"right","toNode":"n0072","toSide":"left"},
+		{"id":"n0098","fromNode":"n0080","fromSide":"right","toNode":"n0081","toSide":"left"},
+		{"id":"n0099","fromNode":"n0080","fromSide":"right","toNode":"n0082","toSide":"left"},
+		{"id":"n0100","fromNode":"n0082","fromSide":"right","toNode":"n0083","toSide":"left"},
+		{"id":"n0101","fromNode":"n0083","fromSide":"right","toNode":"n0084","toSide":"left"},
+		{"id":"n0102","fromNode":"n0083","fromSide":"right","toNode":"n0085","toSide":"left"},
+		{"id":"n0103","fromNode":"n0083","fromSide":"right","toNode":"n0086","toSide":"left"},
+		{"id":"n0104","fromNode":"n0080","fromSide":"right","toNode":"n0087","toSide":"left"},
+		{"id":"n0105","fromNode":"n0087","fromSide":"right","toNode":"n0088","toSide":"left"},
+		{"id":"n0106","fromNode":"n0087","fromSide":"right","toNode":"n0089","toSide":"left"},
+		{"id":"n0107","fromNode":"n0080","fromSide":"right","toNode":"n0090","toSide":"left"},
+		{"id":"n0108","fromNode":"n0090","fromSide":"right","toNode":"n0091","toSide":"left"},
+		{"id":"n0109","fromNode":"n0080","fromSide":"right","toNode":"n0092","toSide":"left"},
+		{"id":"n0110","fromNode":"n0092","fromSide":"right","toNode":"n0093","toSide":"left"},
+		{"id":"n0111","fromNode":"n0093","fromSide":"right","toNode":"n0094","toSide":"left"},
+		{"id":"n0112","fromNode":"n0094","fromSide":"right","toNode":"n0095","toSide":"left"},
+		{"id":"n0113","fromNode":"n0095","fromSide":"right","toNode":"n0096","toSide":"left"},
+		{"id":"n0114","fromNode":"n0093","fromSide":"right","toNode":"n0097","toSide":"left"},
+		{"id":"n0126","fromNode":"n0116","fromSide":"right","toNode":"n0117","toSide":"left"},
+		{"id":"n0127","fromNode":"n0117","fromSide":"right","toNode":"n0118","toSide":"left"},
+		{"id":"n0128","fromNode":"n0118","fromSide":"right","toNode":"n0119","toSide":"left"},
+		{"id":"n0129","fromNode":"n0119","fromSide":"right","toNode":"n0120","toSide":"left"},
+		{"id":"n0130","fromNode":"n0119","fromSide":"right","toNode":"n0121","toSide":"left"},
+		{"id":"n0131","fromNode":"n0119","fromSide":"right","toNode":"n0122","toSide":"left"},
+		{"id":"n0132","fromNode":"n0119","fromSide":"right","toNode":"n0123","toSide":"left"},
+		{"id":"n0133","fromNode":"n0119","fromSide":"right","toNode":"n0124","toSide":"left"},
+		{"id":"n0134","fromNode":"n0124","fromSide":"right","toNode":"n0125","toSide":"left"},
+		{"id":"n0149","fromNode":"n0136","fromSide":"right","toNode":"n0137","toSide":"left"},
+		{"id":"n0150","fromNode":"n0137","fromSide":"right","toNode":"n0138","toSide":"left"},
+		{"id":"n0151","fromNode":"n0137","fromSide":"right","toNode":"n0139","toSide":"left"},
+		{"id":"n0152","fromNode":"n0140","fromSide":"right","toNode":"n0141","toSide":"left"},
+		{"id":"n0153","fromNode":"n0140","fromSide":"right","toNode":"n0142","toSide":"left"},
+		{"id":"n0154","fromNode":"n0140","fromSide":"right","toNode":"n0143","toSide":"left"},
+		{"id":"n0155","fromNode":"n0143","fromSide":"right","toNode":"n0144","toSide":"left"},
+		{"id":"n0156","fromNode":"n0140","fromSide":"right","toNode":"n0145","toSide":"left"},
+		{"id":"n0157","fromNode":"n0140","fromSide":"right","toNode":"n0146","toSide":"left"},
+		{"id":"n0158","fromNode":"n0146","fromSide":"right","toNode":"n0147","toSide":"left"},
+		{"id":"n0159","fromNode":"n0146","fromSide":"right","toNode":"n0148","toSide":"left"},
+		{"id":"n0171","fromNode":"n0161","fromSide":"right","toNode":"n0162","toSide":"left"},
+		{"id":"n0172","fromNode":"n0161","fromSide":"right","toNode":"n0163","toSide":"left"},
+		{"id":"n0173","fromNode":"n0161","fromSide":"right","toNode":"n0164","toSide":"left"},
+		{"id":"n0174","fromNode":"n0164","fromSide":"right","toNode":"n0165","toSide":"left"},
+		{"id":"n0175","fromNode":"n0165","fromSide":"right","toNode":"n0166","toSide":"left"},
+		{"id":"n0176","fromNode":"n0165","fromSide":"right","toNode":"n0167","toSide":"left"},
+		{"id":"n0177","fromNode":"n0167","fromSide":"right","toNode":"n0168","toSide":"left"},
+		{"id":"n0178","fromNode":"n0169","fromSide":"right","toNode":"n0170","toSide":"left"},
+		{"id":"n0188","fromNode":"n0180","fromSide":"right","toNode":"n0181","toSide":"left"},
+		{"id":"n0189","fromNode":"n0181","fromSide":"right","toNode":"n0182","toSide":"left"},
+		{"id":"n0190","fromNode":"n0181","fromSide":"right","toNode":"n0183","toSide":"left"},
+		{"id":"n0191","fromNode":"n0181","fromSide":"right","toNode":"n0184","toSide":"left"},
+		{"id":"n0192","fromNode":"n0184","fromSide":"right","toNode":"n0185","toSide":"left"},
+		{"id":"n0193","fromNode":"n0185","fromSide":"right","toNode":"n0186","toSide":"left"},
+		{"id":"n0194","fromNode":"n0186","fromSide":"right","toNode":"n0187","toSide":"left"},
+		{"id":"n0198","fromNode":"n0196","fromSide":"right","toNode":"n0197","toSide":"left"},
+		{"id":"n0209","fromNode":"n0200","fromSide":"right","toNode":"n0201","toSide":"left"},
+		{"id":"n0210","fromNode":"n0200","fromSide":"right","toNode":"n0202","toSide":"left"},
+		{"id":"n0211","fromNode":"n0202","fromSide":"right","toNode":"n0203","toSide":"left"},
+		{"id":"n0212","fromNode":"n0204","fromSide":"right","toNode":"n0205","toSide":"left"},
+		{"id":"n0213","fromNode":"n0204","fromSide":"right","toNode":"n0206","toSide":"left"},
+		{"id":"n0214","fromNode":"n0204","fromSide":"right","toNode":"n0207","toSide":"left"},
+		{"id":"n0215","fromNode":"n0207","fromSide":"right","toNode":"n0208","toSide":"left"},
+		{"id":"n0222","fromNode":"n0217","fromSide":"right","toNode":"n0218","toSide":"left"},
+		{"id":"n0223","fromNode":"n0218","fromSide":"right","toNode":"n0219","toSide":"left"},
+		{"id":"n0224","fromNode":"n0218","fromSide":"right","toNode":"n0220","toSide":"left"},
+		{"id":"n0225","fromNode":"n0218","fromSide":"right","toNode":"n0221","toSide":"left"},
+		{"id":"n0235","fromNode":"n0227","fromSide":"right","toNode":"n0228","toSide":"left"},
+		{"id":"n0236","fromNode":"n0227","fromSide":"right","toNode":"n0229","toSide":"left"},
+		{"id":"n0237","fromNode":"n0229","fromSide":"right","toNode":"n0230","toSide":"left"},
+		{"id":"n0238","fromNode":"n0230","fromSide":"right","toNode":"n0231","toSide":"left"},
+		{"id":"n0239","fromNode":"n0231","fromSide":"right","toNode":"n0232","toSide":"left"},
+		{"id":"n0240","fromNode":"n0232","fromSide":"right","toNode":"n0233","toSide":"left"},
+		{"id":"n0241","fromNode":"n0232","fromSide":"right","toNode":"n0234","toSide":"left"},
+		{"id":"n0249","fromNode":"n0243","fromSide":"right","toNode":"n0244","toSide":"left"},
+		{"id":"n0250","fromNode":"n0244","fromSide":"right","toNode":"n0245","toSide":"left"},
+		{"id":"n0251","fromNode":"n0244","fromSide":"right","toNode":"n0246","toSide":"left"},
+		{"id":"n0252","fromNode":"n0244","fromSide":"right","toNode":"n0247","toSide":"left"},
+		{"id":"n0253","fromNode":"n0243","fromSide":"right","toNode":"n0248","toSide":"left"},
+		{"id":"n0264","fromNode":"n0255","fromSide":"right","toNode":"n0256","toSide":"left"},
+		{"id":"n0265","fromNode":"n0257","fromSide":"right","toNode":"n0258","toSide":"left"},
+		{"id":"n0266","fromNode":"n0259","fromSide":"right","toNode":"n0258","toSide":"left"},
+		{"id":"n0267","fromNode":"n0260","fromSide":"right","toNode":"n0261","toSide":"left"},
+		{"id":"n0268","fromNode":"n0260","fromSide":"right","toNode":"n0262","toSide":"left"},
+		{"id":"n0269","fromNode":"n0262","fromSide":"right","toNode":"n0263","toSide":"left"},
+		{"id":"n0278","fromNode":"n0271","fromSide":"right","toNode":"n0272","toSide":"left"},
+		{"id":"n0279","fromNode":"n0273","fromSide":"right","toNode":"n0274","toSide":"left"},
+		{"id":"n0280","fromNode":"n0275","fromSide":"right","toNode":"n0276","toSide":"left"},
+		{"id":"n0281","fromNode":"n0276","fromSide":"right","toNode":"n0277","toSide":"left"},
+		{"id":"n0293","fromNode":"n0286","fromSide":"right","toNode":"n0287","toSide":"left"},
+		{"id":"n0294","fromNode":"n0287","fromSide":"right","toNode":"n0288","toSide":"left"},
+		{"id":"n0295","fromNode":"n0286","fromSide":"right","toNode":"n0289","toSide":"left"},
+		{"id":"n0296","fromNode":"n0289","fromSide":"right","toNode":"n0290","toSide":"left"},
+		{"id":"n0297","fromNode":"n0284","fromSide":"right","toNode":"n0285","toSide":"left"},
+		{"id":"n0298","fromNode":"n0285","fromSide":"right","toNode":"n0286","toSide":"left"},
+		{"id":"n0299","fromNode":"n0283","fromSide":"right","toNode":"n0284","toSide":"left"},
+		{"id":"n0300","fromNode":"n0291","fromSide":"right","toNode":"n0292","toSide":"left"},
+		{"id":"n0305","fromNode":"n0302","fromSide":"right","toNode":"n0303","toSide":"left"},
+		{"id":"n0306","fromNode":"n0302","fromSide":"right","toNode":"n0304","toSide":"left"},
+		{"id":"n0319","fromNode":"n0308","fromSide":"right","toNode":"n0309","toSide":"left"},
+		{"id":"n0320","fromNode":"n0309","fromSide":"right","toNode":"n0310","toSide":"left"},
+		{"id":"n0321","fromNode":"n0308","fromSide":"right","toNode":"n0311","toSide":"left"},
+		{"id":"n0322","fromNode":"n0311","fromSide":"right","toNode":"n0312","toSide":"left"},
+		{"id":"n0323","fromNode":"n0311","fromSide":"right","toNode":"n0313","toSide":"left"},
+		{"id":"n0324","fromNode":"n0314","fromSide":"right","toNode":"n0315","toSide":"left"},
+		{"id":"n0325","fromNode":"n0314","fromSide":"right","toNode":"n0317","toSide":"left"},
+		{"id":"n0326","fromNode":"n0314","fromSide":"right","toNode":"n0318","toSide":"left"},
+		{"id":"n0327","fromNode":"n0315","fromSide":"right","toNode":"n0316","toSide":"left"},
+		{"id":"n0336","fromNode":"n0329","fromSide":"right","toNode":"n0330","toSide":"left"},
+		{"id":"n0337","fromNode":"n0330","fromSide":"right","toNode":"n0331","toSide":"left"},
+		{"id":"n0338","fromNode":"n0329","fromSide":"right","toNode":"n0332","toSide":"left"},
+		{"id":"n0339","fromNode":"n0332","fromSide":"right","toNode":"n0333","toSide":"left"},
+		{"id":"n0340","fromNode":"n0329","fromSide":"right","toNode":"n0334","toSide":"left"},
+		{"id":"n0341","fromNode":"n0334","fromSide":"right","toNode":"n0335","toSide":"left"},
+		{"id":"n0347","fromNode":"n0343","fromSide":"right","toNode":"n0344","toSide":"left"},
+		{"id":"n0348","fromNode":"n0343","fromSide":"right","toNode":"n0345","toSide":"left"},
+		{"id":"n0349","fromNode":"n0343","fromSide":"right","toNode":"n0346","toSide":"left"},
+		{"id":"n0355","fromNode":"n0353","fromSide":"right","toNode":"n0354","toSide":"left"},
+		{"id":"n0357","fromNode":"n0353","fromSide":"right","toNode":"n0356","toSide":"left"},
+		{"id":"n0359","fromNode":"n0353","fromSide":"right","toNode":"n0358","toSide":"left"},
+		{"id":"n0360","fromNode":"n0354","fromSide":"right","toNode":"n0000","toSide":"left","color":"5"},
+		{"id":"n0361","fromNode":"n0354","fromSide":"right","toNode":"n0051","toSide":"left","color":"5"},
+		{"id":"n0362","fromNode":"n0354","fromSide":"right","toNode":"n0065","toSide":"left","color":"5"},
+		{"id":"n0363","fromNode":"n0354","fromSide":"right","toNode":"n0079","toSide":"left","color":"5"},
+		{"id":"n0364","fromNode":"n0354","fromSide":"right","toNode":"n0216","toSide":"left","color":"5"},
+		{"id":"n0365","fromNode":"n0356","fromSide":"right","toNode":"n0242","toSide":"left","color":"5"},
+		{"id":"n0366","fromNode":"n0358","fromSide":"right","toNode":"n0014","toSide":"left","color":"5"},
+		{"id":"n0367","fromNode":"n0358","fromSide":"right","toNode":"n0034","toSide":"left","color":"5"},
+		{"id":"n0368","fromNode":"n0358","fromSide":"right","toNode":"n0115","toSide":"left","color":"5"},
+		{"id":"n0369","fromNode":"n0358","fromSide":"right","toNode":"n0135","toSide":"left","color":"5"}
+	]
 }
