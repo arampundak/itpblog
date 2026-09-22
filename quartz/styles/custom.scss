@@ -1,3 +1,274 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ---------------------------------------------------------------------------
+// Restyle: white background, no dark mode, system-ui, small flat type scale
+// ---------------------------------------------------------------------------
+
+$systemFont: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$grayText: #8a8a8a;
+
+// --- no dark mode -----------------------------------------------------------
+// Force the light palette regardless of saved-theme / prefers-color-scheme.
+:root,
+:root[saved-theme="dark"],
+:root[saved-theme="light"] {
+  color-scheme: light;
+
+  --light: #ffffff;
+  --lightgray: #e5e5e5;
+  --gray: #{$grayText};
+  --darkgray: #000000;
+  --dark: #000000;
+  --secondary: #000000;
+  --tertiary: #000000;
+  --highlight: rgba(0, 0, 0, 0);
+
+  --titleFont: #{$systemFont};
+  --headerFont: #{$systemFont};
+  --bodyFont: #{$systemFont};
+}
+
+html,
+body {
+  background-color: #ffffff;
+}
+
+// hide the dark mode toggle if it is ever added back to a layout
+.darkmode {
+  display: none !important;
+}
+
+// --- typography -------------------------------------------------------------
+body {
+  font-family: $systemFont;
+  font-size: 12px;
+  color: #000000;
+}
+
+p,
+ul,
+ol,
+li,
+td,
+th,
+tr,
+text,
+figcaption,
+blockquote {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+tbody,
+li,
+p {
+  line-height: 1.6;
+}
+
+// all headings default to the markdown heading size (#, ##, ...) — 14px bold
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $systemFont;
+  color: #000000;
+  line-height: 1.4;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+// markdown h1 inside the article body — override base.scss's 2rem
+.page article > h1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+// site title (left sidebar) and page h1 (article title) — 18px bold
+.page-title,
+.page-title a,
+.article-title,
+h1.article-title {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: $systemFont;
+  color: #000000;
+  line-height: 1.3;
+}
+
+.page-title {
+  margin: 0;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.article-title {
+  margin: 2rem 0 0 0;
+}
+
+// --- links: black, underline only -------------------------------------------
+a,
+a:hover,
+a:visited {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: inherit;
+}
+
+a.internal,
+a.internal:hover {
+  color: #000000;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: underline;
+
+  &.broken {
+    color: #000000;
+  }
+
+  &:has(> img) {
+    text-decoration: none;
+  }
+}
+
+a.external .external-icon > path {
+  fill: #000000;
+}
+
+// --- dates / content meta — 10px --------------------------------------------
+.content-meta,
+.content-meta * {
+  font-size: 10px;
+  color: $grayText;
+}
+
+// --- right panel (graph "connected to", toc, backlinks) — 10px gray ---------
+.sidebar.right {
+  color: $grayText;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  li,
+  span,
+  button {
+    font-size: 10px;
+    color: $grayText;
+  }
+
+  & > .graph > h3,
+  & > .backlinks > h3,
+  button.toc-header > h3 {
+    font-size: 10px;
+    font-weight: 700;
+    color: $grayText;
+    margin: 0;
+  }
+
+  a,
+  a:hover,
+  a:visited {
+    font-size: 10px;
+    color: $grayText;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  ul.toc-content.overflow > li > a {
+    color: $grayText;
+    opacity: 0.7;
+
+    &.in-view {
+      opacity: 1;
+    }
+  }
+}
+
+// --- left sidebar explorer --------------------------------------------------
+// folder names — 12px
+.explorer-content .folder-container div > a,
+.explorer-content .folder-container div > button span {
+  font-size: 12px;
+  font-family: $systemFont;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.explorer-content .folder-container div > a:hover,
+.explorer-content .folder-container div > button:hover span {
+  color: #000000;
+}
+
+.folder-icon {
+  color: #000000;
+
+  &:hover {
+    color: #000000;
+  }
+}
+
+// file names inside open folders — 10px, a little more line spacing
+.explorer-content ul li > a {
+  font-size: 10px;
+  font-family: $systemFont;
+  font-weight: 400;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.9;
+  display: inline-block;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+  &.active {
+    color: #000000;
+    font-weight: 700;
+  }
+}
+
+// explorer header ("Explorer") — keep it in the 12px body size
+button.mobile-explorer h2,
+button.desktop-explorer h2 {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: $systemFont;
+}
+
+// --- misc -------------------------------------------------------------------
+.search .search-button,
+.search .search-button p,
+.search input {
+  font-size: 12px;
+  font-family: $systemFont;
+}
+
+code {
+  font-size: 11px;
+}
+
+pre > code {
+  font-size: 11px;
+}
+
+footer,
+footer p,
+footer li,
+footer a {
+  font-size: 10px;
+  color: $grayText;
+}
+
+.tag-link {
+  font-size: 10px;
+}
