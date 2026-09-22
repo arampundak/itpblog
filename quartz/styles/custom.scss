@@ -2,11 +2,13 @@
 @use "./variables.scss" as *;
 
 // ---------------------------------------------------------------------------
-// Restyle: white background, no dark mode, system-ui, small flat type scale
+// Restyle: white background, no dark mode, system-ui, flat type scale
 // ---------------------------------------------------------------------------
 
 $systemFont: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-$grayText: #8a8a8a;
+$metaGray: #888888; // dates / content meta
+$panelGray: #999999; // right sidebar
+$contentPad: 20px; // extra breathing room on the main column
 
 // --- no dark mode -----------------------------------------------------------
 // Force the light palette regardless of saved-theme / prefers-color-scheme.
@@ -17,7 +19,7 @@ $grayText: #8a8a8a;
 
   --light: #ffffff;
   --lightgray: #e5e5e5;
-  --gray: #{$grayText};
+  --gray: #{$metaGray};
   --darkgray: #000000;
   --dark: #000000;
   --secondary: #000000;
@@ -39,10 +41,11 @@ body {
   display: none !important;
 }
 
-// --- typography -------------------------------------------------------------
+// --- body text --------------------------------------------------------------
 body {
   font-family: $systemFont;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.7;
   color: #000000;
 }
 
@@ -56,17 +59,18 @@ tr,
 text,
 figcaption,
 blockquote {
-  font-size: 12px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 tbody,
 li,
 p {
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-// all headings default to the markdown heading size (#, ##, ...) — 14px bold
+// --- markdown headings ------------------------------------------------------
+// h1 = 22px, h2 = 18px, h3 = 16px, all with 24px of space above.
 h1,
 h2,
 h3,
@@ -74,26 +78,49 @@ h4,
 h5,
 h6,
 thead {
+  font-family: $systemFont;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.35;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+h1,
+.page article > h1 {
+  // .page article > h1 also overrides base.scss's 2rem
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4,
+h5,
+h6 {
   font-size: 14px;
+}
+
+// --- page / site titles -----------------------------------------------------
+// article title — 24px bold, with room beneath it
+.article-title,
+h1.article-title {
+  font-size: 24px;
   font-weight: 700;
   font-family: $systemFont;
   color: #000000;
-  line-height: 1.4;
-  margin-top: 1.2rem;
-  margin-bottom: 0.4rem;
+  line-height: 1.25;
+  margin: 2rem 0 0 0;
 }
 
-// markdown h1 inside the article body — override base.scss's 2rem
-.page article > h1 {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-// site title (left sidebar) and page h1 (article title) — 18px bold
+// sidebar site title — 18px bold, with padding beneath it
 .page-title,
-.page-title a,
-.article-title,
-h1.article-title {
+.page-title a {
   font-size: 18px;
   font-weight: 700;
   font-family: $systemFont;
@@ -103,14 +130,23 @@ h1.article-title {
 
 .page-title {
   margin: 0;
+  padding-bottom: 1.25rem;
 
   & a {
     text-decoration: none;
   }
 }
 
-.article-title {
-  margin: 2rem 0 0 0;
+// --- dates / content meta — 10px gray, spaced off the title ------------------
+.content-meta,
+.content-meta * {
+  font-size: 10px;
+  line-height: 1.6;
+  color: $metaGray;
+}
+
+.content-meta {
+  margin: 14px 0 28px 0;
 }
 
 // --- links: black, underline only -------------------------------------------
@@ -144,16 +180,20 @@ a.external .external-icon > path {
   fill: #000000;
 }
 
-// --- dates / content meta — 10px --------------------------------------------
-.content-meta,
-.content-meta * {
-  font-size: 10px;
-  color: $grayText;
+// --- main column: extra left padding ----------------------------------------
+.page > #quartz-body {
+  & .page-header,
+  & .center,
+  & .center > article,
+  & > footer {
+    box-sizing: border-box;
+    padding-left: $contentPad;
+  }
 }
 
-// --- right panel (graph "connected to", toc, backlinks) — 10px gray ---------
+// --- right panel (graph "connected to", toc, backlinks) — 11px #999 ---------
 .sidebar.right {
-  color: $grayText;
+  color: $panelGray;
 
   h1,
   h2,
@@ -163,31 +203,31 @@ a.external .external-icon > path {
   li,
   span,
   button {
-    font-size: 10px;
-    color: $grayText;
+    font-size: 11px;
+    color: $panelGray;
   }
 
   & > .graph > h3,
   & > .backlinks > h3,
   button.toc-header > h3 {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
-    color: $grayText;
+    color: $panelGray;
     margin: 0;
   }
 
   a,
   a:hover,
   a:visited {
-    font-size: 10px;
-    color: $grayText;
+    font-size: 11px;
+    color: $panelGray;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
 
   ul.toc-content.overflow > li > a {
-    color: $grayText;
-    opacity: 0.7;
+    color: $panelGray;
+    opacity: 0.8;
 
     &.in-view {
       opacity: 1;
@@ -196,19 +236,21 @@ a.external .external-icon > path {
 }
 
 // --- left sidebar explorer --------------------------------------------------
-// folder names — 12px
+// folder names — 13px, roomier lines, no underline
 .explorer-content .folder-container div > a,
 .explorer-content .folder-container div > button span {
-  font-size: 12px;
+  font-size: 13px;
   font-family: $systemFont;
   font-weight: 400;
   color: #000000;
-  line-height: 1.6;
+  line-height: 1.8;
+  text-decoration: none;
 }
 
 .explorer-content .folder-container div > a:hover,
 .explorer-content .folder-container div > button:hover span {
   color: #000000;
+  text-decoration: none;
 }
 
 .folder-icon {
@@ -237,28 +279,29 @@ a.external .external-icon > path {
   }
 }
 
-// explorer header ("Explorer") — keep it in the 12px body size
+// explorer header ("Explorer")
 button.mobile-explorer h2,
 button.desktop-explorer h2 {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   font-family: $systemFont;
+  margin: 0;
 }
 
 // --- misc -------------------------------------------------------------------
 .search .search-button,
 .search .search-button p,
 .search input {
-  font-size: 12px;
+  font-size: 13px;
   font-family: $systemFont;
 }
 
 code {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 pre > code {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 footer,
@@ -266,9 +309,9 @@ footer p,
 footer li,
 footer a {
   font-size: 10px;
-  color: $grayText;
+  color: $metaGray;
 }
 
 .tag-link {
-  font-size: 10px;
+  font-size: 11px;
 }
