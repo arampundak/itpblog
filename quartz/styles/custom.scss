@@ -57,7 +57,7 @@ body {
 body {
   font-family: $systemFont;
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 1.445;
   color: #000000;
 }
 
@@ -72,13 +72,13 @@ text,
 figcaption,
 blockquote {
   font-size: 20px;
-  line-height: 1.7;
+  line-height: 1.445;
 }
 
 tbody,
 li,
 p {
-  line-height: 1.7;
+  line-height: 1.445;
 }
 
 // body copy — 20px of space above and below
@@ -155,7 +155,7 @@ h1.article-title {
 
 .page-title {
   margin: 0;
-  padding-bottom: 1.25rem;
+  padding-bottom: 0.8125rem; // was 1.25rem (-35%)
 
   & a {
     text-decoration: none;
@@ -260,11 +260,30 @@ a.external .external-icon > path {
   }
 }
 
-// --- left sidebar explorer --------------------------------------------------
-// folder names — 13px, roomier lines, no underline
+// --- left sidebar -----------------------------------------------------------
+// Spacing here is base.scss's sidebar metrics scaled to 65% (-35%). The top
+// padding stays at $topSpacing so the site title keeps aligning with the
+// article title in the main column.
+.page > #quartz-body {
+  & .sidebar.left {
+    gap: 0.78rem; // was 1.2rem
+    padding: $topSpacing 1.3rem 1.3rem 1.3rem; // sides/bottom were 2rem
+  }
+}
+
+.explorer-content {
+  margin-top: 0.325rem; // was 0.5rem
+
+  & .folder-outer > ul {
+    margin-left: 3.9px; // was 6px
+    padding-left: 0.52rem; // was 0.8rem
+  }
+}
+
+// folder names — 15.6px (13 x 1.2), no underline
 .explorer-content .folder-container div > a,
 .explorer-content .folder-container div > button span {
-  font-size: 13px;
+  font-size: 15.6px;
   font-family: $systemFont;
   font-weight: 400;
   color: #000000;
@@ -286,9 +305,9 @@ a.external .external-icon > path {
   }
 }
 
-// file names inside open folders — 12px, no underline, roomy line spacing
+// file names inside open folders — 14.4px (12 x 1.2), no underline
 .explorer-content ul li > a {
-  font-size: 12px;
+  font-size: 14.4px;
   font-family: $systemFont;
   font-weight: 400;
   color: #000000;
@@ -310,7 +329,7 @@ a.external .external-icon > path {
 // explorer header ("Explorer")
 button.mobile-explorer h2,
 button.desktop-explorer h2 {
-  font-size: 13px;
+  font-size: 15.6px;
   font-weight: 700;
   font-family: $systemFont;
   margin: 0;
@@ -329,7 +348,7 @@ button.desktop-explorer h2 {
 .search .search-button,
 .search .search-button p,
 .search input {
-  font-size: 13px;
+  font-size: 15.6px;
   font-family: $systemFont;
 }
 
