@@ -1,5 +1,8 @@
-070926
-
+---
+date: 2026-09-07
+tags: []
+draft: false
+---
 The ask:
 >**First assignment**  
 Create a short (4 min) presentation that introduces you and your interests, and post it [using this form](https://urldefense.proofpoint.com/v2/url?u=https-3A__docs.google.com_forms_d_e_1FAIpQLScWKaMuefF3hngzNL4moAkExczsI6bxse2zeiB2smDvdhsvPQ_viewform-3Fusp-3Ddialog&d=DwMFaQ&c=slrrB7dE8n7gBJbeO0g-IQ&r=c7tsoqNpXfJBenBa0B1_fA&m=bSf4f7IHY1BoPy_LIgJ3BF73Jmnk7prnm_WucFfWBzI97hQcKR9C4ktmEbPqSDSl&s=0QQ3KdGh8hYbYMUSEdnbFq28ENe15fLYlCusZcltkNk&e=).  
@@ -40,4 +43,12 @@ I want to:
 - Produces a working artifact?
 - Fluent with AI coding agents... can go from idea to working prototype on your own
 
+![[ths - pres 1.webp]]
+![[ths - pres 2.webp]]
+![[ths - pres 3.webp]]
+![[ths - pres 4.webp]]
+![[ths - pres 5.webp]]
+![[ths - pres 5.webp]]![[ths - pres 6.webp]]
+![[ths - pres 7.webp]]
+![[ths - pres 8.webp]]
 

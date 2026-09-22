@@ -70,8 +70,6 @@
 		{"id":"fdf9c3206076e07d","type":"text","text":"Memory","x":-2462,"y":498,"width":250,"height":60},
 		{"id":"b9c2e3e62305bcbf","type":"text","text":"Perception","x":-934,"y":160,"width":113,"height":60},
 		{"id":"6c5d813f80b613fe","type":"text","text":"Microphone","x":-734,"y":160,"width":121,"height":60},
-		{"id":"1ee28927161eb655","type":"text","text":"Pipeline","x":-946,"y":272,"width":125,"height":60},
-		{"id":"f59fc89f6bdf5503","type":"text","text":"Gap","x":-744,"y":270,"width":127,"height":60},
 		{"id":"22ea58d5ecdbf2a4","type":"text","text":"\"As children, we wanted our toys to come alive. We spoke for them and decided what happened next. In turn, they gave us more to imagine.\n\nWith computers, our imaginations found an application: feed them instructions, and they perform.\"\n\nfrom: Body-Shop","x":-1871,"y":-1006,"width":250,"height":343},
 		{"id":"7de3a6196f64f9a4","type":"text","text":"Proactivity","x":-2100,"y":-1650,"width":111,"height":60},
 		{"id":"3cbed51bb7a744f5","type":"text","text":"Playable","x":-2135,"y":-1500,"width":250,"height":60},
@@ -103,7 +101,9 @@
 		{"id":"bdbef2fd89c4c3a8","type":"text","text":"Moving parts","x":-642,"y":-129,"width":152,"height":60},
 		{"id":"c78f3c2c64b179cb","type":"text","text":"Intent - what they are about to do","x":-680,"y":-475,"width":127,"height":90},
 		{"id":"d22cce1103a3d818","type":"text","text":"I want mine different","x":-617,"y":-64,"width":250,"height":60},
-		{"id":"b1ff8be247e677a1","type":"text","text":"I want to be like everybody","x":-615,"y":9,"width":250,"height":60}
+		{"id":"b1ff8be247e677a1","type":"text","text":"I want to be like everybody","x":-615,"y":9,"width":250,"height":60},
+		{"id":"1ee28927161eb655","type":"text","text":"Pipeline","x":-939,"y":620,"width":125,"height":60},
+		{"id":"f59fc89f6bdf5503","type":"text","text":"Gap","x":-731,"y":620,"width":127,"height":60}
 	],
 	"edges":[
 		{"id":"48ca11a3eca83c60","fromNode":"0e7438b9ab8bc087","fromSide":"right","toNode":"ed2793c216b237d0","toSide":"left"},
