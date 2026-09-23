@@ -1,12 +1,18 @@
-210926
-
+---
+date: 2026-09-21
+tags: []
+draft: false
+---
 >What are the larger questions I want to ask about human robot interaction?
 
-How do we feel having a robot around? what will make it trust worthy? How does adoptation looks like? what will make the interaction worth wile for morethen 5 minutes?
+How do we feel having a robot around? what will make it trust worthy? How does adaptation looks like? What will make the interaction worth wile for more then 5 minutes?
 
-Theres a lot of different specialties in robotics - building on top of existing tools. 
-doing animation is only possible if i have the platform.
-Building something that is complete - building everything from scratch
+>Theres a lot of different specialties in robotics - building on top of existing tools. 
+Doing animation is only possible if i have the platform.
+Building something that is complete is very hard while also building everything from scratch
+
+I understood that developing a platform will take more time then I want to invest.
+
 market oriented / productt oriented
 build for myself, companion robots, accesability design, modifing for special needs, i build this one for me.
 challange - if i build for myself i might use an excuse "i just wanted it for my self". what is thei ntention - i dont know.

@@ -1,7 +1,6 @@
 ---
 date: 2026-09-21
 tags:
-  - DIYRobotics
 draft: false
 ---
 For Project Development Studio I want to create a social robot with low latency as a speaking device, building a body for intelligence, where character is made visible and expression becomes the interface. A machine to talk to while having first person perspective of how human robot interaction works, while asking what are key features that makes the interaction delightful, compelling and intriguing. 

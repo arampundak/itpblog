@@ -19,7 +19,7 @@ My thoughts:
 > **Explicit:** Fully expressed, direct, and open. Example: A recipe that says "Add two cups of flour".
 > **Implicit:** Understood or hinted at, requiring you to read between the lines. Example: A person saying "I'm fine" while frowning
 
-2 types of, mirroring effect, in art - cubism vs hyper realism, abstract (Rothco, Malevich) vs Chuck Close, Medieval and Renaissance painting. Flattening an image, story, comic, Japanese anime.
+The readings made me think of 2 types of... of mirroring effect. In art - cubism vs hyper realism, abstract (Rothco, Malevich) vs Chuck Close, Medieval and Renaissance painting. Flattening an image, story, comic, Japanese anime. And this led me to create the making part:
 
 
 ---
@@ -33,6 +33,44 @@ The ask:
 >- Try to store that JSON in "localstorage"
 >- Create a new kind of paint program using AI as power steering.
 >- In 1839, Paul Delaroche famously declared, "From today, painting is dead!" meaning that painting's role as a tool for capturing "the truth of the eye" was over. The invention of the camera as the "great liberator" of the canvas with painters choosing collage, expressionism and Cubism over realism. Try to create a story space where items can be recombined, collaged or sequenced into different meanings but maybe don't be a slave to external verisimilitude of space in expressing the inner arrangement of your thoughts.
+
+![[sm - impicit explicit 1.png]]
+## Faceted Self
+
+[I made something!](https://arampundak.github.io/NYU_Shared_Minds/03-implicit-explicit/index.html)
+
+![[sn - implicit explicit 1.webp|500]]
+
+![[sn - implicit explicit 2.webp|500]]
+
+#### What it does
+
+When you open the page and allow the camera, it takes your picture right away, with no countdown and a white flash. The photo goes through the ITP Replicate proxy to Google's nano-banana-2 model, which makes it sharper and more detailed and replaces the background with pure white. Then the cleaned portrait is sent off 9 more times, and your face comes back as a Byzantine icon, a Leonardo-style Renaissance painting, a Cubist painting, Malevich Suprematism, a Ukiyo-e woodblock print, Warhol pop art, 90s anime, Chuck Close and a charcoal drawing.
+
+The face is cut into a 16×16 grid, and each cell can show a different style. As the styles come back, each one takes over a random scatter of cells, so the face slowly breaks apart into many ways of seeing it at once. The thumbnails at the bottom show the whole face in one style. The pattern buttons (Scatter, Rings, Split, Stripes) rearrange the cells.
+
+Moving the mouse stretches the grid like a fisheye lens. This part comes from Nahuel Gerth's _Squareheads_. Each cell's size depends on its distance from the mouse, and the size falls off smoothly along a bell curve. Clicking freezes the stretch. The next click lets you keep deforming, and the new stretch builds on the frozen one, so you sculpt your face bit by bit.
+
+Everything is stored as JSON in localStorage: the photo, each style's image, which style each cell shows, and the shape you sculpted. **Flatten → PNG** saves only the pixels. **Export JSON** saves the parts, so the portrait can be put back together and recombined later.
+
+#### How it connects to the readings
+
+- **Pinker and Deutsch (the power of parts):** the styles are an alphabet, and the grid is the syntax. With 11 styles across 256 cells, there are about 11²⁵⁶ possible portraits. That's a discrete combinatorial system (Pinker's term) made from a single face.
+- **McGilchrist (the reality of the whole):** the fisheye works like attention. Where you look grows large and detailed, which is the left hemisphere's narrow grip on parts. Move the mouse away and the face relaxes back into one whole, closer to the right hemisphere's way of seeing.
+- **Implicit vs. explicit:** the "Average" cell is purely explicit. It's one computed color per cell, no machine learning, a bit like Chuck Close or a Rothko block. The AI styles are implicit: nobody wrote rules for what "Cubist" means, and the model learned it from correlations. The piece puts the two side by side on the same face.
+- **Flattening:** the art history in it runs from medieval flatness to Renaissance depth, and then back to flatness in Cubism, Suprematism and anime. Flatten vs. Export JSON asks Dano's question directly: do you hand someone a finished picture, or the parts so they can keep the conversation going?
+#### Credits
+
+- Fisheye grid idea: [Nahuel Gerth, _Squareheads_](https://nahuelgerth.de/lab/squareheads)
+- Proxy and example code: Dano's Shared Minds examples and the [ITP IMA Replicate proxy](https://itp-ima-replicate-proxy.web.app/)
+- Model: google/nano-banana-2 on Replicate
+- Code written with help from Claude (Anthropic): I described the concept and interactions, and Claude wrote the p5.js and helped refine it over several rounds.
+
+![[sn - implicit explicit try 1.webp]]
+
+![[sn - implicit explicit try 2.webp]]
+
+![[sn - implicit explicit try 3.webp]]
 
 
 ---
