@@ -53,7 +53,7 @@ Mic B – “The Yes-Man”
 Ads interrupt mid-sentence.  
 They are delivered with full enthusiasm.
 
-We got a great resource from Sarah Rothberg [[CHATBOTS, AGENTS, AND GENERATIVE CONVOS]]
+We got a great resource from Sarah Rothberg [[References/CHATBOTS, AGENTS, AND GENERATIVE CONVOS]]
 
 ---
 ## Tech
