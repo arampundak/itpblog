@@ -40,6 +40,8 @@ Patient with beginners, strict about safety glasses.
 ---
 ## Pitch Deck
 
+[Link to Presentation](https://docs.google.com/presentation/d/1n_gdwM24ZBlLJSeZ80bhH0wWwTFpzjYcFnBWsVYn-6k/edit?usp=sharing)
+
 **1. Title**
 Jig Sawyer, Jr. administrative staff
 
@@ -55,7 +57,7 @@ Meeting askers, makers and newcomers: students who come to the desk with a quest
 What I want people to feel: Curious rather than wary. They should read its mood without needing instructions.
 
 **4. Mindmap**  
-[[Mind Map 1.canvas]]
+![[Mind Map 1.canvas]]
 
 **5. Moodboard**  
 ![[pdev - Mood Board 1.webp]]
