@@ -13,3 +13,5 @@ Provides essential education on ethical principles, human subject protections, a
 - Finish all required modules and save or download your **Completion Certificate** for your IRB submission. [[1](https://www.csusm.edu/research/compliance/irb/training.html)]
 
 a **prerequisite certification**. Before you can interact with any participants, you must submit your specific study plan to your institution's **Institutional Review Board (IRB)** and wait for their **official, written approval**
+
+from [[Kari Love]]

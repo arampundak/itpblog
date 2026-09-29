@@ -112,13 +112,13 @@
 		{"id":"95d4ab95e02d3e02","type":"text","text":"yield when crossing the street","x":-2620,"y":-1580,"width":170,"height":60},
 		{"id":"240cdf8515a02191","x":-3480,"y":-3373,"width":400,"height":400,"color":"1","type":"file","file":"HRI Conference ACM IEEE International.md"},
 		{"id":"accdf5aa58d9306c","x":-748,"y":-3360,"width":250,"height":60,"type":"text","text":"Voice"},
-		{"id":"33f7ac3417e4e0fe","x":-748,"y":-3240,"width":230,"height":263,"type":"file","file":"CHATBOTS, AGENTS, AND GENERATIVE CONVOS.md"},
+		{"id":"33f7ac3417e4e0fe","x":-748,"y":-3240,"width":230,"height":263,"type":"file","file":"References/CHATBOTS, AGENTS, AND GENERATIVE CONVOS 1.md"},
 		{"id":"740a94d088ec8b55","x":-1771,"y":-3136,"width":111,"height":60,"type":"text","text":"EVIDENCE"},
 		{"id":"ceea620cae0a3c40","x":-1586,"y":-3335,"width":250,"height":60,"type":"text","text":"informal viewer reactions"},
 		{"id":"2fa9dfc79a491616","x":-1846,"y":-3348,"width":250,"height":60,"type":"text","text":"own documented design reasoning"},
 		{"id":"feb362ff9ad41cd5","x":-2185,"y":-3138,"width":164,"height":60,"type":"text","text":"What is research?"},
 		{"id":"8f8235a26121f015","x":-1869,"y":-3648,"width":250,"height":60,"color":"1","type":"text","text":"DO A FUCKING RESEARCH"},
-		{"id":"069ee0a89d0ee381","x":-2182,"y":-2973,"width":331,"height":278,"type":"file","file":"CITI IRB Training.md"},
+		{"id":"069ee0a89d0ee381","x":-2182,"y":-2973,"width":331,"height":278,"type":"file","file":"References/CITI IRB Training.md"},
 		{"id":"e4ec917938f1a099","x":-2589,"y":-2798,"width":250,"height":60,"type":"text","text":"from [[Kari Love]]"}
 	],
 	"edges":[
