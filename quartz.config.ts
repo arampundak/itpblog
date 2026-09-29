@@ -67,6 +67,8 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      // renders ![[Some.canvas]] embeds — must come before ObsidianFlavoredMarkdown
+      Plugin.Canvas(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       // turns single newlines into <br>, matching how Obsidian renders them

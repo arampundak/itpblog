@@ -3,6 +3,7 @@ date: 2026-09-28
 tags:
   - people
   - reference
+  - robots
 draft: false
 url: https://rhye.civfanatics.net/gabu/bio.php
 ---

@@ -2,6 +2,7 @@
 date: 2026-09-28
 tags:
   - "#reachymini"
+  - resource
 draft: false
 url: https://huggingface.co/spaces/AdrianTam/hey_robo
 ---
