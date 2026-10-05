@@ -50,6 +50,8 @@ Visitor's browser
 
 **[Live link](https://arampundak.github.io/NYU_Shared_Minds/04-every-time-you-look/)** - **[Code on GitHub](https://github.com/arampundak/NYU_Shared_Minds/tree/main/04-every-time-you-look)**
 
+![[sn - time screenshot.webp]]
+
 This week we moved from the client to the server. My first reaction to Firebase was spreadsheets, grey offices, and numbers in cells. Then I remembered a piece I love: someone mapped [Manhattan's 2024 rents](link) inside a Google Sheet, with the cells arranged in the shape of the island. The boring tool became the canvas. I wanted to do the same with a database.
 
 ![[ref - Manhattan Rent repponen.webp|300]]
@@ -70,8 +72,6 @@ So what happens if you change a few letters?
 
 It doesn't disappear. It glitches. Change the first character and the file breaks completely. Change one in the middle and a block goes wrong, and so does everything after it, because JPEG data is one continuous chain. With **restart markers** (checkpoints where the decoder resets), the damage stays local and builds up gradually. That became the project.
 
-![[sn - time screenshot.webp]]
-
 **How it works.** Nine images live in Firestore as base64 text. Every time someone opens one, 5 random characters are rewritten and saved back, and everyone watching sees it glitch live. Looking at an image damages it. Next to each image, the base64 text scrolls by with the changed letters in red. When an image is too far gone, anyone can press **Remember**, and Nano Banana (through Replicate) reconstructs it. The result is plausible but not the original, and it's more fragile: with no restart markers, it decays faster.
 
 **Why.** This is **memory reconsolidation**. Every time we recall a memory, it becomes unstable and gets stored again, slightly changed. We don't retrieve memories, we rebuild them, and we fill the gaps with confident fiction. The AI does the same thing. It's also my answer to this week's question: "if you go back to the first thought after the second, is the first thought different?" Here, yes, every time.
@@ -83,3 +83,5 @@ It doesn't disappear. It glitches. Change the first character and the file break
 **What broke:**  an image turned fully gray when a change hit a restart marker. I kept it as the "fully forgotten" state. / CORS issue with the Replicate image
 
 **Help:** I developed the concept and tested the base64 corruption with Claude, and built the project with Claude Code. 
+
+**Next time:** A timeline slider that scrubs back through every saved version, so you can watch a memory drift over time. And an image that nobody ever opens, as a control group: is the only way to keep a memory never to look at it?
