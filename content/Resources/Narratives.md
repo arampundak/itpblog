@@ -1,4 +1,4 @@
-#resources
+#resource 
 
 040926
 1st class - Computational approaches to narrative
@@ -28,6 +28,14 @@ Mr. Fox and his wife get caught in a trap while stealing food, he promises to no
 The farmers shoot off his tail, And force him and his family to live in the sewers.
 Mr. Fox leads the underground community in digging a massive network of tunnels to defeat the farmers.
 The animals find a way to get into a supermarket and decids to live in the sewers with endless food opportunities
+
+- When we talk to an LLM, we think there's a person behind it, so we trust it. But we shouldn't.
+- "Statement of principles" = a great narrative to think with. Only boring statements as stories.
+- Game studies is interactivity study.
+- **Twine**: a tool for creating hypertext narratives. Game studios use it to check narratives before production. This could be interesting for building characters for robots.
+- **Bitsy**: an abstracted game world builder.
+- **IFDB**: a database of interactive fiction games. Look for _Colossal Cave_.
+- (Session 7 readings: queer)
 
 ---
 Links from class:

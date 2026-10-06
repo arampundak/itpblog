@@ -24,7 +24,7 @@ Your Python scripts ─┘
 - **Audio:** handles the mics and speaker, and passes settings to the audio chip.
 - **Local server:** listens at `localhost:8000`, which is how apps connect to it. Your `curl` command asked the daemon a question there.
 
-**Where it showed up in [[Jig Sawyer - 1]]:**
+**Where it showed up in [[Reachy Mini Experiment 1]]:**
 
 - **"Timed out waiting for WebRTC stream":** the daemon's video streamer froze. Updating it fixed that.
 - **"Daemon v1.8.0" in the app:** its version number.

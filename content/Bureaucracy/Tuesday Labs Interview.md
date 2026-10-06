@@ -1,3 +1,10 @@
+---
+date: 2026-09-29
+tags: []
+draft: true
+author:
+url:
+---
 ### Talk with Rosalind 20260303
 
 I care about how motion translates into perceived intent — and that requires reliable mechanical execution. And im a hands-on builder who understands system-level integration and validation.

@@ -5,7 +5,7 @@ draft: false
 ---
 For Project Development Studio I want to create a social robot with low latency as a speaking device, building a body for intelligence, where character is made visible and expression becomes the interface. A machine to talk to while having first person perspective of how human robot interaction works, while asking what are key features that makes the interaction delightful, compelling and intriguing. 
 
-After an [[Office hours with Pedro 1]] I understand that building a platform from scratch is too big of an ask and might leave me with no time to explore the interaction aspects of TTS and with no time to develop the character behind the robot. I starting a journal about [[What is character in a robot?]].
+After an [[Office hours with Pedro 2109]] I understand that building a platform from scratch is too big of an ask and might leave me with no time to explore the interaction aspects of TTS and with no time to develop the character behind the robot. I starting a journal about [[What is character in a robot?]].
 
 For the next few weeks i'm intending on developing a robot character built upon the [[Reachy mini]] or [[Coglet]].
 

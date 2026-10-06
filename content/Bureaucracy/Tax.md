@@ -1,7 +1,10 @@
-#bureaucracy
-
-20260305
-
+---
+date: 2026-03-05
+tags: []
+draft: true
+author:
+url:
+---
 - every year's tax deadline - 15.4.26
 - US residency starts - only after 5 years
 - everyone must complete ==Form 8843== - minimal filing - declaration of tax. name address, type of visa, number of days. 
