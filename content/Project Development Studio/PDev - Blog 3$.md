@@ -7,7 +7,7 @@ url:
 ---
 Ask:
 >- Add Feedback to 2 projects (1 to your notes + 1 of your choosing).
->- Make a blog post explaining how you can develop your project with $10.000 in 10 months and $10 in 10 days.
+>- Make a blog post explaining how you can develop your project with $ 10.000 in 10 months and $ 10 in 10 days.
 >- Make another blog post with a detailed Timeline.
 >- Bring a basic prototyping kit for the next class. A list can be found [HERE](https://github.com/juxtapix/PDev/wiki/Resources#prototyping-kit)
 
@@ -33,5 +33,5 @@ The heart of my project is using a personified AI to help people make things by 
 
 With $10, I would buy a small keychain speaker (the kind sold as a kids' toy) and hack it to connect to an agent running locally on my computer. A user would press the button, say which part of the shop they're in and ask a question. The AI would then answer or suggest a way to work more smoothly and safely.
 
-Looking at both extremes, the most important part of the project survives even in the $10 version: a voice that answers only when asked and that makes you explain your problem before it helps. What the $10,000 version adds is mostly sensing and infrastructure, not teaching. So my actual project sits closer to the small end: one robot, one character, built on Reachy Mini. The question I need to answer is what having a body adds that a keychain can't, such as presence, being approachable and something you can carry to the machine.
+Looking at both extremes, the most important part of the project survives even in the $ 10 version: a voice that answers only when asked and that makes you explain your problem before it helps. What the $10,000 version adds is mostly sensing and infrastructure, not teaching. So my actual project sits closer to the small end: one robot, one character, built on Reachy Mini. The question I need to answer is what having a body adds that a keychain can't, such as presence, being approachable and something you can carry to the machine.
 ![[pdev - 10$.avif|300]]
