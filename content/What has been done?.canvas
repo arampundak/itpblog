@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7b92cd8ea7b0a03b","x":-153,"y":-110,"width":400,"height":650,"type":"file","file":"References/Heider-Simmel Illusion.md"},
+		{"id":"85fec71da3fa5922","x":-153,"y":560,"width":400,"height":400,"type":"file","file":"References/The Dot and the Line.md"}
+	],
+	"edges":[]
+}

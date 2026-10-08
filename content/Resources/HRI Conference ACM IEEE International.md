@@ -72,7 +72,7 @@ The project can exist in several formats:
 - **Interaction concepts and scenarios** — well-developed interaction designs demonstrated through enactment, video prototyping, Wizard-of-Oz techniques, or similar methods.
 - **Spatial and service design concepts** — designs addressing how robots, people, and public environments are configured around one another.
 
-We are not looking for full-fidelity prototypes or any particular level of autonomy. It is completely acceptable for a robot to be lo-fi or puppeted (“Wizard-of-Oz”) during the demonstration, as long as this is disclosed. Expensive hardware is not required and confers no advantage: a rigorous, well-argued software or conceptual design can win this competition. Conversely, a technically sophisticated robot with a thin or retrofitted interaction story is a poor fit for the SDC.
+We are not looking for full-fidelity prototypes or any particular level of autonomy. It is completely acceptable for a robot to be lo-fi or puppeted (“Wizard-of-Oz”) during the demonstration, as long as this is disclosed. Expensive hardware is not required and confers no advantage: a rigorous, well-argued software or conceptual design can win this competition. ==Conversely, a technically sophisticated robot with a thin or retrofitted interaction story is a poor fit for the SDC.==
 
 - **Who:** student teams. Students at any stage — undergraduate through PhD — and from any discipline are eligible. Multidisciplinary teams are encouraged.
 - **Team size:** 2–5 students. Team members may be at different institutions. No student may be on more than one team.
@@ -82,7 +82,7 @@ We are not looking for full-fidelity prototypes or any particular level of auton
 
 ## Theme: Robots in Public Spaces
 
-The 2027 theme is robots in public spaces, interpreted broadly. We mean physical public and quasi-public environments: sidewalks, plazas, and parks; museums and libraries; airports and train stations; hospital lobbies, elderly-care facilities, and other shared institutional spaces. What these settings have in common is that they are multi-party, socially complex, and messy. Robots in public spaces encounter strangers rather than trained users, bystanders as well as intended users, crowds, queues, children, pets, mobility aids, competing social norms, and people who did not ask to interact with a robot at all.
+The 2027 theme is robots in public spaces, interpreted broadly. We mean physical public and quasi-public environments: sidewalks, plazas, and parks; museums and libraries; airports and train stations; hospital lobbies, elderly-care facilities, and other **shared institutional spaces.** What these settings have in common is that they are **multi-party, socially complex, and messy.** Robots in public spaces encounter strangers rather than trained users, bystanders as well as intended users, crowds, queues, children, pets, mobility aids, competing social norms, and people who did not ask to interact with a robot at all.
 
 **Think about:** In what specific space will the system exist, and do you know enough about how that space actually works day-to-day? Who are the stakeholders — including the people who never chose to encounter your robot? Is the robot supporting activities that already happen in this space, or creating a new one? What could go wrong when the space is crowded, loud, or uncooperative — and what are the risks of introducing a robot at all? Who might the design exclude, and what would change that?
 
@@ -94,14 +94,14 @@ A submission engages the theme when it meets these criteria:
 
 - The interaction is situated in a specific, named public or quasi-public setting — not “anywhere.”
 - The design accounts for more than one party: intended users and bystanders, passers-by, staff, or other stakeholders present in the space.
-- At least some key design choices exist because the setting is public — they would not make sense for a private, single-user context.
+- **At least some key design choices exist because the setting is public — they would not make sense for a private, single-user context.**
 - The submission engages at least one real-world complication of the setting: crowding, noise, uninvited interaction, accessibility, diverse norms, consent, maintenance, or similar.
 
 ## Work in Progress
 
 Your project does not need to be finished at the submission deadline. Two rules apply:
 
-1. Your paper must describe the final deliverable concretely enough to convince reviewers that it will be strong at the conference. Define your goals and your criteria for “success” clearly from the outset, state what is done and what remains, and show that the remaining work is realistic within the timeline.
+1. Your paper must describe the final deliverable concretely enough to convince reviewers that it will be strong at the conference. **Define your goals and your criteria for “success” clearly** from the outset, state what is done and what remains, and show that the remaining work is realistic within the timeline.
 2. By the camera-ready deadline (and at the conference), the work you present must be a completed design project as described in your accepted submission.
 
 Reviewers will explicitly assess whether proposed work is achievable in the time available.
