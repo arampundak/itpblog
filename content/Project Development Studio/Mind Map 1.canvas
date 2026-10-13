@@ -23,7 +23,7 @@
 		{"id":"19ad8566d5160d8d","type":"text","text":"Open the door for me","x":-2414,"y":-1580,"width":190,"height":60},
 		{"id":"94bcf451396fe08a","type":"text","text":"Taking time to think before responding","x":-2484,"y":-2406,"width":250,"height":60},
 		{"id":"88fab76a5b9f0235","type":"text","text":"Gathering people together","x":-2529,"y":-1410,"width":250,"height":60},
-		{"id":"e4ec917938f1a099","type":"text","text":"from [[Office Hours with Kari Love]]","x":-2589,"y":-2798,"width":250,"height":60},
+		{"id":"e4ec917938f1a099","type":"text","text":"from [[Office Hours with Kari Love 2309]]","x":-2589,"y":-2798,"width":250,"height":60},
 		{"id":"95d4ab95e02d3e02","type":"text","text":"yield when crossing the street","x":-2620,"y":-1580,"width":170,"height":60},
 		{"id":"92c139053f54ad05","type":"text","text":"Systems","x":-2781,"y":190,"width":130,"height":59},
 		{"id":"3d22e4622785b929","type":"text","text":"Statements","x":-2860,"y":-343,"width":157,"height":60},
@@ -161,7 +161,8 @@
 		{"id":"a0ffbef0daaaa002","type":"text","text":"Toys","x":-1780,"y":-1409,"width":100,"height":60},
 		{"id":"8ecfe6b26eff938e","type":"text","text":"Sociable","x":-2137,"y":-1410,"width":250,"height":60},
 		{"id":"7f0604b5520a962e","type":"text","text":"Latency","x":-2149,"y":-2498,"width":92,"height":60},
-		{"id":"9e6da3e4ba9b8a24","type":"file","file":"media/C41D7C1B-927B-4822-AB26-125BE5FD5262_1_102_o.jpeg","x":-591,"y":-1379,"width":185,"height":400}
+		{"id":"9e6da3e4ba9b8a24","type":"file","file":"media/C41D7C1B-927B-4822-AB26-125BE5FD5262_1_102_o.jpeg","x":-591,"y":-1379,"width":185,"height":400},
+		{"id":"f526d0b41de81b8b","x":-4200,"y":-3108,"width":400,"height":922,"type":"file","file":"Readings/Research for people who think they’d rather create.md"}
 	],
 	"edges":[
 		{"id":"48ca11a3eca83c60","fromNode":"0e7438b9ab8bc087","fromSide":"right","toNode":"ed2793c216b237d0","toSide":"left"},

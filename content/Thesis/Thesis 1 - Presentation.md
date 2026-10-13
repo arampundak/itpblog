@@ -48,7 +48,7 @@ I want to:
 ![[ths - pres 3.webp]]
 ![[ths - pres 4.webp]]
 ![[ths - pres 5.webp]]
-![[ths - pres 5.webp]]![[ths - pres 6.webp]]
+![[ths - pres 6.webp]]
 ![[ths - pres 7.webp]]
 ![[ths - pres 8.webp]]
 
