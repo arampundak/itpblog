@@ -3,7 +3,7 @@ date: 2026-09-28
 tags:
   - conference
   - resource
-draft: true
+draft: false
 url: https://humanrobotinteraction.org/2027/#
 ---
 

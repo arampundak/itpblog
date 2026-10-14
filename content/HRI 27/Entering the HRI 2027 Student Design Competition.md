@@ -5,7 +5,7 @@ draft: false
 author:
 url:
 ---
-Five years ago, my bachelor's graduation project started from one observation: children who grow up with voice assistants learn to speak in a commanding manner. It led me to redesign Alexa with different avatars and personalities, and the story has stayed with me since. Technology doesn't only serve us. It trains us.
+vFive years ago, my bachelor's graduation project started from one observation: children who grow up with voice assistants learn to speak in a commanding manner. It led me to redesign Alexa with different avatars and personalities, and the story has stayed with me since. Technology doesn't only serve us. It trains us.
 
 Generative AI is the next chapter of that story. It will make anything we ask for, instantly, and we are learning to accept whatever it hands us. At HRI 2026, researchers working with LLM-powered robot tutors found that [pupils accepted the robot's answers even when they recognized them as wrong](https://imec-publications.be/entities/publication/6f9635a9-7a3a-4fa6-b032-8d4a58e81cad/full), as long as the robot seemed smart.
 

@@ -1,11 +1,7 @@
 ---
-date: 2026-10-13
+date: 2026-09-29
 tags: []
-draft: false
+draft: true
 author:
 url:
 ---
-**Your procedure/design line is blurry.** Laser power and speed settings are both procedure and design. A cleaner principle is consequence and reversibility:
-
-- Irreversible or unsafe choices get direct answers.
-- Reversible choices that a cheap test cut can teach go back to the student.
