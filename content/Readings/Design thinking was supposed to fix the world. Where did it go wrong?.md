@@ -2,7 +2,7 @@
 
 By Rebecca Ackermann
 February 9, 2023
-From [[PDev - 1st class - Assignment]]
+From [[1st class - Assignment]]
 https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/
 ---
 

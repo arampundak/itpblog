@@ -28,7 +28,7 @@ In the mood board I placed robots as my field of interest, together with soft co
 ---
 ## **TOPIC and ATTRIBUTE**
 
-In [[PDev - 1st class - Notes]] we were introduced with the Topic, Device, Attribute and Mood framework.
+In [[1st class - Notes]] we were introduced with the Topic, Device, Attribute and Mood framework.
 For my project 2 topics and attributes that might fit in:
 Option 1:
 1. Topic - AI Companionship

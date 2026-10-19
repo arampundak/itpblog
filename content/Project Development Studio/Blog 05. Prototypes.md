@@ -50,4 +50,4 @@ Ill have to take more time to think about BOM.
 Theres also a retraining of the robot movements to do - so it wont collide with it self because of new shell.
 
 I also made a [[User Journey 1]]
-And I have to relook at my [[PDev - Blog - Timeline 01]]
+And I have to relook at my [[Blog Timeline 01]]

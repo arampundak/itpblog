@@ -1,6 +1,6 @@
 #resource 
 
-From [[PDev - 2nd class - Notes]]
+From [[2nd class - Notes]]
 When writing a mind map it is good to let out our most initial thoughts, the first layer might be the most superficial one, we have to get it out of the system in order for fresh and novel ideas to have room.
 
 >A mind map is a great tool for visually organizing information and ideas. It allows you to take your stream of consciousness and give it structure, helping you analyze and synthesize new ideas. 

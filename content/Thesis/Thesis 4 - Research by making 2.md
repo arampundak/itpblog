@@ -50,7 +50,7 @@ Key ideas about how Reachy Mini’s software is built:
 
 ### How conversation is conducted
 
-Ari’s profile, shop doc and memory load into the voice model on Hugging Face, which hears, thinks, speaks and calls tools (moving, web search). In parallel, app on Mac ==takes every finished utterance as text and sends the last 24==, plus the shop doc and the teaching doc, to OpenAI. OpenAI ==sends back a short advisory note==. The ==app slips that note into the voice model’s instructions==, so it can ==affect Ari’s _next_ reply==. 
+Ari’s profile, shop doc and memory load into the voice model on Hugging Face, which hears, thinks, speaks and calls tools (moving, web search). In parallel, app on Mac ==takes every finished utterance as text and sends the last 24==, plus the shop doc and the teaching doc, to OpenAI. OpenAI ==sends back a short advisory note==. The ==app slips that note into the voice model’s instructions==, so it can ==affect Ari’s next reply==
 The voice model never asks for help. Help is pushed to it whether it needs it or not.
 
 **My misunderstanding was** that the OpenAI layer, the reasoning layer is always there, Hugging Face model **never calls it, and doesn’t know it exists**, **app on Mac** calls it, automatically, **after every finished utterance**. No judgment is involved. It runs whether the student asked something hard or just said “ok”. Web search is a different thing: a Hugging Face Space tool that the voice model itself can call.
