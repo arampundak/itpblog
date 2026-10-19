@@ -54,6 +54,8 @@ Ari’s profile, shop doc and memory load into the voice model on Hugging Face, 
 The voice model never asks for help. Help is pushed to it whether it needs it or not.
 
 **My misunderstanding was** that the OpenAI layer, the reasoning layer is always there, Hugging Face model **never calls it, and doesn’t know it exists**, **app on Mac** calls it, automatically, **after every finished utterance**. No judgment is involved. It runs whether the student asked something hard or just said “ok”. Web search is a different thing: a Hugging Face Space tool that the voice model itself can call.
+
+![[ths - ari-conversation-flow.png]]
 #### Where does what you say go?
 
 This is what bothered me most. When a student talks to Ari, their voice goes to Hugging Face, and a transcript of the conversation goes to OpenAI after every sentence. Ari also has a camera. None of this is visible to the student. Ari looks like a small friendly robot on a table, and I don’t yet know exactly what happens to that data once it leaves the shop.
