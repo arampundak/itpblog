@@ -25,7 +25,7 @@ A machine among machines that is made from the same material as the shop.
 Patient with beginners, strict about safety glasses. 
 
 ---
-## [[Timeline]]
+## [[PDev - Blog - Timeline 01]]
 
 **Next steps:**
 

@@ -5,7 +5,7 @@ draft: false
 author:
 url:
 ---
-We sat in the maker space, then moved to ITP to start building the app for Reachy Mini.
+We sat in the maker space, then moved to ITP to start building the app for Reachy Mini. We composed a system architecture.
 
 ---
 

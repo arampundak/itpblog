@@ -22,6 +22,9 @@ url:
 - **Bring people in early.** Niko’s own turning point was a single workshop. ==Short sessions with a few people, some clay and a question produce objects,== interviews and documentation all at once.
 - **Plan documentation early.** Block a week, rent a space, bring lights and people, write a script.
 
+TakeAways:
+- **Ownership and loyalty are design variables, not background.** Who the robot serves (the shop, or the person) changes how people behave around it. That matters directly for your claim that robots can strengthen interactions between people. A shop-owned robot mediating between people is not neutral. Address it in the Ari paper, not later.
+- **Get people into the process.** Run 5 or 6 short workshops or sessions over the semester. They give you artifacts, interviews and evidence for the framework. That is what keeps “thought leader” positioning from being empty.
 ### What matters most for my thesis
 
 1. **The question of minimal character.** Paring back challenges my own direction in a useful way. My framework has to say when a robot shouldn’t talk, move or perform, not just how to add character.

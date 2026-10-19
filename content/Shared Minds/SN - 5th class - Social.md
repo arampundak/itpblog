@@ -29,3 +29,32 @@ think what other ppl think
 >- Can you make an app that allows people to tell their stories? Maybe build an AI assisted chat app, Miro board, Google Doc, a group picture app or a cooperative comic book? Maybe start with a single frame but think about how this could work with a sequence of still frames or a movie. Or if you are loving the direction from your recent assignments, keep going with that.
 >- Can you make fake users, agents to test the problem of scale that we have with social media. You
 >- Now you hopefully feel the pain of how to hilite a some among a sprawl of users. This motives the interface challenge of this class. For now you can make a pulldown menu or an array of photos (fake people) for finding other people and their creations but can you think of something more innovative to navigate through all the other possible worlds.
+
+
+
+
+
+## VibeOS
+https://github.com/kaansenol5/vibeos
+VibeOS is an operating system written from scratch for ARM64 (aarch64). It runs on QEMU and real Raspberry Pi Zero 2W. The entire OS was built in collaboration with Claude over 64 sessions, documented in the [session logs](https://github.com/kaansenol5/VibeOS/blob/main/SESSION_LOG_1.md).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7NfyZhV1dKM?si=-ulAwnQfL4jzCBYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4gSazFkzp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## REA: Reverse Engineer Anything
+https://github.com/morluto/rea
+
+One MCP for reverse engineering across binaries, applications, and runtime behavior.
+See a feature you like. Understand how it works, down to the binary level.**
+REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind each conclusion.
+
+---
+
+# 36 Classic PC Games From The '90s That Still Hold Up
+https://www.ranker.com/list/best-old-school-computer-games/kyle-townsend
+
+---
+## What Are Foundation Models? Beyond LLMs Across Vision, Biology, Weather, and Robotics
+https://medium.com/@mjgmario/what-are-foundation-models-beyond-llms-across-vision-biology-weather-and-robotics-81295fe67423
+
+Liquid unveils “Nanos”: Extremely small foundation models that match frontier-model quality—running directly on everyday devices
+https://www.liquid.ai/press/liquid-unveils-nanos-extremely-small-foundation-models-that-match-frontier-model-quality--running-directly-on-everyday-devices
