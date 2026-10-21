@@ -11,7 +11,7 @@ Calculators have been around for some time but memorizing the multiplication tab
 Confront yourself with IDE - to see the files. 
 Y. N. Harari - "Stories are the software of humanity"
 
-Visual Intelligence: How We Create What We See is a 1998 book by cognitive scientist Donald D. Hoffman that explores how the human mind actively constructs visual reality rather than passively recording it.
+"Visual Intelligence: How We Create What We See" is a 1998 book by cognitive scientist Donald D. Hoffman that explores how the human mind actively constructs visual reality rather than passively recording it.
 The idea of time and space is an illusion, Interface Theory of Perception - the world time and space don't exist in the world they are simplification to find ourselves in the world. 
 Have a thought and many associations with it - like a neural network. From every node theres a million connections. Opposed to traditional media. The world is very high dimensional. 
 Should we be building an interface to the interface - VR - thats whats out there. Cinema is against it - go forward or backwards in time. Cinema take in account that the world can be strange.
