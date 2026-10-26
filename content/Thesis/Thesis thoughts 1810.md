@@ -51,4 +51,4 @@ _Office hours with Kari, 14/10_
 - My strongest interest is surveillance and consent.
 - Compare the robot to existing makerspace safety systems: card access versus a social contract.
 - The research-by-making I’ve been avoiding is coding the robot and actually talking to it.
-- Sycophancy as self-preservation. [add one line on what this meant, or future-you won’t know]
+- Sycophancy as self-preservation.

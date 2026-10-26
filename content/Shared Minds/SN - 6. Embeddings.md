@@ -23,7 +23,7 @@ But the rooms don’t sit on a map. They sit in embedding space, and the doors m
 - **Bridge door:** a far-away room many people have visited.
 - **Compass door:** type a word, and it takes you to this room _plus_ that word.
 
-Dano wrote that when everyone is a producer, search becomes king. So the game is search. Each player hunts for an object (“rusty key”) that was placed in whichever room’s meaning fits it best. You only get the name, so the only way to find it is to steer through meaning. Six bot personas write thoughts through the same pipeline, labelled as bots, so the world isn’t empty. [link to the game](https://arampundak.github.io/NYU_Shared_Minds/06-embeddings/)]
+DanO wrote that when everyone is a producer, search becomes king. So the game is search. Each player hunts for an object (“rusty key”) that was placed in whichever room’s meaning fits it best. You only get the name, so the only way to find it is to steer through meaning. Six bot personas write thoughts through the same pipeline, labelled as bots, so the world isn’t empty. [link to the game](https://arampundak.github.io/NYU_Shared_Minds/06-embeddings/)]
 
 #### Mid dev test:
 ![[sn - w6 initial test.mp4]]
