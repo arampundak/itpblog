@@ -1,6 +1,8 @@
 ---
 date: 2026-10-26
-tags: []
+tags:
+  - reading
+  - hri
 draft: false
 author:
 url:

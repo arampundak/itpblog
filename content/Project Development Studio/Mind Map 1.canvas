@@ -4,7 +4,7 @@
 		{"id":"3392d30639745d9b","type":"group","x":-5215,"y":-3612,"width":2654,"height":1532,"color":"1","label":"Research"},
 		{"id":"fa3bd6b8d7b7719e","type":"group","x":2060,"y":-2980,"width":1760,"height":740,"label":"social"},
 		{"id":"486b17df77a8660f","type":"group","x":-1480,"y":40,"width":792,"height":720,"color":"#b3426f","label":"TRUST"},
-		{"id":"fac2f68efdc06f7d","x":-4220,"y":-1240,"width":850,"height":440,"color":"4","type":"group","label":"Meta bout project creation"},
+		{"id":"fac2f68efdc06f7d","type":"group","x":-4220,"y":-1240,"width":850,"height":440,"color":"4","label":"Meta bout project creation"},
 		{"id":"3d0b130590bed149","type":"group","x":-2640,"y":-1600,"width":436,"height":100,"color":"2","label":"what politeness looks like in motion"},
 		{"id":"ea32a01a28e6ee96","type":"file","file":"Resources/Building the most expressive robot harness so far.md","x":-1198,"y":-7868,"width":400,"height":400},
 		{"id":"86e7eb5c11690906","type":"text","text":"Code","x":-798,"y":-7031,"width":250,"height":60},
@@ -166,11 +166,12 @@
 		{"id":"d117c577f5f3ae60","type":"text","text":"wtf\n3.2.1 Framework Formulation. To consider the problem of generating movements considering both functional and expressive objectives, we present the high-level formulation of the problem to guide the low-level trajectory design and integration. We mathematically formulate the robot movement problem as a Markov Decision Process (MDP) defined by a tuple (𝑆,𝐴,𝑃,𝑅). At timestep 𝑡 ∈ 0,1,. . .,𝑇, the state 𝑠𝑡 ∈ 𝑆 consists of the robot joint angles, the tool states, and the environment states. For example, the tool states would include turning the light on and off, as well as projecting images. The environment states include the perceived state of the users and other object of interests in the environment. The action 𝑎𝑡 ∈ 𝐴 consists of the change in joint angles and the tool event. The transition function then defines 𝑠𝑡+1 = 𝑃(𝑠𝑡,𝑎𝑡). For simplicity, we also denote the trajectory 𝜏 = (𝑠0,𝑠1, . . .,𝑠𝑇). The reward function 𝑅 consists of two parts: functional utility 𝐹 and expressive utility 𝐸. Functional Utility 𝐹 defines the function-driven utility of reaching certain states: 𝑇 ∑︁ 𝐹(𝜏) = 𝑡=0 𝑓 (𝑠𝑡) (1) Without loss of generality, we assume there is only one goal state 𝑠𝑔. In this case, 𝑓 (𝑠𝑡) = 1(𝑠𝑡 = 𝑠𝑔) , where 1(·) is the indicator function. Expressive Utility 𝐸 defines the expression-oriented utility of reaching certain states: 𝑇 ∑︁ 𝐸(𝜏) = 𝑡=0 𝑒(𝑠𝑡) (2) In this work, we draw on design research methods to define 𝑒(·) along the expressive dimensions of attention, emotion, intention, and attitudes, as discussed in Section 3.2.2. Finally, the objective is to maximize the total utility: max 𝑎0,...,𝑎𝑇 −1 𝐹 (𝜏) + 𝛾𝐸(𝜏) (3) where𝛾 is the weight for the expressive utility, which could vary with different task and user. In Section 4, we present a user study to evaluate the perception difference between the robot movements when taking𝛾 > 0 versus when𝛾 = 0.","x":-5215,"y":-4807,"width":540,"height":906},
 		{"id":"ee72b52c06abc748","type":"file","file":"References/ELEGNT.md","x":-5145,"y":-3548,"width":400,"height":400},
 		{"id":"f526d0b41de81b8b","type":"file","file":"Readings/Research for people who think they’d rather create.md","x":-5145,"y":-3083,"width":400,"height":922},
-		{"id":"5934e1e196a2a314","type":"file","file":"MALTE JUNG.md","x":-3020,"y":-3548,"width":400,"height":400},
-		{"id":"89c0abb65aba7f0f","x":-3020,"y":-3708,"width":250,"height":60,"type":"text","text":"researcher of robot to human to human"},
+		{"id":"5934e1e196a2a314","type":"file","file":"References/MALTE JUNG.md","x":-3020,"y":-3548,"width":400,"height":400},
+		{"id":"89c0abb65aba7f0f","type":"text","text":"researcher of robot to human to human","x":-3020,"y":-3708,"width":250,"height":60},
 		{"id":"240cdf8515a02191","type":"file","file":"HRI 27/HRI Conference ACM IEEE International.md","x":-3020,"y":-3078,"width":400,"height":400,"color":"1"},
-		{"id":"5603ba425f6499af","x":-3480,"y":-3533,"width":400,"height":565,"type":"file","file":"SDC thoughts 2610.md"},
-		{"id":"f06909edeccc6d9d","x":-3480,"y":-3708,"width":250,"height":60,"type":"text","text":"citetions"}
+		{"id":"5603ba425f6499af","type":"file","file":"HRI 27/SDC thoughts 2610.md","x":-3480,"y":-3533,"width":400,"height":565},
+		{"id":"f06909edeccc6d9d","type":"text","text":"citetions","x":-3480,"y":-3708,"width":250,"height":60},
+		{"id":"dcc4353b8f600379","x":-3920,"y":-3533,"width":400,"height":400,"type":"file","file":"RESEARCH OVERVIEW MALTE F. JUNG.md"}
 	],
 	"edges":[
 		{"id":"48ca11a3eca83c60","fromNode":"0e7438b9ab8bc087","fromSide":"right","toNode":"ed2793c216b237d0","toSide":"left"},

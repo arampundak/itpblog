@@ -1,5 +1,5 @@
 ---
-date: 2026-09-29
+date: 2026-10-26
 tags:
   - hri
   - robots

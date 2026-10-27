@@ -2,6 +2,8 @@
 date: 2026-10-26
 tags:
   - reading
+  - hri
+  - robots
 draft: false
 author:
 url: https://link.springer.com/article/10.1007/s12369-026-01361-7
