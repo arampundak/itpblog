@@ -1,7 +1,7 @@
 ---
 date: 2026-11-01
 tags: []
-draft: true
+draft: false
 author:
 url:
 ---
