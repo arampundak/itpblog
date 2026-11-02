@@ -3,6 +3,7 @@ date: 2026-10-26
 tags:
   - hri
   - robots
+  - reference
 draft: false
 author:
 url:

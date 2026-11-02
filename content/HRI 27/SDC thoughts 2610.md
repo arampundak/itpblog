@@ -14,7 +14,7 @@ Their fix was a 4-week course for student staff covering design thinking, protot
 
 [[Design and Deployment of a Course-Aware AI Tutor in an Introductory Programming Course]] - ==theres a lineage to AI assistants for students, cite that lineage.==
 
-[[Shape Symbolism in the Design of Socially Interactive Robots Rounded vs. Angular Contours.]] - what it means to see a rounded edge / angular contours robot
+[[Shape Symbolism in the Design of Socially Interactive Robots Rounded vs. Angular Contours]] - what it means to see a rounded edge / angular contours robot
 
 [[Building Knowledge from Interactions An LLM-Based Architecture for Adaptive Tutoring and Social Reasoning]]
 

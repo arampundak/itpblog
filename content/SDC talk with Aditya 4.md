@@ -1,7 +1,7 @@
 ---
-date: 2026-09-29
+date: 2026-10-27
 tags: []
-draft: true
+draft: false
 author:
 url:
 ---

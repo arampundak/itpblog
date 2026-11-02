@@ -8,11 +8,9 @@ draft: false
 author:
 url: https://link.springer.com/article/10.1007/s12369-026-01361-7
 ---
-**Shape Symbolism in the Design of Socially Interactive Robots: Rounded vs. Angular Contours.** Chen, Chung, Chien, Yang and Yeh (MacKay Medical University / National Taiwan University). _International Journal of Social Robotics_ 18:18, published Feb 2026. DOI 10.1007/s12369-026-01361-7. Data and stimuli are on OSF.
-
-### What it is
-
 A perception study asking whether rounded vs. angular contours change what people expect a robot to be and do, and how that interacts with humanoid vs. non-humanoid appearance. The hypothesis: rounded reads as friendly and companion-like, angular as potent and service-like.
+
+![[ref - From- Shape Symbolism in the Design of Socially Interactive Robots- Rounded vs. Angular Contours.webp]]
 
 ### Method
 
@@ -31,10 +29,10 @@ A perception study asking whether rounded vs. angular contours change what peopl
 
 - **Implicit:** the association held. Rounded pairs with friendly, angular with potent (D = 0.33, d = 1.20).
 - **Implicit vs. attitudes:** people with stronger associations had lower technology acceptance (r = −.51) and more negative attitudes toward robots (r = .36), especially on the actual-interaction subscale (r = .42).
-- **Explicit, shape:** shape mattered only for two items. Rounded robots were preferred for “staying close by” (p = .044) and rated more likeable (p = .045). Shape did not predict service function, potency, reliability or trust.
+- **Explicit, shape:** shape mattered only for two items. ==Rounded robots were preferred for “staying close by” (p = .044) and rated more likeable== (p = .045). Shape did not predict service function, potency, reliability or trust.
 - **Explicit, humanoid:** humanoid appearance predicted service functions (daily routines, mobility, privacy) and potency, reliability and trustworthiness. These were the stronger effects, with privacy at p < .001 and trust at p = .005.
 - **Checks:** the shape manipulation and bouba/kiki correspondence worked. Shape-arousal did not. The authors argue that a real object’s meaning overrides the arousal effect of simple contours.
-- **Their conclusion:** roundness buys approachability. Humanoid form, not angularity, buys perceived competence. Some deviation from shape stereotypes may help a robot read as novel.
+- ==**Their conclusion:** roundness buys approachability. Humanoid form, not angularity, buys perceived competence. Some deviation from shape stereotypes may help a robot read as novel.==
 
 ### Weaknesses
 
@@ -45,9 +43,9 @@ A perception study asking whether rounded vs. angular contours change what peopl
 - **Narrow sample:** 40 young adults in Taiwan, and the ethics approval code suggests the protocol dates to 2017.
 - **Item wording not in this file.** The full wording of items such as “ensure privacy” is in their Appendix B, so I can’t tell exactly what participants were judging.
 
-### Relevance to you
+### Relevance
 
 - **For Ari, the useful result is the one they didn’t predict.** Making a robot rounded and friendly did not cost it perceived competence or trust; those tracked humanoid features. That matters because Ari needs both approachability (newcomers, Socratic tone) and authority (direct on safety). By their loose definition, a robot with a head and a voice counts as humanoid, so a desktop robot with a head that speaks is likely on the “trusted” side. Treat that as an inference; they never tested a robot like that.
-- **Their privacy result touches your eyelid.** Humanoid robots were rated better at “ensuring privacy.” Without the item wording I wouldn’t build on it. But it suggests privacy perception is driven by overall form, which supports making privacy a visible physical feature rather than a policy statement.
-- **For your expressive-motion thesis, it’s a boundary-marker citation.** The missing arousal effect, with real objects’ meaning overriding contour, plus the static-only design, is an argument that shape alone under-determines perception. Movement and behavior are the open variable. Use it to frame motion as what static-form studies can’t reach, alongside Koike et al.’s morphology elements paper.
+- **Their privacy result touches the eyelid.** Humanoid robots were rated better at “ensuring privacy.” Without the item wording I wouldn’t build on it. But it suggests privacy perception is driven by overall form, which supports making privacy a visible physical feature rather than a policy statement.
+- **For expressive-motion thesis, it’s a boundary-marker citation.** The missing arousal effect, with real objects’ meaning overriding contour, plus the static-only design, is an argument that shape alone under-determines perception. Movement and behavior are the open variable. Use it to frame motion as what static-form studies can’t reach, alongside Koike et al.’s morphology elements paper.
 - **For the SDC, it gives empirical backing to the winning pattern.** Rounded, object-like, approachable entries such as Bickering Benches and Social Queue fit “rounded = stay close by.” The authors’ novelty argument (deviate from stereotypes to signal technological sophistication) is speculation, not a finding.

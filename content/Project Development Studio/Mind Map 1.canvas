@@ -6,6 +6,7 @@
 		{"id":"486b17df77a8660f","type":"group","x":-1480,"y":40,"width":792,"height":720,"color":"#b3426f","label":"TRUST"},
 		{"id":"fac2f68efdc06f7d","type":"group","x":-4220,"y":-1240,"width":850,"height":440,"color":"4","label":"Meta bout project creation"},
 		{"id":"3d0b130590bed149","type":"group","x":-2640,"y":-1600,"width":436,"height":100,"color":"2","label":"what politeness looks like in motion"},
+		{"id":"d3f6a5b377f0ffc8","x":-2961,"y":-1433,"width":250,"height":60,"type":"text","text":""},
 		{"id":"ea32a01a28e6ee96","type":"file","file":"Resources/Building the most expressive robot harness so far.md","x":-1198,"y":-7868,"width":400,"height":400},
 		{"id":"86e7eb5c11690906","type":"text","text":"Code","x":-798,"y":-7031,"width":250,"height":60},
 		{"id":"0b77d58b09e243b4","type":"file","file":"Resources/Reachy Mini Application Page.md","x":-392,"y":-6810,"width":400,"height":400},
@@ -171,7 +172,7 @@
 		{"id":"240cdf8515a02191","type":"file","file":"HRI 27/HRI Conference ACM IEEE International.md","x":-3020,"y":-3078,"width":400,"height":400,"color":"1"},
 		{"id":"5603ba425f6499af","type":"file","file":"HRI 27/SDC thoughts 2610.md","x":-3480,"y":-3533,"width":400,"height":565},
 		{"id":"f06909edeccc6d9d","type":"text","text":"citetions","x":-3480,"y":-3708,"width":250,"height":60},
-		{"id":"dcc4353b8f600379","x":-3920,"y":-3533,"width":400,"height":400,"type":"file","file":"RESEARCH OVERVIEW MALTE F. JUNG.md"}
+		{"id":"dcc4353b8f600379","type":"file","file":"References/Research Overview Malte Jung.md","x":-3920,"y":-3533,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"48ca11a3eca83c60","fromNode":"0e7438b9ab8bc087","fromSide":"right","toNode":"ed2793c216b237d0","toSide":"left"},

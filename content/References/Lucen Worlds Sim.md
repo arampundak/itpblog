@@ -1,6 +1,8 @@
 ---
 date: 2026-10-27
-tags: []
+tags:
+  - reference
+  - robots
 draft: false
 author:
 url: https://lucenworlds.com/
