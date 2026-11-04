@@ -3,7 +3,7 @@ date: 2026-09-28
 tags: []
 draft: false
 ---
-Last week I had two directions: AI companionship, or care between two partners. Both were about private, one-on-one intimacy. This week the project moved into a public space and got a lead character.
+ Last week I had two directions: AI companionship, or care between two partners. Both were about private, one-on-one intimacy. This week the project moved into a public space and got a lead character.
 
 **Jig Sawyer, Jr.** is a wooden-shelled social robot built on the Reachy Mini. He lives in the ITP shop as the junior member of a trio with itp shop managers, Phil and Ian. He has their dry shop humor, and he takes safety rules seriously.
 

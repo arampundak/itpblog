@@ -1,3 +1,10 @@
+---
+date: 2026-09-08
+tags: []
+draft: false
+author:
+url:
+---
 **Read:**
 
 [[How to think differently about doing good as a creative person]]

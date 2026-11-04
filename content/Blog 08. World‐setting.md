@@ -5,3 +5,6 @@ draft: true
 author:
 url:
 ---
+Decisions ive been pushing aside:
+
+
