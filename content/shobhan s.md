@@ -2,6 +2,7 @@
 date: 2026-10-26
 tags:
   - people
+  - reference
 draft: false
 author:
 url: https://setwrite.in/

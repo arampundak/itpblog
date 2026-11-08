@@ -10,7 +10,11 @@ url:
 Link to sketch:
 https://arampundak.github.io/NYU_Shared_Minds/08-body/
 
+Playing with myself:
 ![[sn - 8 body dual.mp4]]
+
+User testing:
+![[sn - 8 body user test s.mp4]]
 
 ---
 

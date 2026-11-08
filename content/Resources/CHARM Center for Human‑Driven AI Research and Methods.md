@@ -9,6 +9,8 @@ url:
 "AI that grows people,  
 not replaces them."
 
+Led by [Krzysztof Gajos](https://kgajos.seas.harvard.edu/)
+
 ## The Center for Human-Driven AI Research and Methods
 
 The Center for Human-Driven AI Research and Methods (CHARM) is a multi-faculty center at the Harvard John A. Paulson School of Engineering and Applied Sciences. We focus on human–AI interaction design and computational methods that leaves people stronger, not just faster in the moment.
