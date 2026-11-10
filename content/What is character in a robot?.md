@@ -14,3 +14,6 @@ The grounding of communication is considered essential to organize the human-rob
 
 ---
 The control rate of the robot is 25 Hz
+
+---
+The voice synthesizer cannot convey age or identity, so the label reached only word choice, and the model fell back on clichés. We replaced it with stated traits: confident, warm, direct on safety, and on the student's side. A character label is not a character.

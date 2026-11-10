@@ -6,6 +6,8 @@ draft: false
 author:
 url: https://www.youtube.com/watch?v=1ZLtW-OPuxw
 ---
+A video of a talk between Inna Lobel - frog deign and Masimo from Archetype.ai
+
 - design dynamic → emotion lead, design follows
 - AIoT: connected devices to analyze, recognize and decide about data, patterns + RL
 - robots have agency as the ability to act on the world  
