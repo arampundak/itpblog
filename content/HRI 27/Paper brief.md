@@ -5,8 +5,11 @@ tags: [hri27, sdc, brief]
 Read this first in every session. Update when a decision changes. Drafts are versioned (Paper Draft N); this brief is overwritten.
 Previous version's notes from Aram are answered below.
 
-## The message (one sentence)
-A robot that belongs to a shared space should show everyone what it perceives and whose side it is on, and the place to make that visible is its body, not its privacy policy.
+## The message and research question (chosen Nov 10)
+"What if the shop could talk back?" (how to be a good teacher): In a shared makerspace, how can a robot guide newcomers in using machines while building their confidence and agency, so they finish the job on their own, bring staff fewer (but better) questions, and leave able to do what they didn't think they could?
+Objective: fewer questions to staff, newcomers finishing on their own, agency. Ari handles the simple, repeated guidance; people keep judgment and connection.
+Closing line: "The measure of a teaching robot is what people can do when it's gone."
+Latest draft: [[Paper Draft 6]].
 
 ## Locked
 - HRI 2027 SDC, "Robots in Public Spaces". Due **Nov 20, 23:59 AoE**. 4 pages incl. refs, ACM, not anonymous. Video ≤3 min.

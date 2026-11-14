@@ -2,6 +2,15 @@
 date: 2026-11-09
 tags: [hri27, sdc, thesis, research-questions]
 ---
+
+## CHOSEN (Nov 10) — for the SDC paper
+> "What if the shop could talk back?" (how to be a good teacher): In a shared makerspace, how can a robot guide newcomers in using machines while building their confidence and agency, so they finish the job on their own, bring staff fewer (but better) questions, and leave able to do what they didn't think they could?
+
+Objective (Aram): fewer questions to staff, students finishing on their own while learning, agency. Ari helps with the simple, repeated things and does not replace human connection (Itai's notes: "shop manager says talk to Ari").
+Core concept: **degrees of Socraticness** (Aditya). Coined term: **Aristotle machine**. Surveillance is no longer the frame; the visor and consent remain the public-space complication.
+Earlier candidates below are kept for the thesis and for the record.
+
+---
 # Research questions: everything we've said, and how it connects
 
 Sources: all notes in HRI 27, Project Development Studio and Thesis (read Nov 9), plus the 2025 and 2026 SDC winning papers.
